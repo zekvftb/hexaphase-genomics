@@ -106,9 +106,15 @@ If copying files to a USB drive or cloud drive, these 6 files contain the comple
 
 ---
 
-# ✍️ PEER-REVIEW AUTHOR DECLARATIONS
-* **Author:** Jason Rezek
+# ✍️ PEER-REVIEW AUTHOR DECLARATIONS & DATA AVAILABILITY
+* **Author & Principal Investigator:** Jason Rezek (`zekvftb@gmail.com`)
 * **Affiliation:** Independent Computational Biology Researcher
 * **Funding Statement:** This research was independently conducted with zero external corporate, grant, or institutional funding.
 * **Competing Interests:** The author declares no competing financial or non-financial interests.
+* **Open Repository:** `https://github.com/zekvftb/hexaphase-genomics`
+* **Permanent Zenodo Archive:** Integrated via GitHub Webhook for permanent citable DOI generation.
+* **Reproducibility Command:** Peer reviewers can replicate all calculations in 1 command:
+  ```bash
+  python scripts/super_verify_all_findings.py
+  ```
 * **COPE/Nature AI Disclosure:** Computational parsing, mathematical data pipelines, and initial manuscript drafts were facilitated by AI agent workflows under the direct instruction and validation of the author.
