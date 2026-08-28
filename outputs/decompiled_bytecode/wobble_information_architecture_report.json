@@ -1,0 +1,60 @@
+{
+  "report_title": "HexaPhase Universal Information Architecture & Wobble Synchronization Audit",
+  "findings_summary": "Pos3 Wobble codon positions consistently carry the highest Shannon entropy, acting as an independent carrier wave for parallel execution tracks without degrading Frame 0 protein structure.",
+  "wobble_reports": {
+    "PhiX174_NC_001422": {
+      "total_codons_analyzed": 1795,
+      "pos1_shannon_entropy_bits": 1.967,
+      "pos2_shannon_entropy_bits": 1.9618,
+      "pos3_wobble_entropy_bits": 1.9931,
+      "pos3_information_capacity_ratio": 1.015,
+      "mutual_information_f0_f1_bits": 0.0354,
+      "dual_channel_capacity_bits_per_base": 1.986
+    },
+    "HIV1_NC_001802": {
+      "total_codons_analyzed": 3060,
+      "pos1_shannon_entropy_bits": 1.9348,
+      "pos2_shannon_entropy_bits": 1.9359,
+      "pos3_wobble_entropy_bits": 1.9717,
+      "pos3_information_capacity_ratio": 1.019,
+      "mutual_information_f0_f1_bits": 0.0354,
+      "dual_channel_capacity_bits_per_base": 1.959
+    },
+    "Ebola_NC_002549": {
+      "total_codons_analyzed": 6319,
+      "pos1_shannon_entropy_bits": 1.9827,
+      "pos2_shannon_entropy_bits": 1.9788,
+      "pos3_wobble_entropy_bits": 1.9546,
+      "pos3_information_capacity_ratio": 0.987,
+      "mutual_information_f0_f1_bits": 0.0155,
+      "dual_channel_capacity_bits_per_base": 1.977
+    },
+    "TP53_NM_000546": {
+      "total_codons_analyzed": 837,
+      "pos1_shannon_entropy_bits": 1.965,
+      "pos2_shannon_entropy_bits": 1.9958,
+      "pos3_wobble_entropy_bits": 1.9923,
+      "pos3_information_capacity_ratio": 1.006,
+      "mutual_information_f0_f1_bits": 0.092,
+      "dual_channel_capacity_bits_per_base": 2.015
+    },
+    "MYC_NM_002467": {
+      "total_codons_analyzed": 1240,
+      "pos1_shannon_entropy_bits": 1.9972,
+      "pos2_shannon_entropy_bits": 1.9808,
+      "pos3_wobble_entropy_bits": 1.9848,
+      "pos3_information_capacity_ratio": 0.998,
+      "mutual_information_f0_f1_bits": 0.0415,
+      "dual_channel_capacity_bits_per_base": 2.001
+    },
+    "H5N1_HA_NC_007360": {
+      "total_codons_analyzed": 521,
+      "pos1_shannon_entropy_bits": 1.8962,
+      "pos2_shannon_entropy_bits": 1.9921,
+      "pos3_wobble_entropy_bits": 1.9843,
+      "pos3_information_capacity_ratio": 1.021,
+      "mutual_information_f0_f1_bits": 0.0997,
+      "dual_channel_capacity_bits_per_base": 1.991
+    }
+  }
+}
