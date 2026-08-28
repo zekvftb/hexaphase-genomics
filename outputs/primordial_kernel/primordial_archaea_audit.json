@@ -4,24 +4,24 @@
   "total_archaea_genomes_scanned": 4,
   "total_base_pairs_scanned": 9413228,
   "summary_totals": {
-    "total_frameshift_multiplexers": 5350,
+    "total_frameshift_multiplexers": 12741,
     "total_g4_circuit_breakers": 132,
     "total_readthrough_gates": 88829,
-    "grand_total_hardware_switches": 94311,
-    "primordial_computational_density_per_kb": 10.019
+    "grand_total_hardware_switches": 101702,
+    "primordial_computational_density_per_kb": 10.804
   },
   "species_reports": [
     {
       "species_id": "Methanocaldococcus_jannaschii",
       "length_bp": 1664970,
       "gate_counts": {
-        "frameshift_branch": 1867,
+        "frameshift_branch": 4492,
         "g4_circuit_breaker": 10,
         "readthrough_overflow": 18125,
         "xor_collision": 0,
         "rolling_circle_loop": 0
       },
-      "computational_density_per_kb": 12.013,
+      "computational_density_per_kb": 13.59,
       "wobble_information": {
         "total_codons_analyzed": 554990,
         "pos1_shannon_entropy_bits": 1.8993,
@@ -36,13 +36,13 @@
       "species_id": "Pyrococcus_furiosus",
       "length_bp": 1908256,
       "gate_counts": {
-        "frameshift_branch": 1142,
+        "frameshift_branch": 2787,
         "g4_circuit_breaker": 17,
         "readthrough_overflow": 19702,
         "xor_collision": 0,
         "rolling_circle_loop": 0
       },
-      "computational_density_per_kb": 10.932,
+      "computational_density_per_kb": 11.794,
       "wobble_information": {
         "total_codons_analyzed": 636085,
         "pos1_shannon_entropy_bits": 1.9733,
@@ -57,13 +57,13 @@
       "species_id": "Sulfolobus_solfataricus",
       "length_bp": 2992245,
       "gate_counts": {
-        "frameshift_branch": 1547,
+        "frameshift_branch": 3995,
         "g4_circuit_breaker": 10,
         "readthrough_overflow": 36354,
         "xor_collision": 0,
         "rolling_circle_loop": 0
       },
-      "computational_density_per_kb": 12.67,
+      "computational_density_per_kb": 13.488,
       "wobble_information": {
         "total_codons_analyzed": 997415,
         "pos1_shannon_entropy_bits": 1.9417,
@@ -78,13 +78,13 @@
       "species_id": "Haloferax_volcanii",
       "length_bp": 2847757,
       "gate_counts": {
-        "frameshift_branch": 794,
+        "frameshift_branch": 1467,
         "g4_circuit_breaker": 95,
         "readthrough_overflow": 14648,
         "xor_collision": 0,
         "rolling_circle_loop": 0
       },
-      "computational_density_per_kb": 5.456,
+      "computational_density_per_kb": 5.692,
       "wobble_information": {
         "total_codons_analyzed": 949252,
         "pos1_shannon_entropy_bits": 1.9224,
