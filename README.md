@@ -8,15 +8,28 @@ An open-source, peer-reviewed computational biology research repository discover
 
 ---
 
-## 📖 Scientific Publications (The 3-Paper Trilogy)
+## 📖 Scientific Publications & Submission Manuscripts
 
-All manuscript blueprints, verified genomic coordinates, and statistical models are documented in:
-👉 **[`DNA_PAPERS_MASTER_BRIEFING.md`](DNA_PAPERS_MASTER_BRIEFING.md)** *(Quick Executive Summary)*  
-👉 **[`EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md`](EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md)** *(Comprehensive Scientific Encyclopedia for AI & Peer-Review)*
+All full-text manuscripts and formal journal submission cover letters are compiled and available in both **Markdown** and **publication-grade PDF** formats under [`manuscripts/`](manuscripts/):
 
-1. **Paper 1 (Foundational Discovery):** *HexaPhase: Universal Multiplexed Biological Subroutines in Viral, Bacterial, and Mitochondrial Genomes* *(Target: Nucleic Acids Research / Nature Communications)*
-2. **Paper 2 (Mitochondrial Oncology):** *A 29-Million-Year Conserved Mitochondrial D-Loop Signaling Peptide and Its Somatic Disruption in Human Cancer and Neurological Disease* *(Target: Nature Genetics / Cell Metabolism / Mitochondrion)*
-3. **Paper 3 (Virology & Antivirals):** *Pan-Coronavirus and Orthomyxovirus Viroporin Anchors Embedded in Core Replicases: Immutable Targets for Broad-Spectrum Antivirals* *(Target: Cell Host & Microbe / Antiviral Research)*
+### 📄 1. Foundational Discovery & Multi-Phase Operating System
+* 📜 **Manuscript:** [`HexaPhase_Universal_Multiplexed_Subroutines_Manuscript.md`](manuscripts/HexaPhase_Universal_Multiplexed_Subroutines_Manuscript.md) | 📥 **PDF:** [`HexaPhase_Universal_Multiplexed_Subroutines_Manuscript.pdf`](manuscripts/HexaPhase_Universal_Multiplexed_Subroutines_Manuscript.pdf)
+* ✉️ **Cover Letter:** [`HexaPhase_Universal_Multiplexed_Subroutines_Cover_Letter.md`](manuscripts/HexaPhase_Universal_Multiplexed_Subroutines_Cover_Letter.md) | 📥 **PDF:** [`HexaPhase_Universal_Multiplexed_Subroutines_Cover_Letter.pdf`](manuscripts/HexaPhase_Universal_Multiplexed_Subroutines_Cover_Letter.pdf)
+* *Target:* *Nucleic Acids Research* / *Nature Communications* (Preprint: bioRxiv - Bioinformatics)
+
+### 📄 2. Mitochondrial D-Loop Oncology & Primate Evolution
+* 📜 **Manuscript:** [`Mitochondrial_DLoop_Signaling_Peptide_Oncology_Manuscript.md`](manuscripts/Mitochondrial_DLoop_Signaling_Peptide_Oncology_Manuscript.md) | 📥 **PDF:** [`Mitochondrial_DLoop_Signaling_Peptide_Oncology_Manuscript.pdf`](manuscripts/Mitochondrial_DLoop_Signaling_Peptide_Oncology_Manuscript.pdf)
+* ✉️ **Cover Letter:** [`Mitochondrial_DLoop_Signaling_Peptide_Oncology_Cover_Letter.md`](manuscripts/Mitochondrial_DLoop_Signaling_Peptide_Oncology_Cover_Letter.md) | 📥 **PDF:** [`Mitochondrial_DLoop_Signaling_Peptide_Oncology_Cover_Letter.pdf`](manuscripts/Mitochondrial_DLoop_Signaling_Peptide_Oncology_Cover_Letter.pdf)
+* *Target:* *Nature Genetics* / *Cell Metabolism* / *Mitochondrion* (Preprint: bioRxiv - Genetics/Cancer Biology)
+
+### 📄 3. Pan-Coronavirus Replicase Viroporins & Antivirals
+* 📜 **Manuscript:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Manuscript.md`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Manuscript.md) | 📥 **PDF:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Manuscript.pdf`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Manuscript.pdf)
+* ✉️ **Cover Letter:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.md`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.md) | 📥 **PDF:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.pdf`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.pdf)
+* *Target:* *Cell Host & Microbe* / *Antiviral Research* / *Journal of Virology* (Preprint: bioRxiv - Microbiology)
+
+### 📑 Master Briefings & Context Encycolpedia:
+* 👉 **[`DNA_PAPERS_MASTER_BRIEFING.md`](DNA_PAPERS_MASTER_BRIEFING.md)** *(Quick Executive Summary)*  
+* 👉 **[`EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md`](EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md)** *(Comprehensive Scientific Encyclopedia for AI & Peer-Review)*
 
 ---
 
