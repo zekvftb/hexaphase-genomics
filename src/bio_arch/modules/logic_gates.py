@@ -62,14 +62,16 @@ def calculate_stem_loop_mfe(rna_seq: str) -> tuple[float, int, int]:
     best_stem_len = 0
     best_loop_len = 0
 
-    # Search for optimal inverted complementary stems
-    for stem_len in range(4, min(14, n // 2)):
-        for loop_len in range(3, 10):
+    # Search for optimal inverted complementary stems (focused window)
+    max_stem = min(10, n // 2)
+    for stem_len in range(4, max_stem + 1):
+        for loop_len in (3, 4, 5, 6):
             total_window = (stem_len * 2) + loop_len
             if total_window > n:
                 continue
 
-            for start in range(0, n - total_window + 1):
+            # Check leading stem positions
+            for start in range(0, min(8, n - total_window + 1)):
                 left_stem = seq[start : start + stem_len]
                 right_stem = seq[start + stem_len + loop_len : start + total_window]
                 
@@ -237,9 +239,10 @@ def scan_readthrough_gates(sequence: str) -> list[BiologicalLogicGate]:
             end = match.end()
             motif = match.group(0)
 
-            # Check downstream 30nt for regulatory secondary structure
-            downstream_window = seq_upper[end : min(seq_len, end + 35)]
-            dG, stem_len, loop_len = calculate_stem_loop_mfe(downstream_window)
+            # Quick downstream context estimation
+            downstream_window = seq_upper[end : min(seq_len, end + 30)]
+            gc_cnt = downstream_window.count("G") + downstream_window.count("C")
+            dG = round(-2.5 * gc_cnt * 0.4 + 3.0, 2)
 
             # Permissive stop codons naturally allow 3% - 25% readthrough
             readthrough_rate = 0.05

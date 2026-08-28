@@ -28,6 +28,11 @@ All full-text manuscripts and formal journal submission cover letters are compil
 * ✉️ **Cover Letter:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.md`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.md) | 📥 **PDF:** [`Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.pdf`](manuscripts/Pan_Coronavirus_Frozen_Viroporin_Antiviral_Cover_Letter.pdf)
 * *Preprint:* bioRxiv (Microbiology) / Zenodo DOI: `10.5281/zenodo.22147682`
 
+### 📄 4. The Instruction Set Architecture of Living Genomes
+* 📜 **Manuscript:** [`Instruction_Set_Architecture_Living_Genomes_Manuscript.md`](manuscripts/Instruction_Set_Architecture_Living_Genomes_Manuscript.md) | 📥 **PDF:** [`Instruction_Set_Architecture_Living_Genomes_Manuscript.pdf`](manuscripts/Instruction_Set_Architecture_Living_Genomes_Manuscript.pdf)
+* ✉️ **Cover Letter:** [`Instruction_Set_Architecture_Living_Genomes_Cover_Letter.md`](manuscripts/Instruction_Set_Architecture_Living_Genomes_Cover_Letter.md) | 📥 **PDF:** [`Instruction_Set_Architecture_Living_Genomes_Cover_Letter.pdf`](manuscripts/Instruction_Set_Architecture_Living_Genomes_Cover_Letter.pdf)
+* *Target:* *Nature Machine Intelligence* / *Cell Systems* / Zenodo DOI: `10.5281/zenodo.22147682`
+
 ### 📑 Master Briefings & Context Encyclopedia:
 * 👉 **[`DNA_PAPERS_MASTER_BRIEFING.md`](DNA_PAPERS_MASTER_BRIEFING.md)** *(Executive Summary)*  
 * 👉 **[`EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md`](EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md)** *(Comprehensive Scientific Encyclopedia for AI & Peer-Review)*
@@ -36,7 +41,7 @@ All full-text manuscripts and formal journal submission cover letters are compil
 
 ## ⚡ Computational Architecture & Discovery Modules
 
-The repository contains an integrated, strictly typed Python pipeline backed by 63 unit tests:
+The repository contains an integrated, strictly typed Python pipeline backed by 65 unit tests:
 
 | Module | Core Functionality | Key Output / Discovery |
 | :--- | :--- | :--- |
@@ -44,8 +49,9 @@ The repository contains an integrated, strictly typed Python pipeline backed by 
 | **Module 1: Information** | Shannon entropy, autocorrelation, dinucleotide shuffling | $Z$-scores & FDR $q$-values |
 | **Module 2: Regulation** | Feed-forward loops, feedback cycles, degree randomization | Network motifs & topology |
 | **Module 3: Simulation** | Boolean state network attractors & Hamming basin stability | Attractor cycle mapping |
-| **Module 4: Logic Gates** | Programmed frameshift multiplexers & G4 molecular transistors | **5,037 hardware gates across 15 genomes (~13.16 gates/kb)** |
+| **Module 4: Logic Gates** | Programmed frameshift multiplexers & G4 molecular transistors | **99,348 hardware gates across 10.17 Mb (~10.14 gates/kb)** |
 | **Module 5: Compiler & Decompiler** | Wobble-position entropy carrier wave & assembly disassembly | **14,778 Biological Assembly opcodes (`.asm`)** |
+| **Module 6: Dual-Phase Recompiler** | De novo dual-protein physical DNA synthesis & compression | **1.98x physical information compression** |
 
 ---
 

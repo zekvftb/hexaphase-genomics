@@ -1,0 +1,99 @@
+{
+  "audit_title": "HexaPhase Primordial Archaea OS Kernel & Evolutionary Invariance Audit",
+  "evolutionary_era": "Archean Eon (~3.8 to ~3.5 Billion Years Ago)",
+  "total_archaea_genomes_scanned": 4,
+  "total_base_pairs_scanned": 9413228,
+  "summary_totals": {
+    "total_frameshift_multiplexers": 5350,
+    "total_g4_circuit_breakers": 132,
+    "total_readthrough_gates": 88829,
+    "grand_total_hardware_switches": 94311,
+    "primordial_computational_density_per_kb": 10.019
+  },
+  "species_reports": [
+    {
+      "species_id": "Methanocaldococcus_jannaschii",
+      "length_bp": 1664970,
+      "gate_counts": {
+        "frameshift_branch": 1867,
+        "g4_circuit_breaker": 10,
+        "readthrough_overflow": 18125,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "computational_density_per_kb": 12.013,
+      "wobble_information": {
+        "total_codons_analyzed": 554990,
+        "pos1_shannon_entropy_bits": 1.8993,
+        "pos2_shannon_entropy_bits": 1.899,
+        "pos3_wobble_entropy_bits": 1.8961,
+        "pos3_information_capacity_ratio": 0.998,
+        "mutual_information_f0_f1_bits": 0.0306,
+        "dual_channel_capacity_bits_per_base": 1.908
+      }
+    },
+    {
+      "species_id": "Pyrococcus_furiosus",
+      "length_bp": 1908256,
+      "gate_counts": {
+        "frameshift_branch": 1142,
+        "g4_circuit_breaker": 17,
+        "readthrough_overflow": 19702,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "computational_density_per_kb": 10.932,
+      "wobble_information": {
+        "total_codons_analyzed": 636085,
+        "pos1_shannon_entropy_bits": 1.9733,
+        "pos2_shannon_entropy_bits": 1.9756,
+        "pos3_wobble_entropy_bits": 1.9767,
+        "pos3_information_capacity_ratio": 1.001,
+        "mutual_information_f0_f1_bits": 0.0301,
+        "dual_channel_capacity_bits_per_base": 1.985
+      }
+    },
+    {
+      "species_id": "Sulfolobus_solfataricus",
+      "length_bp": 2992245,
+      "gate_counts": {
+        "frameshift_branch": 1547,
+        "g4_circuit_breaker": 10,
+        "readthrough_overflow": 36354,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "computational_density_per_kb": 12.67,
+      "wobble_information": {
+        "total_codons_analyzed": 997415,
+        "pos1_shannon_entropy_bits": 1.9417,
+        "pos2_shannon_entropy_bits": 1.9393,
+        "pos3_wobble_entropy_bits": 1.9416,
+        "pos3_information_capacity_ratio": 1.001,
+        "mutual_information_f0_f1_bits": 0.0114,
+        "dual_channel_capacity_bits_per_base": 1.945
+      }
+    },
+    {
+      "species_id": "Haloferax_volcanii",
+      "length_bp": 2847757,
+      "gate_counts": {
+        "frameshift_branch": 794,
+        "g4_circuit_breaker": 95,
+        "readthrough_overflow": 14648,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "computational_density_per_kb": 5.456,
+      "wobble_information": {
+        "total_codons_analyzed": 949252,
+        "pos1_shannon_entropy_bits": 1.9224,
+        "pos2_shannon_entropy_bits": 1.9185,
+        "pos3_wobble_entropy_bits": 1.9147,
+        "pos3_information_capacity_ratio": 0.997,
+        "mutual_information_f0_f1_bits": 0.0622,
+        "dual_channel_capacity_bits_per_base": 1.939
+      }
+    }
+  ]
+}
