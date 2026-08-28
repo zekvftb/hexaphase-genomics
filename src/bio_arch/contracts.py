@@ -440,3 +440,77 @@ class BiologicalCircuitReport:
 
     def to_json(self, indent: int = 2) -> str:
         return json.dumps(self.to_dict(), indent=indent)
+
+
+@dataclass
+class CryptochromeRadicalPairRecord:
+    """Quantum-entangled radical pair magnetoreception parameters."""
+
+    gene_id: str
+    organism: str
+    tryptophan_chain_count: int
+    tryptophan_positions: list[int]
+    electron_hopping_pathway_valid: bool
+    estimated_spin_coherence_time_ns: float
+    singlet_triplet_yield_phi_s: float
+    magnetoreception_viable: bool
+    description: str = "Cryptochrome Radical Pair Quantum Magnetosensor"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class QuantumTunnelingRecord:
+    """Löwdin quantum proton tunneling mutation vulnerability."""
+
+    target_id: str
+    codon_number: int
+    codon_triplet: str
+    tunneling_barrier_height_ev: float
+    wkb_transmission_probability: float
+    quantum_mutation_rate_per_sec: float
+    is_quantum_hotspot: bool
+    description: str = "Löwdin Quantum Proton Tunneling Potential"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class QuantumConductanceRecord:
+    r"""1D Tight-Binding DNA $\pi$-Stack Quantum Conductance & Telemetry."""
+
+    sequence_id: str
+    length_bp: int
+    guanine_trap_count: int
+    mean_transmission_coefficient: float
+    electronic_bandgap_ev: float
+    damage_telemetry_intact: bool
+    description: str = r"1D DNA \pi-Stack Quantum Telemetry Circuit"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class QuantumBiologyReport:
+    """Container for quantum biological audits across genomes and sensors."""
+
+    genome_id: str
+    radical_pair_records: list[CryptochromeRadicalPairRecord] = field(default_factory=list)
+    tunneling_records: list[QuantumTunnelingRecord] = field(default_factory=list)
+    conductance_records: list[QuantumConductanceRecord] = field(default_factory=list)
+    summary: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "genome_id": self.genome_id,
+            "radical_pair_records": [r.to_dict() for r in self.radical_pair_records],
+            "tunneling_records": [t.to_dict() for t in self.tunneling_records],
+            "conductance_records": [c.to_dict() for c in self.conductance_records],
+            "summary": self.summary,
+        }
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
