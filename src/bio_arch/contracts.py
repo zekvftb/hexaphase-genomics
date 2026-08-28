@@ -269,3 +269,65 @@ class ModuleResult:
     @classmethod
     def from_json(cls, json_str: str) -> ModuleResult:
         return cls.from_dict(json.loads(json_str))
+
+
+class LogicGateType(str, Enum):
+    """Biological logic gate classification."""
+
+    FRAMESHIFT_BRANCH = "frameshift_branch"
+    G4_CIRCUIT_BREAKER = "g4_circuit_breaker"
+    READTHROUGH_OVERFLOW = "readthrough_overflow"
+    XOR_COLLISION = "xor_collision"
+    ROLLING_CIRCLE_LOOP = "rolling_circle_loop"
+
+
+@dataclass
+class BiologicalLogicGate:
+    """Represents an identified biological logic gate / execution switch."""
+
+    gate_id: str
+    gate_type: LogicGateType
+    start_pos: int
+    end_pos: int
+    strand: str
+    trigger_motif: str
+    downstream_barrier_energy: float
+    predicted_efficiency: float
+    target_subroutine_id: str
+    description: str
+    metrics: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        data = asdict(self)
+        data["gate_type"] = self.gate_type.value if isinstance(self.gate_type, LogicGateType) else self.gate_type
+        return data
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> BiologicalLogicGate:
+        clean = dict(data)
+        if "gate_type" in clean:
+            clean["gate_type"] = LogicGateType(clean["gate_type"])
+        return cls(**clean)
+
+
+@dataclass
+class LogicGateScanReport:
+    """Container for biological logic gate scan outputs across a genome."""
+
+    genome_id: str
+    genome_length: int
+    gates_found: list[BiologicalLogicGate] = field(default_factory=list)
+    gate_counts_by_type: dict[str, int] = field(default_factory=dict)
+    summary: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "genome_id": self.genome_id,
+            "genome_length": self.genome_length,
+            "gates_found": [g.to_dict() for g in self.gates_found],
+            "gate_counts_by_type": self.gate_counts_by_type,
+            "summary": self.summary,
+        }
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
