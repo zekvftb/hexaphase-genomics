@@ -1,15 +1,15 @@
 {
   "status": "PASSED",
   "audit_version": "1.0.0-MASTER",
-  "timestamp": "2026-08-28T20:04:03.492529+00:00",
-  "total_targets_audited": 47,
-  "total_nucleotides_evaluated": 9868751,
+  "timestamp": "2026-08-28T20:11:49.956124+00:00",
+  "total_targets_audited": 54,
+  "total_nucleotides_evaluated": 9886031,
   "global_summary": {
-    "total_hardware_logic_gates": 98028,
-    "total_crispr_security_arrays": 90,
-    "total_cpg_memory_islands": 107,
+    "total_hardware_logic_gates": 98050,
+    "total_crispr_security_arrays": 168,
+    "total_cpg_memory_islands": 114,
     "total_riboswitch_adcs": 21,
-    "total_guanine_traps": 159504
+    "total_guanine_traps": 163680
   },
   "records": [
     {
@@ -383,6 +383,106 @@
       "quantum_conductance": {
         "guanine_traps": 1278,
         "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_DRD4",
+      "source_file": "neurodevelopmental_cohort.fasta",
+      "length": 1380,
+      "unit": "base_pairs",
+      "sha256": "c35573b2cb7d9c385d6a61800ce452be35951dffc2e7fdcb487c73c73c7d484a",
+      "information": {
+        "gc_content_pct": 87.9,
+        "shannon_entropy_bits": 1.5056
+      },
+      "logic_gates_estimated": 3,
+      "circuits": {
+        "crispr_security_arrays_found": 12,
+        "total_spacers_archived": 144,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 529,
+        "mean_transmission": 0.0026,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_DAT1",
+      "source_file": "neurodevelopmental_cohort.fasta",
+      "length": 1860,
+      "unit": "base_pairs",
+      "sha256": "ac4c8f5d2edb9335678e4f7856554dc41c1f3d1eb156ea389bfe3df81e62898e",
+      "information": {
+        "gc_content_pct": 64.89,
+        "shannon_entropy_bits": 1.6716
+      },
+      "logic_gates_estimated": 1,
+      "circuits": {
+        "crispr_security_arrays_found": 30,
+        "total_spacers_archived": 414,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 195,
+        "mean_transmission": 0.0008,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": false
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_SNAP25",
+      "source_file": "neurodevelopmental_cohort.fasta",
+      "length": 621,
+      "unit": "base_pairs",
+      "sha256": "e1a3d938844745fe605003e54d6161c579c64d85fc40a559eb01194e726274d1",
+      "information": {
+        "gc_content_pct": 49.28,
+        "shannon_entropy_bits": 1.9609
+      },
+      "logic_gates_estimated": 3,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 181,
+        "mean_transmission": 0.0018,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_SHANK3",
+      "source_file": "neurodevelopmental_cohort.fasta",
+      "length": 5280,
+      "unit": "base_pairs",
+      "sha256": "e22a5c3b1b04141c6bf8f1ba833cb4cb6b0bbced0581de1c3eff8a14dc5aab9b",
+      "information": {
+        "gc_content_pct": 99.32,
+        "shannon_entropy_bits": 1.0408
+      },
+      "logic_gates_estimated": 0,
+      "circuits": {
+        "crispr_security_arrays_found": 12,
+        "total_spacers_archived": 1248,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2208,
+        "mean_transmission": 0.0029,
         "electronic_bandgap_ev": 1.39,
         "telemetry_intact": true
       }
@@ -1154,6 +1254,81 @@
         "mean_transmission": 0.0013,
         "electronic_bandgap_ev": 1.39,
         "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Ideonella_sakaiensis_PETase",
+      "source_file": "synthetic_biology_enzymes.fasta",
+      "length": 900,
+      "unit": "base_pairs",
+      "sha256": "59f3e7e26f2243a8cfd407c4880202f5a35c8d4859200b596f1ca73063963292",
+      "information": {
+        "gc_content_pct": 60.0,
+        "shannon_entropy_bits": 1.9587
+      },
+      "logic_gates_estimated": 5,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 228,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Ideonella_sakaiensis_MHETase",
+      "source_file": "synthetic_biology_enzymes.fasta",
+      "length": 1839,
+      "unit": "base_pairs",
+      "sha256": "0db3d032c56dcc03e58e9b544d2979fa322263b85eac1a79690c7631e8671dff",
+      "information": {
+        "gc_content_pct": 65.04,
+        "shannon_entropy_bits": 1.8749
+      },
+      "logic_gates_estimated": 10,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 389,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "JCVI_syn3_0_minimal_operating_system",
+      "source_file": "synthetic_biology_enzymes.fasta",
+      "length": 5400,
+      "unit": "base_pairs",
+      "sha256": "2fa8365f8877b8d64efb7d57734e891b122d14db59081a09c4333a519a7de14e",
+      "information": {
+        "gc_content_pct": 8.26,
+        "shannon_entropy_bits": 1.2778
+      },
+      "logic_gates_estimated": 0,
+      "circuits": {
+        "crispr_security_arrays_found": 24,
+        "total_spacers_archived": 2619,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 446,
+        "mean_transmission": 0.0008,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": false
       }
     },
     {

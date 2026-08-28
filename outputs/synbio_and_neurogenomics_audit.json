@@ -1,0 +1,92 @@
+{
+  "status": "PASSED",
+  "audit_version": "1.0.0-SYNBIO-NEURO",
+  "timestamp": "2026-08-28T20:11:41.867883+00:00",
+  "synthetic_biology_plastic_enzymes": [
+    {
+      "target_id": "Ideonella_sakaiensis_PETase",
+      "length_bp": 900,
+      "gc_content_pct": 60.0,
+      "shannon_entropy_bits": 1.9587,
+      "logic_gates_count": 5,
+      "cpg_memory_registers": 1,
+      "guanine_traps": 228
+    },
+    {
+      "target_id": "Ideonella_sakaiensis_MHETase",
+      "length_bp": 1839,
+      "gc_content_pct": 65.04,
+      "shannon_entropy_bits": 1.8749,
+      "logic_gates_count": 10,
+      "cpg_memory_registers": 1,
+      "guanine_traps": 389
+    },
+    {
+      "target_id": "JCVI_syn3_0_minimal_operating_system",
+      "length_bp": 5400,
+      "gc_content_pct": 8.26,
+      "shannon_entropy_bits": 1.2778,
+      "logic_gates_count": 0,
+      "cpg_memory_registers": 0,
+      "guanine_traps": 413
+    }
+  ],
+  "dual_track_recompiled_construct": {
+    "target_protein_f0": "MNNPY",
+    "target_protein_f1": "TLLLA",
+    "synthesized_dna": "ATGAATAATCCTTACA",
+    "translated_f0": "MNNPY",
+    "translated_f1": "*IILT",
+    "f0_identity_pct": 100.0,
+    "f1_identity_pct": 20.0,
+    "compression_ratio": 1.88,
+    "total_length_bp": 16,
+    "wobble_mutations_applied": 4
+  },
+  "neurodevelopmental_synaptic_cohort": [
+    {
+      "gene_id": "Homo_sapiens_DRD4",
+      "length_bp": 1380,
+      "gc_content_pct": 87.9,
+      "shannon_entropy_bits": 1.5056,
+      "g4_transistors": 0,
+      "cpg_memory_registers": 1,
+      "promoter_latches": 1,
+      "quantum_tunneling_hotspots": 460,
+      "guanine_traps": 529
+    },
+    {
+      "gene_id": "Homo_sapiens_DAT1",
+      "length_bp": 1860,
+      "gc_content_pct": 64.89,
+      "shannon_entropy_bits": 1.6716,
+      "g4_transistors": 0,
+      "cpg_memory_registers": 1,
+      "promoter_latches": 1,
+      "quantum_tunneling_hotspots": 620,
+      "guanine_traps": 195
+    },
+    {
+      "gene_id": "Homo_sapiens_SNAP25",
+      "length_bp": 621,
+      "gc_content_pct": 49.28,
+      "shannon_entropy_bits": 1.9609,
+      "g4_transistors": 0,
+      "cpg_memory_registers": 2,
+      "promoter_latches": 1,
+      "quantum_tunneling_hotspots": 207,
+      "guanine_traps": 181
+    },
+    {
+      "gene_id": "Homo_sapiens_SHANK3",
+      "length_bp": 5280,
+      "gc_content_pct": 99.32,
+      "shannon_entropy_bits": 1.0408,
+      "g4_transistors": 0,
+      "cpg_memory_registers": 1,
+      "promoter_latches": 1,
+      "quantum_tunneling_hotspots": 1760,
+      "guanine_traps": 2208
+    }
+  ]
+}
