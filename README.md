@@ -1,5 +1,6 @@
 # 🧬 HexaPhase Genomics: Universal Multi-Phase Biological Subroutines
 
+[![DOI](https://zenodo.org/badge/1349560488.svg)](https://doi.org/10.5281/zenodo.22147682)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Tests: 54 Passed](https://img.shields.io/badge/tests-54%20passed-brightgreen.svg)](#reproducibility--testing)
 [![Audit: 100% Verified](https://img.shields.io/badge/Audit-Certified%20100%25-success.svg)](outputs/super_verification_audit.json)

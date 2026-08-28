@@ -23,7 +23,7 @@ In this manuscript, we present **HexaPhase**, a mathematically unified computati
 
 This study fundamentally expands our understanding of biological information density and provides practical open-source tools for genetic engineering, vaccine compaction, and biocomputing.
 
-All source code, scripts, raw genomic datasets, and automated verification test suites are fully open-source and permanently archived at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.10892471`). 
+All source code, scripts, raw genomic datasets, and automated verification test suites are fully open-source and permanently archived at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.22147682`). 
 
 This manuscript has not been published previously and is not under consideration elsewhere. All data and analyses are verified 100% reproducible via single-command audit pipelines.
 

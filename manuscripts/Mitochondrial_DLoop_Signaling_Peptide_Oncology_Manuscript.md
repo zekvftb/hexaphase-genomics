@@ -6,7 +6,7 @@
 *Preprint Server: bioRxiv (Category: Genetics / Cancer Biology)*  
 *Target Journal: Nature Genetics / Cell Metabolism / Mitochondrion*  
 *Permanent Code & Data Repository: `https://github.com/zekvftb/hexaphase-genomics`*  
-*Permanent Zenodo DOI: `10.5281/zenodo.10892471`*
+*Permanent Zenodo DOI: `10.5281/zenodo.22147682`*
 
 ---
 
@@ -89,14 +89,21 @@ Historically, clinical sequencing reports have cataloged point mutations in `chr
 **Table 2 | ClinVar Genetic Variants Resolved by the D-Loop Micro-Peptide.**
 | Variant ID | rCRS Position | Codon # | Triplet Mutation | Amino Acid Consequence | Associated Clinical Phenotype | Reclassified Pathogenicity |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: |
-| `m.150C>T` | Pos 150 | Codon 12 | `TCC` $ightarrow$ `TTC` | **Missense (`S12F`)** | Cardiomyopathy & Skeletal Myopathy | Likely Pathogenic |
-| `m.152T>C` | Pos 152 | Codon 13 | `TAT` $ightarrow$ `CAT` | **Missense (`Y13H`)** | Mitochondrial Encephalopathy & Migraine | Likely Pathogenic |
-| `m.182C>T` | Pos 182 | Codon 23 | `CAG` $ightarrow$ `TAG` | **Nonsense (Codon 23 Stop)** | Complex I Deficiency & Ataxia | **Pathogenic** |
-| `m.185G>A` | Pos 185 | Codon 24 | `GCG` $ightarrow$ `ACG` | **Missense (`A24T`)** | Leigh Syndrome-like Neurodegeneration | Likely Pathogenic |
-| `m.189A>G` | Pos 189 | Codon 25 | `AAC` $ightarrow$ `AGC` | **Missense (`N25S`)** | Sensorineural Hearing Loss & Diabetes | Likely Pathogenic |
-| `m.195T>C` | Pos 195 | Codon 27 | `CTT` $ightarrow$ `CCT` | **Missense (`L27P`)** | Parkinsonian Phenotypes & Dystonia | Likely Pathogenic |
+| `m.150C>T` | Pos 150 | Codon 12 | `TCC` $
+ightarrow$ `TTC` | **Missense (`S12F`)** | Cardiomyopathy & Skeletal Myopathy | Likely Pathogenic |
+| `m.152T>C` | Pos 152 | Codon 13 | `TAT` $
+ightarrow$ `CAT` | **Missense (`Y13H`)** | Mitochondrial Encephalopathy & Migraine | Likely Pathogenic |
+| `m.182C>T` | Pos 182 | Codon 23 | `CAG` $
+ightarrow$ `TAG` | **Nonsense (Codon 23 Stop)** | Complex I Deficiency & Ataxia | **Pathogenic** |
+| `m.185G>A` | Pos 185 | Codon 24 | `GCG` $
+ightarrow$ `ACG` | **Missense (`A24T`)** | Leigh Syndrome-like Neurodegeneration | Likely Pathogenic |
+| `m.189A>G` | Pos 189 | Codon 25 | `AAC` $
+ightarrow$ `AGC` | **Missense (`N25S`)** | Sensorineural Hearing Loss & Diabetes | Likely Pathogenic |
+| `m.195T>C` | Pos 195 | Codon 27 | `CTT` $
+ightarrow$ `CCT` | **Missense (`L27P`)** | Parkinsonian Phenotypes & Dystonia | Likely Pathogenic |
 
-Crucially, variant **`m.182C>T`** introduces a premature stop codon (`CAG` $ightarrow$ `TAG`) at residue 23, truncating the entire C-terminal amphipathic helical tail (`MLQANMLTKVC`), explaining the severe mitochondrial Complex I biochemical deficiency and spinocerebellar ataxia observed in affected pedigrees.
+Crucially, variant **`m.182C>T`** introduces a premature stop codon (`CAG` $
+ightarrow$ `TAG`) at residue 23, truncating the entire C-terminal amphipathic helical tail (`MLQANMLTKVC`), explaining the severe mitochondrial Complex I biochemical deficiency and spinocerebellar ataxia observed in affected pedigrees.
 
 ### 2.5 Somatic Disruption in TCGA Pan-Cancer Cohorts
 
@@ -141,7 +148,7 @@ Variant records were mined from NCBI ClinVar (Release 2026-06). Pan-cancer whole
 
 ## 5. Declarations
 
-* **Data & Code Availability:** Source code, alignment files, and clinical variant mapping scripts are accessible at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.10892471`).
+* **Data & Code Availability:** Source code, alignment files, and clinical variant mapping scripts are accessible at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.22147682`).
 * **Funding:** This research was independently conducted without institutional or commercial grant funding.
 * **Author Contributions:** J.R. designed the study, performed bioinformatic, biophysical, and clinical cohort analyses, and wrote the manuscript.
 * **Competing Interests:** The author declares no competing financial or non-financial interests.

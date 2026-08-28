@@ -25,7 +25,7 @@ Our major findings include:
 
 This discovery redefines the human mitochondrial genome, solves long-standing diagnostic dilemmas for mitochondrial disease patients, and uncovers a novel therapeutic target in oncology.
 
-All analytical code, alignments, and clinical mapping pipelines are openly available at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.10892471`).
+All analytical code, alignments, and clinical mapping pipelines are openly available at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.22147682`).
 
 This manuscript is original work and is not under consideration elsewhere.
 

@@ -6,7 +6,7 @@
 *Preprint Server: bioRxiv (Category: Microbiology / Pharmacology)*  
 *Target Journal: Cell Host & Microbe / Antiviral Research / Journal of Virology*  
 *Permanent Code & Data Repository: `https://github.com/zekvftb/hexaphase-genomics`*  
-*Permanent Zenodo DOI: `10.5281/zenodo.10892471`*
+*Permanent Zenodo DOI: `10.5281/zenodo.22147682`*
 
 ---
 
@@ -132,7 +132,7 @@ The 15-AA viroporin helix was modeled using AlphaFold2-Multimer and refined with
 
 ## 5. Declarations
 
-* **Data & Code Availability:** All analysis pipelines, docking models, and alignment scripts are openly archived at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.10892471`).
+* **Data & Code Availability:** All analysis pipelines, docking models, and alignment scripts are openly archived at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.22147682`).
 * **Funding:** This study was conducted independently without external institutional or commercial grant funding.
 * **Author Contributions:** J.R. designed the study, conducted computational biology, evolutionary, Ribo-seq, and docking analyses, and wrote the manuscript.
 * **Competing Interests:** The author declares no competing financial or non-financial interests.

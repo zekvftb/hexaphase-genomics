@@ -6,7 +6,7 @@
 *Preprint Server: bioRxiv (Category: Bioinformatics / Genomics)*  
 *Target Journal: Nucleic Acids Research / Nature Communications*  
 *Permanent Code & Data Repository: `https://github.com/zekvftb/hexaphase-genomics`*  
-*Permanent Zenodo DOI: `10.5281/zenodo.10892471`*
+*Permanent Zenodo DOI: `10.5281/zenodo.22147682`*
 
 ---
 
@@ -115,7 +115,7 @@ Statistical enrichment of Shine-Dalgarno motifs was evaluated against $1,000,000
 
 ## 5. Declarations
 
-* **Data & Code Availability:** All source code, analysis scripts, raw sequence data, and verification tests are openly available on GitHub at `https://github.com/zekvftb/hexaphase-genomics` and archived on Zenodo under DOI `10.5281/zenodo.10892471`.
+* **Data & Code Availability:** All source code, analysis scripts, raw sequence data, and verification tests are openly available on GitHub at `https://github.com/zekvftb/hexaphase-genomics` and archived on Zenodo under DOI `10.5281/zenodo.22147682`.
 * **Reproducibility:** All findings can be replicated by running `python scripts/super_verify_all_findings.py`.
 * **Funding:** This study was conducted independently without external institutional, corporate, or grant funding.
 * **Author Contributions:** J.R. conceptualized the HexaPhase architecture, developed the software, performed computational and biophysical analyses, and wrote the manuscript.

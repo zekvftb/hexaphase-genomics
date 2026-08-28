@@ -225,7 +225,7 @@ $$\mu_H = \frac{1}{L} \sqrt{\left[ \sum_{i=1}^L H(a_i) \sin(i \cdot 100^\circ) \
 * **Open-Source Repository:** All source code, analysis pipelines, algorithms, and raw JSON outputs are publicly archived at:
   `https://github.com/zekvftb/hexaphase-genomics`
 * **Permanent Zenodo Archive (Citable DOI):**
-  `https://doi.org/10.5281/zenodo.10892471` *(Auto-generated via Zenodo-GitHub integration)*
+  `https://doi.org/10.5281/zenodo.22147682` *(Auto-generated via Zenodo-GitHub integration)*
 * **Reproducibility Command:** Peer reviewers and independent researchers can re-execute all audit tests in a single command:
   ```bash
   python scripts/super_verify_all_findings.py

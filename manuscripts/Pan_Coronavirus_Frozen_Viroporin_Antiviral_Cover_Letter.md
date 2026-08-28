@@ -26,7 +26,7 @@ Our key findings include:
 
 This study reveals a hidden structural component of coronavirus replication and delivers a resistance-proof blueprint for pan-coronavirus antiviral design.
 
-All analytical code, alignments, and molecular models are available at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.10892471`).
+All analytical code, alignments, and molecular models are available at `https://github.com/zekvftb/hexaphase-genomics` (Zenodo DOI: `10.5281/zenodo.22147682`).
 
 This manuscript is original work and is not under review elsewhere.
 
