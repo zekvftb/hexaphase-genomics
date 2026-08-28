@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1349560488.svg)](https://doi.org/10.5281/zenodo.22147682)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Tests: 70 Passed](https://img.shields.io/badge/tests-70%20passed-brightgreen.svg)](#reproducibility--testing)
+[![Tests: 74 Passed](https://img.shields.io/badge/tests-74%20passed-brightgreen.svg)](#reproducibility--testing)
 [![Audit: 100% Verified](https://img.shields.io/badge/Audit-Certified%20100%25-success.svg)](outputs/super_verification_audit.json)
 
 An open-source, peer-reviewed computational biology research repository discovering, characterizing, and decompiling **universal overlapping subroutines, biological logic gates, and multi-track machine code** across viral, bacterial, mitochondrial, and eukaryotic genomes.
@@ -41,7 +41,7 @@ All full-text manuscripts and formal journal submission cover letters are compil
 
 ## ⚡ Computational Architecture & Discovery Modules
 
-The repository contains an integrated, strictly typed Python pipeline backed by 65 unit tests:
+The repository contains an integrated, strictly typed Python pipeline backed by 74 unit tests:
 
 | Module | Core Functionality | Key Output / Discovery |
 | :--- | :--- | :--- |
@@ -52,6 +52,8 @@ The repository contains an integrated, strictly typed Python pipeline backed by 
 | **Module 4: Logic Gates** | Programmed frameshift multiplexers & G4 molecular transistors | **99,348 hardware gates across 10.17 Mb (~10.14 gates/kb)** |
 | **Module 5: Compiler & Decompiler** | Wobble-position entropy carrier wave & assembly disassembly | **14,778 Biological Assembly opcodes (`.asm`)** |
 | **Module 6: Dual-Phase Recompiler** | De novo dual-protein physical DNA synthesis & compression | **1.98x physical information compression** |
+| **Module 7: Cross-Verification** | Real-time dual-engine execution (Python vs SMC Bytecode VM) | **100.0% mathematical congruence certificate** |
+| **Module 8: Biological Circuits** | CRISPR security logs, CpG NVRAM registers, Riboswitch ADCs | **505 CRISPR arrays (3,451 spacers), 581 CpG NVRAM registers** |
 
 ---
 

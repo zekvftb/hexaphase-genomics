@@ -361,3 +361,82 @@ class DualEngineEvidenceRecord:
 
     def to_json(self, indent: int = 2) -> str:
         return json.dumps(self.to_dict(), indent=indent)
+
+
+@dataclass
+class CrisprArray:
+    """Decompiled CRISPR append-only security log and repeat-spacer array."""
+
+    array_id: str
+    start_pos: int
+    end_pos: int
+    repeat_length_bp: int
+    repeat_consensus: str
+    repeats_count: int
+    spacers_count: int
+    spacers: list[str]
+    description: str = "CRISPR Append-Only Hardware Security Array"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class CpgMemoryIsland:
+    """Epigenetic 1-bit non-volatile memory register (Gardiner-Garden & Frommer criteria)."""
+
+    island_id: str
+    start_pos: int
+    end_pos: int
+    length_bp: int
+    gc_content_pct: float
+    cpg_obs_exp_ratio: float
+    cpg_count: int
+    is_promoter_latch: bool
+    description: str = "Epigenetic Non-Volatile Memory (NVRAM) Latch"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class RiboswitchAdc:
+    """RNA Analog-to-Digital chemical sensor and transcriptional switch."""
+
+    switch_id: str
+    start_pos: int
+    end_pos: int
+    ligand_class: str
+    aptamer_motif: str
+    terminator_mfe_dG: float
+    switching_delta_dG: float
+    predicted_state: str
+    description: str = "RNA Riboswitch Analog-to-Digital Chemical Converter (ADC)"
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class BiologicalCircuitReport:
+    """Container for biological circuit discoveries across a genome."""
+
+    genome_id: str
+    genome_length_bp: int
+    crispr_arrays: list[CrisprArray] = field(default_factory=list)
+    cpg_memory_islands: list[CpgMemoryIsland] = field(default_factory=list)
+    riboswitch_adcs: list[RiboswitchAdc] = field(default_factory=list)
+    summary: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "genome_id": self.genome_id,
+            "genome_length_bp": self.genome_length_bp,
+            "crispr_arrays": [a.to_dict() for a in self.crispr_arrays],
+            "cpg_memory_islands": [c.to_dict() for c in self.cpg_memory_islands],
+            "riboswitch_adcs": [r.to_dict() for r in self.riboswitch_adcs],
+            "summary": self.summary,
+        }
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
