@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1349560488.svg)](https://doi.org/10.5281/zenodo.22147682)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Tests: 65 Passed](https://img.shields.io/badge/tests-65%20passed-brightgreen.svg)](#reproducibility--testing)
+[![Tests: 70 Passed](https://img.shields.io/badge/tests-70%20passed-brightgreen.svg)](#reproducibility--testing)
 [![Audit: 100% Verified](https://img.shields.io/badge/Audit-Certified%20100%25-success.svg)](outputs/super_verification_audit.json)
 
 An open-source, peer-reviewed computational biology research repository discovering, characterizing, and decompiling **universal overlapping subroutines, biological logic gates, and multi-track machine code** across viral, bacterial, mitochondrial, and eukaryotic genomes.

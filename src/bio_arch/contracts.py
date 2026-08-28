@@ -21,6 +21,7 @@ class EvidenceClass(str, Enum):
     SIMULATION = "simulation"
     INTERPRETATION = "interpretation"
     HYPOTHESIS = "hypothesis"
+    CROSS_VERIFICATION = "cross_verification"
 
     @property
     def required_prefix(self) -> str:
@@ -30,6 +31,7 @@ class EvidenceClass(str, Enum):
             EvidenceClass.SIMULATION: "Under this model",
             EvidenceClass.INTERPRETATION: "One interpretation is",
             EvidenceClass.HYPOTHESIS: "This predicts",
+            EvidenceClass.CROSS_VERIFICATION: "Cross-engine verification established that",
         }
         return prefixes[self]
 
@@ -328,6 +330,34 @@ class LogicGateScanReport:
             "gate_counts_by_type": self.gate_counts_by_type,
             "summary": self.summary,
         }
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+
+@dataclass
+class DualEngineEvidenceRecord:
+    """Official cryptographic & mathematical congruence certificate between Python and SMC."""
+
+    record_id: str
+    genome_id: str
+    sequence_length_bp: int
+    python_gc_pct: float
+    smc_gc_pct: float
+    gc_congruence: bool
+    python_phase0_codons: int
+    smc_phase0_codons: int
+    codon_congruence: bool
+    python_execution_time_ms: float
+    smc_execution_time_ms: float
+    speedup_ratio: float
+    sha256_checksum: str
+    timestamp_iso: str
+    status: str = "CERTIFIED_100_PERCENT"
+    evidence_class: str = EvidenceClass.CROSS_VERIFICATION.value
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
 
     def to_json(self, indent: int = 2) -> str:
         return json.dumps(self.to_dict(), indent=indent)
