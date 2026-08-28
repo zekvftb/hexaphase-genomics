@@ -34,6 +34,7 @@ All full-text manuscripts and formal journal submission cover letters are compil
 * *Target:* *Nature Machine Intelligence* / *Cell Systems* / Zenodo DOI: `10.5281/zenodo.22147682`
 
 ### 📑 Master Briefings & Context Encyclopedia:
+* 🗺️ **[`PROJECT_DISCOVERY_JOURNAL.md`](PROJECT_DISCOVERY_JOURNAL.md)** *(Chronological Roadmap: Every Question, Research Step & Discovery)*
 * 👉 **[`DNA_PAPERS_MASTER_BRIEFING.md`](DNA_PAPERS_MASTER_BRIEFING.md)** *(Executive Summary)*  
 * 👉 **[`EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md`](EXHAUSTIVE_MANUSCRIPT_MASTER_CONTEXT.md)** *(Comprehensive Scientific Encyclopedia for AI & Peer-Review)*
 
