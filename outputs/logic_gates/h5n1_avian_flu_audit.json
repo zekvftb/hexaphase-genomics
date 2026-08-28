@@ -1,0 +1,2685 @@
+{
+  "cohort_title": "Highly Pathogenic Avian Influenza A (H5N1) 8-Segment Genome",
+  "total_sequences_scanned": 8,
+  "total_base_pairs": 13590,
+  "summary_totals": {
+    "total_frameshift_multiplexers": 19,
+    "total_g4_circuit_breakers": 0,
+    "total_readthrough_gates": 126,
+    "grand_total_hardware_switches": 145,
+    "mean_density_per_kb": 10.67
+  },
+  "reports": [
+    {
+      "genome_id": "H5N1_Seg1_PB2",
+      "genome_length": 2341,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_897_902",
+          "gate_type": "frameshift_branch",
+          "start_pos": 897,
+          "end_pos": 947,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -9.0,
+          "predicted_efficiency": 0.15,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_897",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -9.0,
+            "barrier_stem_length": 8,
+            "barrier_loop_length": 9,
+            "branching_ratio_pct": 15.0
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1552_1557",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1552,
+          "end_pos": 1602,
+          "strand": "+",
+          "trigger_motif": "GGGAAC",
+          "downstream_barrier_energy": -10.2,
+          "predicted_efficiency": 0.195,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1552",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -10.2,
+            "barrier_stem_length": 8,
+            "barrier_loop_length": 5,
+            "branching_ratio_pct": 19.5
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1637_1642",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1637,
+          "end_pos": 1687,
+          "strand": "+",
+          "trigger_motif": "GGGAAA",
+          "downstream_barrier_energy": -7.8,
+          "predicted_efficiency": 0.105,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1637",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -7.8,
+            "barrier_stem_length": 7,
+            "barrier_loop_length": 3,
+            "branching_ratio_pct": 10.5
+          }
+        },
+        {
+          "gate_id": "GATE_FS_2070_2075",
+          "gate_type": "frameshift_branch",
+          "start_pos": 2070,
+          "end_pos": 2120,
+          "strand": "+",
+          "trigger_motif": "GGGAAC",
+          "downstream_barrier_energy": -12.4,
+          "predicted_efficiency": 0.277,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_2070",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -12.4,
+            "barrier_stem_length": 9,
+            "barrier_loop_length": 8,
+            "branching_ratio_pct": 27.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_557_562",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 557,
+          "end_pos": 597,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -5.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_557",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_575_580",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 575,
+          "end_pos": 615,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -1.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_575",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -1.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_728_733",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 728,
+          "end_pos": 768,
+          "strand": "+",
+          "trigger_motif": "TGACTC",
+          "downstream_barrier_energy": -8.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_728",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -8.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_792_797",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 792,
+          "end_pos": 832,
+          "strand": "+",
+          "trigger_motif": "TGACCA",
+          "downstream_barrier_energy": -6.0,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_792",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1389_1394",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1389,
+          "end_pos": 1429,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -5.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1389",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1422_1427",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1422,
+          "end_pos": 1462,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -7.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1422",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -7.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1521_1526",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1521,
+          "end_pos": 1561,
+          "strand": "+",
+          "trigger_motif": "TGACCG",
+          "downstream_barrier_energy": -6.4,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1521",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1607_1612",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1607,
+          "end_pos": 1647,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1607",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2262_2267",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2262,
+          "end_pos": 2302,
+          "strand": "+",
+          "trigger_motif": "TGACAG",
+          "downstream_barrier_energy": -4.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2262",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_308_313",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 308,
+          "end_pos": 348,
+          "strand": "+",
+          "trigger_motif": "TAGCTG",
+          "downstream_barrier_energy": -4.5,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_308",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -4.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_686_691",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 686,
+          "end_pos": 726,
+          "strand": "+",
+          "trigger_motif": "TAGCAG",
+          "downstream_barrier_energy": -8.4,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_686",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -8.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_996_1001",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 996,
+          "end_pos": 1036,
+          "strand": "+",
+          "trigger_motif": "TAGCTT",
+          "downstream_barrier_energy": -7.5,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_996",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1226_1231",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1226,
+          "end_pos": 1266,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -7.8,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1226",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2250_2255",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2250,
+          "end_pos": 2290,
+          "strand": "+",
+          "trigger_motif": "TAGCAT",
+          "downstream_barrier_energy": -5.6,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2250",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -5.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_86_91",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 86,
+          "end_pos": 126,
+          "strand": "+",
+          "trigger_motif": "TAACAA",
+          "downstream_barrier_energy": -6.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_86",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_314_319",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 314,
+          "end_pos": 354,
+          "strand": "+",
+          "trigger_motif": "TAACTT",
+          "downstream_barrier_energy": -2.1,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_314",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -2.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_581_586",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 581,
+          "end_pos": 621,
+          "strand": "+",
+          "trigger_motif": "TAACAA",
+          "downstream_barrier_energy": -2.7,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_581",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -2.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1613_1618",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1613,
+          "end_pos": 1653,
+          "strand": "+",
+          "trigger_motif": "TAACAT",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1613",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1668_1673",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1668,
+          "end_pos": 1708,
+          "strand": "+",
+          "trigger_motif": "TAACAC",
+          "downstream_barrier_energy": -3.5,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1668",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -3.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1934_1939",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1934,
+          "end_pos": 1974,
+          "strand": "+",
+          "trigger_motif": "TAACTG",
+          "downstream_barrier_energy": -7.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1934",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -7.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1980_1985",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1980,
+          "end_pos": 2020,
+          "strand": "+",
+          "trigger_motif": "TAACTC",
+          "downstream_barrier_energy": -8.8,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1980",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -8.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2051_2056",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2051,
+          "end_pos": 2091,
+          "strand": "+",
+          "trigger_motif": "TAACAG",
+          "downstream_barrier_energy": -5.0,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2051",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -5.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_575_580",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 575,
+          "end_pos": 615,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -1.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_575",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -1.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1389_1394",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1389,
+          "end_pos": 1429,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -5.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1389",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1607_1612",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1607,
+          "end_pos": 1647,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1607",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1226_1231",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1226,
+          "end_pos": 1266,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -7.8,
+          "predicted_efficiency": 0.22,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1226",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-CAA (Tobacco Mosaic / Retrovirus Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 22.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.8
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 4,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 26,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 30,
+        "branching_multiplexers": 4,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 26,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 12.815
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg2_PB1",
+      "genome_length": 2341,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_1078_1083",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1078,
+          "end_pos": 1128,
+          "strand": "+",
+          "trigger_motif": "GGGAAA",
+          "downstream_barrier_energy": -10.8,
+          "predicted_efficiency": 0.218,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1078",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -10.8,
+            "barrier_stem_length": 7,
+            "barrier_loop_length": 8,
+            "branching_ratio_pct": 21.8
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1395_1400",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1395,
+          "end_pos": 1445,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -8.6,
+          "predicted_efficiency": 0.135,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1395",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -8.6,
+            "barrier_stem_length": 7,
+            "barrier_loop_length": 4,
+            "branching_ratio_pct": 13.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_389_394",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 389,
+          "end_pos": 429,
+          "strand": "+",
+          "trigger_motif": "TGACCC",
+          "downstream_barrier_energy": -5.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_389",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_411_416",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 411,
+          "end_pos": 451,
+          "strand": "+",
+          "trigger_motif": "TGACTG",
+          "downstream_barrier_energy": -6.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_411",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_608_613",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 608,
+          "end_pos": 648,
+          "strand": "+",
+          "trigger_motif": "TGACCA",
+          "downstream_barrier_energy": -3.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_608",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -3.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_689_694",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 689,
+          "end_pos": 729,
+          "strand": "+",
+          "trigger_motif": "TGACAC",
+          "downstream_barrier_energy": -1.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_689",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -1.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_704_709",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 704,
+          "end_pos": 744,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": 0.0,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_704",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": 0.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_893_898",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 893,
+          "end_pos": 933,
+          "strand": "+",
+          "trigger_motif": "TGACTA",
+          "downstream_barrier_energy": -4.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_893",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1152_1157",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1152,
+          "end_pos": 1192,
+          "strand": "+",
+          "trigger_motif": "TGACTT",
+          "downstream_barrier_energy": -1.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1152",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -1.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1454_1459",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1454,
+          "end_pos": 1494,
+          "strand": "+",
+          "trigger_motif": "TGACCA",
+          "downstream_barrier_energy": -4.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1454",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1587_1592",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1587,
+          "end_pos": 1627,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -6.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1587",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2208_2213",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2208,
+          "end_pos": 2248,
+          "strand": "+",
+          "trigger_motif": "TGACTT",
+          "downstream_barrier_energy": -4.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2208",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_797_802",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 797,
+          "end_pos": 837,
+          "strand": "+",
+          "trigger_motif": "TAGCGA",
+          "downstream_barrier_energy": -9.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_797",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_980_985",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 980,
+          "end_pos": 1020,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -4.1,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_980",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -4.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1529_1534",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1529,
+          "end_pos": 1569,
+          "strand": "+",
+          "trigger_motif": "TAGCCA",
+          "downstream_barrier_energy": -9.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1529",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2127_2132",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2127,
+          "end_pos": 2167,
+          "strand": "+",
+          "trigger_motif": "TAGCAG",
+          "downstream_barrier_energy": -10.4,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2127",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -10.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2305_2310",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2305,
+          "end_pos": 2341,
+          "strand": "+",
+          "trigger_motif": "TAGCTT",
+          "downstream_barrier_energy": -7.3,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2305",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_488_493",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 488,
+          "end_pos": 528,
+          "strand": "+",
+          "trigger_motif": "TAACAG",
+          "downstream_barrier_energy": -11.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_488",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -11.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_569_574",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 569,
+          "end_pos": 609,
+          "strand": "+",
+          "trigger_motif": "TAACAC",
+          "downstream_barrier_energy": -5.0,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_569",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -5.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_897_902",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 897,
+          "end_pos": 937,
+          "strand": "+",
+          "trigger_motif": "TAACTC",
+          "downstream_barrier_energy": -4.8,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_897",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -4.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_989_994",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 989,
+          "end_pos": 1029,
+          "strand": "+",
+          "trigger_motif": "TAACAT",
+          "downstream_barrier_energy": -8.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_989",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -8.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_704_709",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 704,
+          "end_pos": 744,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": 0.0,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_704",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": 0.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_980_985",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 980,
+          "end_pos": 1020,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -4.1,
+          "predicted_efficiency": 0.22,
+          "target_subroutine_id": "EXTENDED_ISOFORM_980",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-CAA (Tobacco Mosaic / Retrovirus Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 22.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -4.1
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 2,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 21,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 23,
+        "branching_multiplexers": 2,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 21,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 9.825
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg3_PA",
+      "genome_length": 2233,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_334_340",
+          "gate_type": "frameshift_branch",
+          "start_pos": 334,
+          "end_pos": 385,
+          "strand": "+",
+          "trigger_motif": "AAATTTC",
+          "downstream_barrier_energy": -7.7,
+          "predicted_efficiency": 0.101,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_334",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (AAAUUUA/C/T (Retroviral HIV-1 / Lentivirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -7.7,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 4,
+            "branching_ratio_pct": 10.1
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1634_1639",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1634,
+          "end_pos": 1684,
+          "strand": "+",
+          "trigger_motif": "GGGAAA",
+          "downstream_barrier_energy": -8.6,
+          "predicted_efficiency": 0.135,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1634",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -8.6,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 5,
+            "branching_ratio_pct": 13.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_354_359",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 354,
+          "end_pos": 394,
+          "strand": "+",
+          "trigger_motif": "TGACTA",
+          "downstream_barrier_energy": -10.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_354",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -10.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_389_394",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 389,
+          "end_pos": 429,
+          "strand": "+",
+          "trigger_motif": "TGACAC",
+          "downstream_barrier_energy": -5.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_389",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1203_1208",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1203,
+          "end_pos": 1243,
+          "strand": "+",
+          "trigger_motif": "TGACAG",
+          "downstream_barrier_energy": -6.2,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1203",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1274_1279",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1274,
+          "end_pos": 1314,
+          "strand": "+",
+          "trigger_motif": "TGACAG",
+          "downstream_barrier_energy": -11.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1274",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -11.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1458_1463",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1458,
+          "end_pos": 1498,
+          "strand": "+",
+          "trigger_motif": "TGACTT",
+          "downstream_barrier_energy": -6.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1458",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1563_1568",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1563,
+          "end_pos": 1603,
+          "strand": "+",
+          "trigger_motif": "TGACAC",
+          "downstream_barrier_energy": -6.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1563",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1844_1849",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1844,
+          "end_pos": 1884,
+          "strand": "+",
+          "trigger_motif": "TGACTA",
+          "downstream_barrier_energy": -5.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1844",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1185_1190",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1185,
+          "end_pos": 1225,
+          "strand": "+",
+          "trigger_motif": "TAGCGA",
+          "downstream_barrier_energy": -3.9,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1185",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -3.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1232_1237",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1232,
+          "end_pos": 1272,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -9.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1232",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1518_1523",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1518,
+          "end_pos": 1558,
+          "strand": "+",
+          "trigger_motif": "TAACCT",
+          "downstream_barrier_energy": -10.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1518",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -10.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1232_1237",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1232,
+          "end_pos": 1272,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -9.6,
+          "predicted_efficiency": 0.22,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1232",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-CAA (Tobacco Mosaic / Retrovirus Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 22.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.6
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 2,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 11,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 13,
+        "branching_multiplexers": 2,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 11,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 5.822
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg4_HA",
+      "genome_length": 1565,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_773_778",
+          "gate_type": "frameshift_branch",
+          "start_pos": 773,
+          "end_pos": 823,
+          "strand": "+",
+          "trigger_motif": "GGGAAA",
+          "downstream_barrier_energy": -11.1,
+          "predicted_efficiency": 0.229,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_773",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -11.1,
+            "barrier_stem_length": 7,
+            "barrier_loop_length": 3,
+            "branching_ratio_pct": 22.9
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1336_1341",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1336,
+          "end_pos": 1386,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -8.1,
+          "predicted_efficiency": 0.116,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1336",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -8.1,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 3,
+            "branching_ratio_pct": 11.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_33_38",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 33,
+          "end_pos": 73,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -9.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_33",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_378_383",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 378,
+          "end_pos": 418,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -4.4,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_378",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_912_917",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 912,
+          "end_pos": 952,
+          "strand": "+",
+          "trigger_motif": "TGACTT",
+          "downstream_barrier_energy": -11.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_912",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -11.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1359_1364",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1359,
+          "end_pos": 1399,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -6.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1359",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1482_1487",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1482,
+          "end_pos": 1522,
+          "strand": "+",
+          "trigger_motif": "TGACAT",
+          "downstream_barrier_energy": -9.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1482",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1533_1538",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1533,
+          "end_pos": 1565,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1533",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_227_232",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 227,
+          "end_pos": 267,
+          "strand": "+",
+          "trigger_motif": "TAACAA",
+          "downstream_barrier_energy": -16.1,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_227",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -16.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_648_653",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 648,
+          "end_pos": 688,
+          "strand": "+",
+          "trigger_motif": "TAACGA",
+          "downstream_barrier_energy": -6.2,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_648",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_378_383",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 378,
+          "end_pos": 418,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -4.4,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_378",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1533_1538",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1533,
+          "end_pos": 1565,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1533",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.7
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 2,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 10,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 12,
+        "branching_multiplexers": 2,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 10,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 7.668
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg5_NP",
+      "genome_length": 1458,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_1071_1077",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1071,
+          "end_pos": 1122,
+          "strand": "+",
+          "trigger_motif": "TTTAAAT",
+          "downstream_barrier_energy": -11.6,
+          "predicted_efficiency": 0.247,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1071",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (UUUAAAC/G/T (Group II Coronavirus / Astrovirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -11.6,
+            "barrier_stem_length": 8,
+            "barrier_loop_length": 4,
+            "branching_ratio_pct": 24.7
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1063_1069",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1063,
+          "end_pos": 1114,
+          "strand": "+",
+          "trigger_motif": "GGTTTTC",
+          "downstream_barrier_energy": -11.6,
+          "predicted_efficiency": 0.247,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1063",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGUUUUA/C/T (+1 Autoregulatory Frameshift))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -11.6,
+            "barrier_stem_length": 8,
+            "barrier_loop_length": 4,
+            "branching_ratio_pct": 24.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_421_426",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 421,
+          "end_pos": 461,
+          "strand": "+",
+          "trigger_motif": "TGACTC",
+          "downstream_barrier_energy": -5.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_421",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -5.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_443_448",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 443,
+          "end_pos": 483,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.2,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_443",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_592_597",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 592,
+          "end_pos": 632,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -9.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_592",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_745_750",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 745,
+          "end_pos": 785,
+          "strand": "+",
+          "trigger_motif": "TGACTG",
+          "downstream_barrier_energy": -6.7,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_745",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1255_1260",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1255,
+          "end_pos": 1295,
+          "strand": "+",
+          "trigger_motif": "TGACAG",
+          "downstream_barrier_energy": -7.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1255",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -7.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1370_1375",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1370,
+          "end_pos": 1410,
+          "strand": "+",
+          "trigger_motif": "TGACAC",
+          "downstream_barrier_energy": -10.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1370",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -10.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1421_1426",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1421,
+          "end_pos": 1458,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -7.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1421",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -7.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_80_85",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 80,
+          "end_pos": 120,
+          "strand": "+",
+          "trigger_motif": "TAGCTT",
+          "downstream_barrier_energy": -13.7,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_80",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -13.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_274_279",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 274,
+          "end_pos": 314,
+          "strand": "+",
+          "trigger_motif": "TAGCGG",
+          "downstream_barrier_energy": -10.1,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_274",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -10.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_302_307",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 302,
+          "end_pos": 342,
+          "strand": "+",
+          "trigger_motif": "TAGCGG",
+          "downstream_barrier_energy": -5.8,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_302",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -5.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1175_1180",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1175,
+          "end_pos": 1215,
+          "strand": "+",
+          "trigger_motif": "TAGCTT",
+          "downstream_barrier_energy": -4.7,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1175",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -4.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1201_1206",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1201,
+          "end_pos": 1241,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -8.2,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1201",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -8.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1226_1231",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1226,
+          "end_pos": 1266,
+          "strand": "+",
+          "trigger_motif": "TAGCGG",
+          "downstream_barrier_energy": -9.3,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1226",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_43_48",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 43,
+          "end_pos": 83,
+          "strand": "+",
+          "trigger_motif": "TAACCA",
+          "downstream_barrier_energy": -7.3,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_43",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -7.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_268_273",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 268,
+          "end_pos": 308,
+          "strand": "+",
+          "trigger_motif": "TAACAT",
+          "downstream_barrier_energy": -10.9,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_268",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -10.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_530_535",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 530,
+          "end_pos": 570,
+          "strand": "+",
+          "trigger_motif": "TAACTC",
+          "downstream_barrier_energy": -7.5,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_530",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -7.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_655_660",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 655,
+          "end_pos": 695,
+          "strand": "+",
+          "trigger_motif": "TAACAG",
+          "downstream_barrier_energy": -6.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_655",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1040_1045",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1040,
+          "end_pos": 1080,
+          "strand": "+",
+          "trigger_motif": "TAACGG",
+          "downstream_barrier_energy": -6.2,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1040",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1207_1212",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1207,
+          "end_pos": 1247,
+          "strand": "+",
+          "trigger_motif": "TAACTG",
+          "downstream_barrier_energy": -11.4,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1207",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -11.4
+          }
+        },
+        {
+          "gate_id": "GATE_RT_443_448",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 443,
+          "end_pos": 483,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.2,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_443",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_592_597",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 592,
+          "end_pos": 632,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -9.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_592",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1421_1426",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1421,
+          "end_pos": 1458,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -7.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1421",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -7.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1201_1206",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1201,
+          "end_pos": 1241,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -8.2,
+          "predicted_efficiency": 0.22,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1201",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-CAA (Tobacco Mosaic / Retrovirus Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 22.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -8.2
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 2,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 23,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 25,
+        "branching_multiplexers": 2,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 23,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 17.147
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg6_NA",
+      "genome_length": 1760,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_765_771",
+          "gate_type": "frameshift_branch",
+          "start_pos": 765,
+          "end_pos": 816,
+          "strand": "+",
+          "trigger_motif": "TTTAAAG",
+          "downstream_barrier_energy": -13.8,
+          "predicted_efficiency": 0.33,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_765",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (UUUAAAC/G/T (Group II Coronavirus / Astrovirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -13.8,
+            "barrier_stem_length": 9,
+            "barrier_loop_length": 3,
+            "branching_ratio_pct": 33.0
+          }
+        },
+        {
+          "gate_id": "GATE_FS_968_973",
+          "gate_type": "frameshift_branch",
+          "start_pos": 968,
+          "end_pos": 1018,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -9.1,
+          "predicted_efficiency": 0.154,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_968",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -9.1,
+            "barrier_stem_length": 8,
+            "barrier_loop_length": 5,
+            "branching_ratio_pct": 15.4
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1104_1109",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1104,
+          "end_pos": 1154,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -13.7,
+          "predicted_efficiency": 0.326,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1104",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -13.7,
+            "barrier_stem_length": 10,
+            "barrier_loop_length": 6,
+            "branching_ratio_pct": 32.6
+          }
+        },
+        {
+          "gate_id": "GATE_FS_1515_1521",
+          "gate_type": "frameshift_branch",
+          "start_pos": 1515,
+          "end_pos": 1566,
+          "strand": "+",
+          "trigger_motif": "AAAAAAC",
+          "downstream_barrier_energy": -8.2,
+          "predicted_efficiency": 0.12,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_1515",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (AAAAAAC/A/T (Picornavirus / Totivirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -8.2,
+            "barrier_stem_length": 7,
+            "barrier_loop_length": 5,
+            "branching_ratio_pct": 12.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_117_122",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 117,
+          "end_pos": 157,
+          "strand": "+",
+          "trigger_motif": "TGACAC",
+          "downstream_barrier_energy": -8.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_117",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -8.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_270_275",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 270,
+          "end_pos": 310,
+          "strand": "+",
+          "trigger_motif": "TGACGA",
+          "downstream_barrier_energy": -4.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_270",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_330_335",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 330,
+          "end_pos": 370,
+          "strand": "+",
+          "trigger_motif": "TGACCT",
+          "downstream_barrier_energy": -4.9,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_330",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.9
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1227_1232",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1227,
+          "end_pos": 1267,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1227",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1392_1397",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1392,
+          "end_pos": 1432,
+          "strand": "+",
+          "trigger_motif": "TGACTC",
+          "downstream_barrier_energy": -9.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1392",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1416_1421",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1416,
+          "end_pos": 1456,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -3.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1416",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -3.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1530_1535",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1530,
+          "end_pos": 1570,
+          "strand": "+",
+          "trigger_motif": "TGACTA",
+          "downstream_barrier_energy": -1.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1530",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -1.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_239_244",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 239,
+          "end_pos": 279,
+          "strand": "+",
+          "trigger_motif": "TAGCTG",
+          "downstream_barrier_energy": -3.1,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_239",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -3.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_707_712",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 707,
+          "end_pos": 747,
+          "strand": "+",
+          "trigger_motif": "TAGCTA",
+          "downstream_barrier_energy": -3.1,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_707",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -3.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1076_1081",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1076,
+          "end_pos": 1116,
+          "strand": "+",
+          "trigger_motif": "TAGCAG",
+          "downstream_barrier_energy": -2.1,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1076",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -2.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1137_1142",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1137,
+          "end_pos": 1177,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -7.5,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1137",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1649_1654",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1649,
+          "end_pos": 1689,
+          "strand": "+",
+          "trigger_motif": "TAGCAC",
+          "downstream_barrier_energy": -7.1,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1649",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1667_1672",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1667,
+          "end_pos": 1707,
+          "strand": "+",
+          "trigger_motif": "TAGCTG",
+          "downstream_barrier_energy": -7.8,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1667",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_885_890",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 885,
+          "end_pos": 925,
+          "strand": "+",
+          "trigger_motif": "TAACTG",
+          "downstream_barrier_energy": -6.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_885",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1272_1277",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1272,
+          "end_pos": 1312,
+          "strand": "+",
+          "trigger_motif": "TAACTT",
+          "downstream_barrier_energy": -3.0,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1272",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -3.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1227_1232",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1227,
+          "end_pos": 1267,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1227",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1416_1421",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1416,
+          "end_pos": 1456,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -3.5,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1416",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -3.5
+          }
+        },
+        {
+          "gate_id": "GATE_RT_1137_1142",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 1137,
+          "end_pos": 1177,
+          "strand": "+",
+          "trigger_motif": "TAGCAA",
+          "downstream_barrier_energy": -7.5,
+          "predicted_efficiency": 0.22,
+          "target_subroutine_id": "EXTENDED_ISOFORM_1137",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-CAA (Tobacco Mosaic / Retrovirus Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 22.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -7.5
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 4,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 18,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 22,
+        "branching_multiplexers": 4,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 18,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 12.5
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg7_M",
+      "genome_length": 1027,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_430_435",
+          "gate_type": "frameshift_branch",
+          "start_pos": 430,
+          "end_pos": 480,
+          "strand": "+",
+          "trigger_motif": "GGGAAC",
+          "downstream_barrier_energy": -9.2,
+          "predicted_efficiency": 0.157,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_430",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -9.2,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 3,
+            "branching_ratio_pct": 15.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_189_194",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 189,
+          "end_pos": 229,
+          "strand": "+",
+          "trigger_motif": "TGACTA",
+          "downstream_barrier_energy": -7.1,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_189",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -7.1
+          }
+        },
+        {
+          "gate_id": "GATE_RT_438_443",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 438,
+          "end_pos": 478,
+          "strand": "+",
+          "trigger_motif": "TGACCA",
+          "downstream_barrier_energy": -9.2,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_438",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -9.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_971_976",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 971,
+          "end_pos": 1011,
+          "strand": "+",
+          "trigger_motif": "TGACGA",
+          "downstream_barrier_energy": -4.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_971",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_694_699",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 694,
+          "end_pos": 734,
+          "strand": "+",
+          "trigger_motif": "TAGCTC",
+          "downstream_barrier_energy": -5.3,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_694",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -5.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_36_41",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 36,
+          "end_pos": 76,
+          "strand": "+",
+          "trigger_motif": "TAACCG",
+          "downstream_barrier_energy": -5.8,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_36",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -5.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_345_350",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 345,
+          "end_pos": 385,
+          "strand": "+",
+          "trigger_motif": "TAACAT",
+          "downstream_barrier_energy": -7.2,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_345",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -7.2
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 1,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 6,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 7,
+        "branching_multiplexers": 1,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 6,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 6.816
+      }
+    },
+    {
+      "genome_id": "H5N1_Seg8_NS",
+      "genome_length": 865,
+      "gates_found": [
+        {
+          "gate_id": "GATE_FS_410_416",
+          "gate_type": "frameshift_branch",
+          "start_pos": 410,
+          "end_pos": 461,
+          "strand": "+",
+          "trigger_motif": "AAATTTC",
+          "downstream_barrier_energy": -11.2,
+          "predicted_efficiency": 0.232,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_410",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (AAAUUUA/C/T (Retroviral HIV-1 / Lentivirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -11.2,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 4,
+            "branching_ratio_pct": 23.2
+          }
+        },
+        {
+          "gate_id": "GATE_FS_623_628",
+          "gate_type": "frameshift_branch",
+          "start_pos": 623,
+          "end_pos": 673,
+          "strand": "+",
+          "trigger_motif": "GGGAAT",
+          "downstream_barrier_energy": -10.4,
+          "predicted_efficiency": 0.203,
+          "target_subroutine_id": "SUBROUTINE_FRAME_SHIFT_623",
+          "description": "Programmed -1/+1 Frameshift Branching Multiplexer (GGGAAAC/A/T (Bacteriophage / Alphavirus))",
+          "metrics": {
+            "spacer_length_nt": 5,
+            "barrier_mfe_kcal_mol": -10.4,
+            "barrier_stem_length": 6,
+            "barrier_loop_length": 7,
+            "branching_ratio_pct": 20.2
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2_7",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2,
+          "end_pos": 42,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_113_118",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 113,
+          "end_pos": 153,
+          "strand": "+",
+          "trigger_motif": "TGACAG",
+          "downstream_barrier_energy": -2.8,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_113",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -2.8
+          }
+        },
+        {
+          "gate_id": "GATE_RT_746_751",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 746,
+          "end_pos": 786,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -4.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_746",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-C (Canonical Leaky Stop Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_250_255",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 250,
+          "end_pos": 290,
+          "strand": "+",
+          "trigger_motif": "TAGCCA",
+          "downstream_barrier_energy": -9.0,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_250",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -9.0
+          }
+        },
+        {
+          "gate_id": "GATE_RT_762_767",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 762,
+          "end_pos": 802,
+          "strand": "+",
+          "trigger_motif": "TAGCTT",
+          "downstream_barrier_energy": -10.3,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_762",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAG-C (High-Efficiency Readthrough Gate))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAG",
+            "downstream_context_dG": -10.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_31_36",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 31,
+          "end_pos": 71,
+          "strand": "+",
+          "trigger_motif": "TAACCT",
+          "downstream_barrier_energy": -7.7,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_31",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -7.7
+          }
+        },
+        {
+          "gate_id": "GATE_RT_346_351",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 346,
+          "end_pos": 386,
+          "strand": "+",
+          "trigger_motif": "TAACTG",
+          "downstream_barrier_energy": -5.6,
+          "predicted_efficiency": 0.05,
+          "target_subroutine_id": "EXTENDED_ISOFORM_346",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 5.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -5.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_581_586",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 581,
+          "end_pos": 621,
+          "strand": "+",
+          "trigger_motif": "TAACTC",
+          "downstream_barrier_energy": -6.6,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_581",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -6.6
+          }
+        },
+        {
+          "gate_id": "GATE_RT_776_781",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 776,
+          "end_pos": 816,
+          "strand": "+",
+          "trigger_motif": "TAACAT",
+          "downstream_barrier_energy": -10.3,
+          "predicted_efficiency": 0.13,
+          "target_subroutine_id": "EXTENDED_ISOFORM_776",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UAA-C (Moderate Permissive Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 13.0,
+            "stop_codon_type": "TAA",
+            "downstream_context_dG": -10.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_2_7",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 2,
+          "end_pos": 42,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -6.3,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_2",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -6.3
+          }
+        },
+        {
+          "gate_id": "GATE_RT_746_751",
+          "gate_type": "readthrough_overflow",
+          "start_pos": 746,
+          "end_pos": 786,
+          "strand": "+",
+          "trigger_motif": "TGACAA",
+          "downstream_barrier_energy": -4.6,
+          "predicted_efficiency": 0.14,
+          "target_subroutine_id": "EXTENDED_ISOFORM_746",
+          "description": "Programmed Stop-Codon Readthrough Overflow Gate (UGA-CAA (Viral Replicase Readthrough))",
+          "metrics": {
+            "readthrough_frequency_pct": 14.0,
+            "stop_codon_type": "TGA",
+            "downstream_context_dG": -4.6
+          }
+        }
+      ],
+      "gate_counts_by_type": {
+        "frameshift_branch": 2,
+        "g4_circuit_breaker": 0,
+        "readthrough_overflow": 11,
+        "xor_collision": 0,
+        "rolling_circle_loop": 0
+      },
+      "summary": {
+        "total_logic_gates_detected": 13,
+        "branching_multiplexers": 2,
+        "g4_circuit_breakers": 0,
+        "stop_readthrough_gates": 11,
+        "xor_collision_switches": 0,
+        "computational_density_per_kb": 15.029
+      }
+    }
+  ]
+}
