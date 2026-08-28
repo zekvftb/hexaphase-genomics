@@ -1,0 +1,1210 @@
+{
+  "status": "PASSED",
+  "audit_version": "1.0.0-MASTER",
+  "timestamp": "2026-08-28T20:04:03.492529+00:00",
+  "total_targets_audited": 47,
+  "total_nucleotides_evaluated": 9868751,
+  "global_summary": {
+    "total_hardware_logic_gates": 98028,
+    "total_crispr_security_arrays": 90,
+    "total_cpg_memory_islands": 107,
+    "total_riboswitch_adcs": 21,
+    "total_guanine_traps": 159504
+  },
+  "records": [
+    {
+      "target_id": "H5N1_Seg1_PB2",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 2341,
+      "unit": "base_pairs",
+      "sha256": "dfec5ec713c9fd39e2a307b60ca7aea359411978a3d0424006f8dac88ad0d1ad",
+      "information": {
+        "gc_content_pct": 44.25,
+        "shannon_entropy_bits": 1.9658
+      },
+      "logic_gates_estimated": 28,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 601,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg2_PB1",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 2341,
+      "unit": "base_pairs",
+      "sha256": "ddf27559d7ac0cf2f027e074361d06f6f134c2527703ec808efe06364b63bf4e",
+      "information": {
+        "gc_content_pct": 44.08,
+        "shannon_entropy_bits": 1.9682
+      },
+      "logic_gates_estimated": 22,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 561,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg3_PA",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 2233,
+      "unit": "base_pairs",
+      "sha256": "2bbf97af176eb8610eb36844f077e7fdf65bbe0d45ad5b62b655814514180290",
+      "information": {
+        "gc_content_pct": 43.75,
+        "shannon_entropy_bits": 1.9747
+      },
+      "logic_gates_estimated": 12,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 531,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg4_HA",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 1565,
+      "unit": "base_pairs",
+      "sha256": "0f930157678969e01705e651b6c4dca5443a7e7ac91dd719a64304014271ee42",
+      "information": {
+        "gc_content_pct": 46.77,
+        "shannon_entropy_bits": 1.9731
+      },
+      "logic_gates_estimated": 12,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 426,
+        "mean_transmission": 0.0016,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg5_NP",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 1458,
+      "unit": "base_pairs",
+      "sha256": "8be0ae3b97d3c20aa45d6369a8d3b54c6b3170b16991be5f54a3bce45e74c3be",
+      "information": {
+        "gc_content_pct": 43.42,
+        "shannon_entropy_bits": 1.98
+      },
+      "logic_gates_estimated": 24,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 359,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg6_NA",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 1760,
+      "unit": "base_pairs",
+      "sha256": "2857da78ef9a603d4955b0851825b1c38f8706c4a3af9e7f99f1c91abf50ed74",
+      "information": {
+        "gc_content_pct": 41.7,
+        "shannon_entropy_bits": 1.9632
+      },
+      "logic_gates_estimated": 20,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 405,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg7_M",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 1027,
+      "unit": "base_pairs",
+      "sha256": "65a07c99c73f863934c4ac913063d90e2a1a9f5d020b11cde293031fb0d37641",
+      "information": {
+        "gc_content_pct": 47.91,
+        "shannon_entropy_bits": 1.9911
+      },
+      "logic_gates_estimated": 7,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 274,
+        "mean_transmission": 0.0016,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "H5N1_Seg8_NS",
+      "source_file": "h5n1_avian_flu_complete.fasta",
+      "length": 865,
+      "unit": "base_pairs",
+      "sha256": "b3c80f25ca31fd1735848f752a5c9d8c257ec020074493050a143d325766c648",
+      "information": {
+        "gc_content_pct": 41.39,
+        "shannon_entropy_bits": 1.9657
+      },
+      "logic_gates_estimated": 12,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 197,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "TP53",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 2512,
+      "unit": "base_pairs",
+      "sha256": "0c886e7e551d310e2927798a67c9ec865664222ec36ef095711ba4e2d6dc1f42",
+      "information": {
+        "gc_content_pct": 53.38,
+        "shannon_entropy_bits": 1.9918
+      },
+      "logic_gates_estimated": 21,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 621,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "MYC",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 3721,
+      "unit": "base_pairs",
+      "sha256": "982116af25ea0259a314551d288d9279d2ad7e6a447491cc710c08348ee0b1df",
+      "information": {
+        "gc_content_pct": 48.78,
+        "shannon_entropy_bits": 1.9979
+      },
+      "logic_gates_estimated": 32,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 856,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "KRAS",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 5306,
+      "unit": "base_pairs",
+      "sha256": "7f8e74a0ff8713a9f7b3db4656c941c976c70d0236c8f0b96e5a03c246b652dc",
+      "information": {
+        "gc_content_pct": 36.28,
+        "shannon_entropy_bits": 1.9425
+      },
+      "logic_gates_estimated": 62,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1021,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "EGFR",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 9905,
+      "unit": "base_pairs",
+      "sha256": "41a7aa2a7b04292ab4be7c90cda6a7463641af288ed2b1a862d6293ca0686c70",
+      "information": {
+        "gc_content_pct": 47.78,
+        "shannon_entropy_bits": 1.9969
+      },
+      "logic_gates_estimated": 88,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 4,
+        "promoter_memory_latches": 4,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2282,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "BRCA1",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 7088,
+      "unit": "base_pairs",
+      "sha256": "3a3ba131ece216aadd66b93e8ee16949e73e9307dbabcda3730b3934bff4b8fb",
+      "information": {
+        "gc_content_pct": 41.77,
+        "shannon_entropy_bits": 1.9697
+      },
+      "logic_gates_estimated": 73,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1585,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "PTEN",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 8515,
+      "unit": "base_pairs",
+      "sha256": "94af8b92c6dabc398d64c724165cd05ec0d37aa39e2c8df991fdaae1847a02c9",
+      "information": {
+        "gc_content_pct": 36.72,
+        "shannon_entropy_bits": 1.9468
+      },
+      "logic_gates_estimated": 90,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1638,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "BRAF",
+      "source_file": "human_cancer_oncogenes.fasta",
+      "length": 6459,
+      "unit": "base_pairs",
+      "sha256": "86c4c7c020bf31f942b34187c43a68c29db55ba8c3d075cb2b72df22e7463b0f",
+      "information": {
+        "gc_content_pct": 41.07,
+        "shannon_entropy_bits": 1.9756
+      },
+      "logic_gates_estimated": 69,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 3,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1278,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "HIV1",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 9181,
+      "unit": "base_pairs",
+      "sha256": "0cfba8731832840b1328eac809832dc2b51586d242b5236887f35ae0ae855ea6",
+      "information": {
+        "gc_content_pct": 42.12,
+        "shannon_entropy_bits": 1.9525
+      },
+      "logic_gates_estimated": 118,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2225,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Ebola_Virus",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 18959,
+      "unit": "base_pairs",
+      "sha256": "a369c9029781cce86e8c939dbb70d4a1b228f61707fc1729acd4b03efdcaa8a2",
+      "information": {
+        "gc_content_pct": 41.07,
+        "shannon_entropy_bits": 1.9734
+      },
+      "logic_gates_estimated": 226,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 6,
+        "promoter_memory_latches": 4,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 3752,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "RSV",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 15191,
+      "unit": "base_pairs",
+      "sha256": "aa5790a6bf19092da75365650e22afa02946adfbab49eab6b337621ddae3804c",
+      "information": {
+        "gc_content_pct": 33.2,
+        "shannon_entropy_bits": 1.9032
+      },
+      "logic_gates_estimated": 210,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2370,
+        "mean_transmission": 0.001,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Dengue_Virus_2",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 10723,
+      "unit": "base_pairs",
+      "sha256": "13644cf45a8905f552d9f1bed2bf75464ee08d3e82b377ccdb254e97a231675c",
+      "information": {
+        "gc_content_pct": 45.82,
+        "shannon_entropy_bits": 1.9717
+      },
+      "logic_gates_estimated": 131,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2713,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Zika_Virus",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 10794,
+      "unit": "base_pairs",
+      "sha256": "a466d0877d62aca5f8d66d74d6c05a02b3f730a33425aea4c1ec2cdd2ca82b28",
+      "information": {
+        "gc_content_pct": 50.94,
+        "shannon_entropy_bits": 1.9864
+      },
+      "logic_gates_estimated": 114,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 7,
+        "promoter_memory_latches": 4,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 3139,
+        "mean_transmission": 0.0018,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Hepatitis_C",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 9646,
+      "unit": "base_pairs",
+      "sha256": "ae890914689f2425ffa302496923fe8f8c4864b1659c1ddf5ab9fe068b2438a1",
+      "information": {
+        "gc_content_pct": 58.23,
+        "shannon_entropy_bits": 1.9788
+      },
+      "logic_gates_estimated": 82,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 10,
+        "promoter_memory_latches": 10,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2724,
+        "mean_transmission": 0.0017,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Mpox_Virus",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 197209,
+      "unit": "base_pairs",
+      "sha256": "922be474229c7de4e16983a337ec8e80e45e50efa102463eacf04d16f04cec03",
+      "information": {
+        "gc_content_pct": 33.03,
+        "shannon_entropy_bits": 1.9152
+      },
+      "logic_gates_estimated": 2506,
+      "circuits": {
+        "crispr_security_arrays_found": 8,
+        "total_spacers_archived": 16,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 2
+      },
+      "quantum_conductance": {
+        "guanine_traps": 15984,
+        "mean_transmission": 0.001,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Influenza_A_PB2",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 1701,
+      "unit": "base_pairs",
+      "sha256": "9f277bc714ab70343fd0f64b455ce80ba7876f076aa48e667d369bea2596e808",
+      "information": {
+        "gc_content_pct": 40.74,
+        "shannon_entropy_bits": 1.9683
+      },
+      "logic_gates_estimated": 19,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 377,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Influenza_A_PB1",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 1410,
+      "unit": "base_pairs",
+      "sha256": "cc8c82ab6fdbc5c95f17b4bf9730029654cdbf080a4a0d7b1fc8f5d2d247238f",
+      "information": {
+        "gc_content_pct": 42.13,
+        "shannon_entropy_bits": 1.9738
+      },
+      "logic_gates_estimated": 22,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 331,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Influenza_A_HA",
+      "source_file": "pan_pathogen_cohort.fasta",
+      "length": 1497,
+      "unit": "base_pairs",
+      "sha256": "7e3276efd13b79dba5e8f6fd475becab6dd4ce279eb73b4b7d60c1736d2319a4",
+      "information": {
+        "gc_content_pct": 46.23,
+        "shannon_entropy_bits": 1.9759
+      },
+      "logic_gates_estimated": 15,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 398,
+        "mean_transmission": 0.0016,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "NC_001422.1",
+      "source_file": "phix174_complete.fasta",
+      "length": 5386,
+      "unit": "base_pairs",
+      "sha256": "97038c7e1edea2297667d7f0426ba942b322c74cb30e072ec66ba47f9c0448d0",
+      "information": {
+        "gc_content_pct": 44.76,
+        "shannon_entropy_bits": 1.9846
+      },
+      "logic_gates_estimated": 68,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1254,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_whole_genome",
+      "source_file": "phix174_partitions.fasta",
+      "length": 5386,
+      "unit": "base_pairs",
+      "sha256": "97038c7e1edea2297667d7f0426ba942b322c74cb30e072ec66ba47f9c0448d0",
+      "information": {
+        "gc_content_pct": 44.76,
+        "shannon_entropy_bits": 1.9846
+      },
+      "logic_gates_estimated": 68,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1254,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_overlap_gene_e",
+      "source_file": "phix174_partitions.fasta",
+      "length": 276,
+      "unit": "base_pairs",
+      "sha256": "329bf1c59a826390d7d6b78b653b86783f15f359bcabe72eceb02389d76b9d99",
+      "information": {
+        "gc_content_pct": 47.83,
+        "shannon_entropy_bits": 1.9944
+      },
+      "logic_gates_estimated": 2,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 69,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_overlap_gene_k",
+      "source_file": "phix174_partitions.fasta",
+      "length": 171,
+      "unit": "base_pairs",
+      "sha256": "1ff5212514f6f6e3133fecd7fc6320f625d1c3d3d288c67c23c4f66f1eb74df5",
+      "information": {
+        "gc_content_pct": 40.35,
+        "shannon_entropy_bits": 1.9703
+      },
+      "logic_gates_estimated": 1,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 34,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_f",
+      "source_file": "phix174_partitions.fasta",
+      "length": 1284,
+      "unit": "base_pairs",
+      "sha256": "d51e18a3da6ea8cce38ddd4c5d3388e033490638dc8af8109b6ff50a9e8020ca",
+      "information": {
+        "gc_content_pct": 44.94,
+        "shannon_entropy_bits": 1.9719
+      },
+      "logic_gates_estimated": 22,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 1,
+        "promoter_memory_latches": 1,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 266,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_g",
+      "source_file": "phix174_partitions.fasta",
+      "length": 528,
+      "unit": "base_pairs",
+      "sha256": "37592e308c140a39477b9152d94e3c1f191354585d5aa73ebd9f8164da42fb9e",
+      "information": {
+        "gc_content_pct": 42.05,
+        "shannon_entropy_bits": 1.9413
+      },
+      "logic_gates_estimated": 6,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 108,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_h",
+      "source_file": "phix174_partitions.fasta",
+      "length": 987,
+      "unit": "base_pairs",
+      "sha256": "00ab5851b3a7c67f9c4a9c8711fe26652a0f7e3b0f605f4e7083ae2d3c17fcaf",
+      "information": {
+        "gc_content_pct": 45.09,
+        "shannon_entropy_bits": 1.9859
+      },
+      "logic_gates_estimated": 6,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 251,
+        "mean_transmission": 0.0015,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "phix174_intergenic_jf",
+      "source_file": "phix174_partitions.fasta",
+      "length": 122,
+      "unit": "base_pairs",
+      "sha256": "968989da68eb575186b4b1a858a8958f633683ada8bd921821eb3e268573ff32",
+      "information": {
+        "gc_content_pct": 51.64,
+        "shannon_entropy_bits": 1.9867
+      },
+      "logic_gates_estimated": 0,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 36,
+        "mean_transmission": 0.0018,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Methanocaldococcus_jannaschii",
+      "source_file": "primordial_archaea\\primordial_archaea_cohort.fasta",
+      "length": 1664970,
+      "unit": "base_pairs",
+      "sha256": "5835a292dfd47875f81fb65dbca52f3f9bc336f1d72409389ff6b764c8ca91dc",
+      "information": {
+        "gc_content_pct": 31.43,
+        "shannon_entropy_bits": 1.8981
+      },
+      "logic_gates_estimated": 19097,
+      "circuits": {
+        "crispr_security_arrays_found": 71,
+        "total_spacers_archived": 303,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 3,
+        "riboswitch_adcs_detected": 3
+      },
+      "quantum_conductance": {
+        "guanine_traps": 15527,
+        "mean_transmission": 0.001,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Pyrococcus_furiosus",
+      "source_file": "primordial_archaea\\primordial_archaea_cohort.fasta",
+      "length": 1908256,
+      "unit": "base_pairs",
+      "sha256": "34307cbb2b2f2fb8f64bc36c3581c4115347652ded46a343e1c68bb0cea9bdb2",
+      "information": {
+        "gc_content_pct": 40.77,
+        "shannon_entropy_bits": 1.9753
+      },
+      "logic_gates_estimated": 19864,
+      "circuits": {
+        "crispr_security_arrays_found": 11,
+        "total_spacers_archived": 190,
+        "cpg_memory_islands_mapped": 6,
+        "promoter_memory_latches": 5,
+        "riboswitch_adcs_detected": 6
+      },
+      "quantum_conductance": {
+        "guanine_traps": 20035,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Sulfolobus_solfataricus",
+      "source_file": "primordial_archaea\\primordial_archaea_cohort.fasta",
+      "length": 2992245,
+      "unit": "base_pairs",
+      "sha256": "8a0fce10276585e583591bc78679d1a3c4eaa8e0d117d2eb99f0b2bf593c304c",
+      "information": {
+        "gc_content_pct": 35.79,
+        "shannon_entropy_bits": 1.9409
+      },
+      "logic_gates_estimated": 39228,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 5,
+        "promoter_memory_latches": 5,
+        "riboswitch_adcs_detected": 3
+      },
+      "quantum_conductance": {
+        "guanine_traps": 16718,
+        "mean_transmission": 0.0011,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Haloferax_volcanii",
+      "source_file": "primordial_archaea\\primordial_archaea_cohort.fasta",
+      "length": 2847757,
+      "unit": "base_pairs",
+      "sha256": "84e8c81d9bde972954b8af36dcebcd3a51e9ba08ec1eee4845a5899ed0335fa1",
+      "information": {
+        "gc_content_pct": 66.64,
+        "shannon_entropy_bits": 1.9186
+      },
+      "logic_gates_estimated": 14324,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 5,
+        "promoter_memory_latches": 5,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 33809,
+        "mean_transmission": 0.0021,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "Erithacus_rubecula_CRY4",
+      "source_file": "quantum_cryptochromes.fasta",
+      "length": 360,
+      "unit": "amino_acids",
+      "sha256": "11310d3111e7e3c8ad591e0bf97ff7147c0fd501983df87ada7b40b22dd09d01",
+      "quantum_radical_pairs": {
+        "gene_id": "Erithacus_rubecula_CRY4",
+        "organism": "Homo sapiens",
+        "tryptophan_chain_count": 25,
+        "tryptophan_positions": [
+          18,
+          56,
+          64,
+          82,
+          86,
+          109,
+          117,
+          135,
+          139,
+          162,
+          170,
+          188,
+          192,
+          215,
+          223,
+          241,
+          245,
+          268,
+          276,
+          294,
+          298,
+          321,
+          329,
+          347,
+          351
+        ],
+        "electron_hopping_pathway_valid": true,
+        "estimated_spin_coherence_time_ns": 7100.0,
+        "singlet_triplet_yield_phi_s": 0.65,
+        "magnetoreception_viable": true,
+        "description": "Cryptochrome Radical Pair Quantum Magnetosensor"
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_CRY1",
+      "source_file": "quantum_cryptochromes.fasta",
+      "length": 360,
+      "unit": "amino_acids",
+      "sha256": "ff306de04482d5faa67c24039a9ef49ece12fc5113c9d94e103145d778665818",
+      "quantum_radical_pairs": {
+        "gene_id": "Homo_sapiens_CRY1",
+        "organism": "Homo sapiens",
+        "tryptophan_chain_count": 6,
+        "tryptophan_positions": [
+          8,
+          40,
+          52,
+          70,
+          81,
+          106
+        ],
+        "electron_hopping_pathway_valid": true,
+        "estimated_spin_coherence_time_ns": 2550.0,
+        "singlet_triplet_yield_phi_s": 0.65,
+        "magnetoreception_viable": true,
+        "description": "Cryptochrome Radical Pair Quantum Magnetosensor"
+      }
+    },
+    {
+      "target_id": "Homo_sapiens_CRY2",
+      "source_file": "quantum_cryptochromes.fasta",
+      "length": 360,
+      "unit": "amino_acids",
+      "sha256": "356b4e28a859923a230d9ac994593c85cebe0cac8bdf4c2fa9ddb414cab0d3a6",
+      "quantum_radical_pairs": {
+        "gene_id": "Homo_sapiens_CRY2",
+        "organism": "Homo sapiens",
+        "tryptophan_chain_count": 6,
+        "tryptophan_positions": [
+          8,
+          40,
+          52,
+          70,
+          81,
+          106
+        ],
+        "electron_hopping_pathway_valid": true,
+        "estimated_spin_coherence_time_ns": 2550.0,
+        "singlet_triplet_yield_phi_s": 0.65,
+        "magnetoreception_viable": true,
+        "description": "Cryptochrome Radical Pair Quantum Magnetosensor"
+      }
+    },
+    {
+      "target_id": "phix174_virus",
+      "source_file": "study_cohort\\study_cohort.fasta",
+      "length": 5386,
+      "unit": "base_pairs",
+      "sha256": "97038c7e1edea2297667d7f0426ba942b322c74cb30e072ec66ba47f9c0448d0",
+      "information": {
+        "gc_content_pct": 44.76,
+        "shannon_entropy_bits": 1.9846
+      },
+      "logic_gates_estimated": 68,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 2,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1254,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "lambda_phage",
+      "source_file": "study_cohort\\study_cohort.fasta",
+      "length": 48502,
+      "unit": "base_pairs",
+      "sha256": "36432a40f602258d19ae7c8152ddbc30390b559f2859c01d7047c77b048c71b3",
+      "information": {
+        "gc_content_pct": 49.86,
+        "shannon_entropy_bits": 1.9986
+      },
+      "logic_gates_estimated": 507,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 18,
+        "promoter_memory_latches": 18,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 12820,
+        "mean_transmission": 0.0016,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "sars_cov_2_virus",
+      "source_file": "study_cohort\\study_cohort.fasta",
+      "length": 29903,
+      "unit": "base_pairs",
+      "sha256": "7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca",
+      "information": {
+        "gc_content_pct": 37.97,
+        "shannon_entropy_bits": 1.957
+      },
+      "logic_gates_estimated": 387,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 2,
+        "riboswitch_adcs_detected": 1
+      },
+      "quantum_conductance": {
+        "guanine_traps": 5863,
+        "mean_transmission": 0.0012,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "human_mitochondria",
+      "source_file": "study_cohort\\study_cohort.fasta",
+      "length": 16569,
+      "unit": "base_pairs",
+      "sha256": "f156ff3f65bbcc80c7ebb9936dceb96b1477b4f8f535c4e1dbe7baea225cbc66",
+      "information": {
+        "gc_content_pct": 44.36,
+        "shannon_entropy_bits": 1.9313
+      },
+      "logic_gates_estimated": 301,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 10,
+        "promoter_memory_latches": 7,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 2169,
+        "mean_transmission": 0.0009,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": false
+      }
+    },
+    {
+      "target_id": "regulatory_switch_locus",
+      "source_file": "study_cohort\\study_cohort.fasta",
+      "length": 6200,
+      "unit": "base_pairs",
+      "sha256": "b071e79e762c836b393add6976bb34d3959220f0d565fa04767e29068ede2bd3",
+      "information": {
+        "gc_content_pct": 43.02,
+        "shannon_entropy_bits": 1.9855
+      },
+      "logic_gates_estimated": 58,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 3,
+        "promoter_memory_latches": 3,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 1314,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "synthetic_lambda_cro_region",
+      "source_file": "synthetic_sample.fasta",
+      "length": 219,
+      "unit": "base_pairs",
+      "sha256": "929aa234646b4fc5392062a34c19eabc6fee6e8afdd570f18b0500029b1a86ad",
+      "information": {
+        "gc_content_pct": 42.47,
+        "shannon_entropy_bits": 1.9521
+      },
+      "logic_gates_estimated": 4,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 49,
+        "mean_transmission": 0.0014,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    },
+    {
+      "target_id": "synthetic_lac_operon_promoter",
+      "source_file": "synthetic_sample.fasta",
+      "length": 117,
+      "unit": "base_pairs",
+      "sha256": "51a1c7580733b73cbe7d86cf46964d15f45d296a119ad15402f9330f8a8a6003",
+      "information": {
+        "gc_content_pct": 43.59,
+        "shannon_entropy_bits": 1.982
+      },
+      "logic_gates_estimated": 2,
+      "circuits": {
+        "crispr_security_arrays_found": 0,
+        "total_spacers_archived": 0,
+        "cpg_memory_islands_mapped": 0,
+        "promoter_memory_latches": 0,
+        "riboswitch_adcs_detected": 0
+      },
+      "quantum_conductance": {
+        "guanine_traps": 26,
+        "mean_transmission": 0.0013,
+        "electronic_bandgap_ev": 1.39,
+        "telemetry_intact": true
+      }
+    }
+  ]
+}
