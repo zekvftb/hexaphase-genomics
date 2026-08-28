@@ -1,0 +1,31 @@
+dry_run: false
+global_seed: 42
+modules:
+  module_0_ingestion:
+    enabled: true
+    input_files:
+    - dataset_id: ds_lambda_lac_sample
+      license: CC0-1.0
+      organism: Synthetic Lambda/Lac Fragment
+      path: data/synthetic_sample.fasta
+      sequence_type: DNA
+      source: In-silico test benchmark
+  module_1_information:
+    enabled: true
+    num_shuffles: 50
+  module_2_regulation:
+    enabled: true
+    input_file: tests/fixtures/valid_network.tsv
+    num_null_graphs: 20
+  module_3_simulation:
+    enabled: true
+    input_file: tests/fixtures/valid_network.tsv
+    time_steps: 20
+    trials: 10
+output_dir: outputs/runs
+project_name: bio_information_architecture
+resource_limits:
+  max_kmer_length: 6
+  max_permutations: 500
+  max_sequence_length_mb: 25
+version: 0.1.0

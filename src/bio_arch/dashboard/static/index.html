@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biology as Information Architecture | Local Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js for interactive visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Header -->
+    <header class="navbar">
+      <div class="brand">
+        <span class="logo-icon">🧬</span>
+        <div>
+          <h1>Bio-Information Architecture</h1>
+          <span class="badge">100% Local PC Engine</span>
+        </div>
+      </div>
+      <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="runs-tab">📊 Pipeline Runs</button>
+        <button class="tab-btn" data-tab="disassembler-tab">⚙️ Biological Disassembler</button>
+        <button class="tab-btn" data-tab="linguistics-tab">📈 DNA Linguistics & Zipf</button>
+        <button class="tab-btn" data-tab="circuits-tab">🔄 Regulatory Logic & States</button>
+      </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="content">
+
+      <!-- TAB 1: RUNS & SCIENTIFIC REPORTS -->
+      <section id="runs-tab" class="tab-pane active">
+        <div class="pane-header">
+          <h2>Scientific Pipeline Runs</h2>
+          <div class="run-selector-container">
+            <label for="run-select">Select Run:</label>
+            <select id="run-select"></select>
+            <button id="refresh-runs-btn" class="btn btn-secondary">🔄 Refresh</button>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Execution Status</span>
+            <span id="stat-status" class="stat-value text-green">--</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Total Findings</span>
+            <span id="stat-findings" class="stat-value">--</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Interpretations</span>
+            <span id="stat-interpretations" class="stat-value">--</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Execution Time</span>
+            <span id="stat-time" class="stat-value">--</span>
+          </div>
+        </div>
+
+        <div class="card report-viewer">
+          <h3>Scientific Report Output (Markdown)</h3>
+          <div id="report-content" class="report-box">Loading report...</div>
+        </div>
+      </section>
+
+      <!-- TAB 2: BIOLOGICAL DISASSEMBLER (IDE) -->
+      <section id="disassembler-tab" class="tab-pane">
+        <div class="pane-header">
+          <h2>Biological Disassembler & Decompiler</h2>
+          <p class="subtitle">Treats raw DNA sequences as compiled machine bytecode, scanning for promoters, operators, ribosome binding sites, and open reading frames.</p>
+        </div>
+
+        <div class="disassembler-grid">
+          <div class="card input-card">
+            <h3>Input Nucleotide Sequence (DNA / RNA)</h3>
+            <div class="sample-buttons">
+              <button class="btn btn-sm" id="btn-sample-lac">Load Lac Operon Sample</button>
+              <button class="btn btn-sm" id="btn-sample-phix">Load PhiX174 Gene E</button>
+            </div>
+            <textarea id="dna-input" placeholder="Paste A, C, G, T sequence here..." rows="6"></textarea>
+            <button id="disassemble-btn" class="btn btn-primary">⚡ Disassemble & Decompile</button>
+          </div>
+
+          <div class="card visualizer-card">
+            <h3>Syntactic Token Map</h3>
+            <div id="token-legend" class="token-legend">
+              <span class="legend-item bg-promoter">Promoter (-10/-35)</span>
+              <span class="legend-item bg-rbs">RBS (Shine-Dalgarno)</span>
+              <span class="legend-item bg-start">Start Codon (ATG)</span>
+              <span class="legend-item bg-cds">Reading Frame</span>
+              <span class="legend-item bg-stop">Stop Codon</span>
+            </div>
+            <div id="token-stream" class="token-stream-box">Click Disassemble to view tokens...</div>
+          </div>
+        </div>
+
+        <div class="output-split-grid">
+          <div class="card code-card">
+            <h3>Decompiled Pseudocode (Python-AST)</h3>
+            <pre><code id="pseudocode-output"># Decompiled pseudocode will appear here...</code></pre>
+          </div>
+          <div class="card code-card">
+            <h3>Low-Level Assembly Listing</h3>
+            <pre><code id="assembly-output">; Assembly listing will appear here...</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: DNA LINGUISTICS & ZIPF'S LAW -->
+      <section id="linguistics-tab" class="tab-pane">
+        <div class="pane-header">
+          <h2>DNA Linguistics & Bytecode Profiling</h2>
+          <p class="subtitle">Tests whether codon and token frequency distributions conform to Zipf's Law (human language) or compiled machine bytecode distributions.</p>
+        </div>
+
+        <div class="linguistics-grid">
+          <div class="card">
+            <h3>Rank-Frequency Power Law Fit</h3>
+            <canvas id="zipfChart" height="200"></canvas>
+            <div id="zipf-metrics" class="metrics-row">
+              <div><strong>Zipf Exponent (&alpha;):</strong> <span id="val-alpha">--</span></div>
+              <div><strong>Goodness of Fit (R&sup2;):</strong> <span id="val-r2">--</span></div>
+              <div><strong>Null Shuffled &alpha;:</strong> <span id="val-null-alpha">--</span></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Reusable "Subroutine" Dictionary (LZ-78)</h3>
+            <p class="small-text">Repeating multi-nucleotide blocks reused across the sequence.</p>
+            <ul id="subroutine-list" class="subroutine-list">
+              <li>No sequence analyzed yet.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: CIRCUITS & LOGIC GATES -->
+      <section id="circuits-tab" class="tab-pane">
+        <div class="pane-header">
+          <h2>Regulatory Logic Circuits & Dynamic States</h2>
+          <p class="subtitle">Visualizes biological feedback switches and Boolean network state attractors.</p>
+        </div>
+
+        <div class="circuits-grid">
+          <div class="card">
+            <h3>Bacterial Lac Operon Logic Gate</h3>
+            <div class="logic-circuit-diagram">
+              <div class="gate-box">
+                <span class="gate-title">INPUT SIGNALS</span>
+                <div class="signal-row">
+                  <span>Lactose:</span>
+                  <button class="toggle-btn" id="toggle-lac">FALSE</button>
+                </div>
+                <div class="signal-row">
+                  <span>Glucose:</span>
+                  <button class="toggle-btn active" id="toggle-glu">TRUE</button>
+                </div>
+              </div>
+              <div class="gate-arrow">&longrightarrow;</div>
+              <div class="gate-box logic-gate">
+                <span class="gate-title">BIOLOGICAL LOGIC GATE</span>
+                <code>[Lactose == TRUE] AND [Glucose == FALSE]</code>
+              </div>
+              <div class="gate-arrow">&longrightarrow;</div>
+              <div class="gate-box output-gate" id="operon-output-box">
+                <span class="gate-title">OUTPUT STATE</span>
+                <span id="operon-state-text" class="status-off">REPRESSED (OFF)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Boolean Attractor States</h3>
+            <p class="small-text">State convergence under deterministic discrete time-steps.</p>
+            <div class="attractor-cards-container" id="attractor-cards">
+              <div class="attractor-pill">Attractor 1: [GeneA: 1, GeneB: 0, GeneC: 0] (Fixed Point)</div>
+              <div class="attractor-pill">Attractor 2: [GeneA: 0, GeneB: 1, GeneC: 1] (Fixed Point)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

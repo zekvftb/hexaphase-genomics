@@ -1,0 +1,41 @@
+# Biology as Information Architecture - Example Run Configuration
+project_name: "bio_information_architecture"
+version: "0.1.0"
+
+# Execution settings
+global_seed: 42
+dry_run: false
+output_dir: "outputs/runs"
+
+# Resource & storage guardrails (laptop friendly)
+resource_limits:
+  max_kmer_length: 6         # Prevents exponential RAM exhaustion (4^k)
+  max_sequence_length_mb: 25 # Bounds in-memory sequence size
+  max_permutations: 500      # Bounds control shuffle iterations
+
+# Pipeline Module Configurations
+modules:
+  module_0_ingestion:
+    enabled: true
+    input_files:
+      - path: "data/synthetic_sample.fasta"
+        dataset_id: "ds_lambda_lac_sample"
+        organism: "Synthetic Lambda/Lac Fragment"
+        license: "CC0-1.0"
+        source: "In-silico test benchmark"
+        sequence_type: "DNA"
+
+  module_1_information:
+    enabled: true
+    num_shuffles: 50
+
+  module_2_regulation:
+    enabled: true
+    input_file: "tests/fixtures/valid_network.tsv"
+    num_null_graphs: 20
+
+  module_3_simulation:
+    enabled: true
+    input_file: "tests/fixtures/valid_network.tsv"
+    time_steps: 20
+    trials: 10

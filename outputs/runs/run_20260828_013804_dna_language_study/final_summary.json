@@ -1,0 +1,112 @@
+{
+  "run_id": "run_20260828_013804_dna_language_study",
+  "status": "completed",
+  "timestamp": "2026-08-28T01:38:05.055362+00:00",
+  "study_results": [
+    {
+      "target": "phix174_virus",
+      "is_control": false,
+      "length": 5386,
+      "zipf_alpha": 0.4847,
+      "zipf_r2": 0.7826,
+      "shannon_entropy_k1": 1.9846,
+      "compression_ratio": 0.3153,
+      "reusable_subroutines": 934,
+      "compiler_tokens": 178
+    },
+    {
+      "target": "lambda_phage",
+      "is_control": false,
+      "length": 48502,
+      "zipf_alpha": 0.5084,
+      "zipf_r2": 0.5536,
+      "shannon_entropy_k1": 1.98,
+      "compression_ratio": 0.3003,
+      "reusable_subroutines": 2447,
+      "compiler_tokens": 155
+    },
+    {
+      "target": "sars_cov_2_virus",
+      "is_control": false,
+      "length": 29903,
+      "zipf_alpha": 0.7365,
+      "zipf_r2": 0.7886,
+      "shannon_entropy_k1": 1.9544,
+      "compression_ratio": 0.3029,
+      "reusable_subroutines": 2465,
+      "compiler_tokens": 193
+    },
+    {
+      "target": "human_mitochondria",
+      "is_control": false,
+      "length": 16569,
+      "zipf_alpha": 0.6986,
+      "zipf_r2": 0.5705,
+      "shannon_entropy_k1": 1.9314,
+      "compression_ratio": 0.3035,
+      "reusable_subroutines": 2452,
+      "compiler_tokens": 153
+    },
+    {
+      "target": "regulatory_switch_locus",
+      "is_control": false,
+      "length": 6200,
+      "zipf_alpha": 0.4227,
+      "zipf_r2": 0.7116,
+      "shannon_entropy_k1": 1.9855,
+      "compression_ratio": 0.3181,
+      "reusable_subroutines": 1081,
+      "compiler_tokens": 190
+    },
+    {
+      "target": "control_english_language",
+      "is_control": true,
+      "length": 15000,
+      "zipf_alpha": 0.5883,
+      "zipf_r2": 0.8854,
+      "shannon_entropy_k1": 4.166,
+      "compression_ratio": 0.1642,
+      "reusable_subroutines": 155,
+      "compiler_tokens": 0
+    },
+    {
+      "target": "control_x86_machine_code",
+      "is_control": true,
+      "length": 15000,
+      "zipf_alpha": 0.9811,
+      "zipf_r2": 0.9414,
+      "shannon_entropy_k1": 3.2988,
+      "compression_ratio": 0.0248,
+      "reusable_subroutines": 29,
+      "compiler_tokens": 0
+    },
+    {
+      "target": "control_random_noise",
+      "is_control": true,
+      "length": 15000,
+      "zipf_alpha": 0.1276,
+      "zipf_r2": 0.7526,
+      "shannon_entropy_k1": 2.0,
+      "compression_ratio": 0.3158,
+      "reusable_subroutines": 2526,
+      "compiler_tokens": 187
+    }
+  ],
+  "total_findings": 12,
+  "total_interpretations": 7,
+  "manifests": [
+    {
+      "dataset_id": "ds_study_cohort_multigenome",
+      "source": "NCBI RefSeq (PhiX174, Lambda, SARS-CoV-2, mtDNA) & Synthetic Controls",
+      "license": "Open Public Domain",
+      "retrieval_date": "2026-08-28T01:38:04.986455+00:00",
+      "checksum": "4bde84d9fc19d05a3deac783f3181f3431691a7e27347929d3cb5dc582427f03",
+      "organism": "Multi-organism Comparative Cohort",
+      "url": null,
+      "assembly": null,
+      "sequence_type": null,
+      "annotations": {},
+      "validation_status": "valid"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "run_metadata": {
+    "run_id": "run_mod3_valid_network_614976041",
+    "timestamp": "2026-08-28T01:17:42.959281+00:00",
+    "module": "module_3_simulation",
+    "version": "0.1.0",
+    "input_ids": [
+      "valid_network.tsv"
+    ],
+    "parameters": {
+      "time_steps": 20,
+      "trials": 10,
+      "seed": 614976041
+    },
+    "seed": 614976041,
+    "environment": {
+      "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "python_implementation": "CPython",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "10",
+      "machine": "AMD64",
+      "cpu_count": 16,
+      "installed_packages": {
+        "bio-arch": "0.1.0",
+        "networkx": "3.6.1",
+        "pytest": "9.0.3",
+        "pyyaml": "6.0.3"
+      }
+    },
+    "status": "success",
+    "warnings": []
+  },
+  "outputs": {
+    "nodes": [
+      "GeneA",
+      "GeneB",
+      "GeneC"
+    ],
+    "trials_run": 10,
+    "unique_attractors": 6,
+    "fixed_points": 3,
+    "limit_cycles": 7,
+    "knockout_sensitivity": {
+      "GeneA": 3,
+      "GeneB": 3,
+      "GeneC": 3
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "f_valid_network_attractor_count",
+      "metric": "unique_attractors_found",
+      "observed_value": 6,
+      "control_distribution": {
+        "trials": 10,
+        "fixed_points": 3,
+        "limit_cycles": 7
+      },
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Attractor landscape under synchronous Boolean rules for valid_network."
+    },
+    {
+      "finding_id": "f_valid_network_knockout_impact",
+      "metric": "max_knockout_hamming_distance",
+      "observed_value": 3,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Maximum state shift resulting from single-node in-silico knockout."
+    }
+  ],
+  "interpretations": [
+    {
+      "finding_ids": [
+        "f_valid_network_attractor_count"
+      ],
+      "classification": "simulation",
+      "claim": "Under this model, the network converges to 6 distinct attractor states from 10 random starts.",
+      "alternatives": [
+        "Continuous kinetic models (ODEs) or stochastic chemical master equations may exhibit different multistability."
+      ],
+      "limitations": [
+        "Boolean assumptions discretize expression levels into binary 0/1 states."
+      ],
+      "proposed_test": "Compare predicted attractors with single-cell RNA-seq cluster expression profiles."
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "artifact_paths": [
+    "outputs\\runs\\run_20260828_011742_bio_information_architecture\\module_3_simulation\\valid_network_simulation_results.json"
+  ]
+}

@@ -1,0 +1,1508 @@
+{
+  "run_metadata": {
+    "run_id": "run_ling_phix174_partitions_522594294",
+    "timestamp": "2026-08-28T01:34:07.425157+00:00",
+    "module": "linguistics_profiler",
+    "version": "0.1.0",
+    "input_ids": [
+      "phix174_partitions.fasta"
+    ],
+    "parameters": {
+      "seed": 522594294
+    },
+    "seed": 522594294,
+    "environment": {
+      "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "python_implementation": "CPython",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "10",
+      "machine": "AMD64",
+      "cpu_count": 16,
+      "installed_packages": {
+        "bio-arch": "0.1.0",
+        "networkx": "3.6.1",
+        "pytest": "9.0.3",
+        "pyyaml": "6.0.3"
+      }
+    },
+    "status": "success",
+    "warnings": []
+  },
+  "results": [
+    {
+      "record_id": "phix174_whole_genome",
+      "sequence_length": 5386,
+      "total_codons": 1795,
+      "codon_vocabulary_size": 64,
+      "codon_zipf_alpha": 0.4847,
+      "codon_zipf_r2": 0.7826,
+      "k4_zipf_alpha": 0.535,
+      "null_shuffled_alpha": 0.3239,
+      "reusable_subroutines_found": 934,
+      "top_subroutines": [
+        [
+          "TGCT",
+          64
+        ],
+        [
+          "TGGT",
+          55
+        ],
+        [
+          "GTTT",
+          51
+        ],
+        [
+          "GCTG",
+          49
+        ],
+        [
+          "TTCT",
+          47
+        ],
+        [
+          "GCTT",
+          47
+        ],
+        [
+          "TTAT",
+          46
+        ],
+        [
+          "TTTC",
+          46
+        ],
+        [
+          "TATG",
+          45
+        ],
+        [
+          "TGAT",
+          44
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "CTG",
+          "count": 66,
+          "frequency": 0.036769
+        },
+        {
+          "rank": 2,
+          "token": "TTG",
+          "count": 61,
+          "frequency": 0.033983
+        },
+        {
+          "rank": 3,
+          "token": "TTT",
+          "count": 55,
+          "frequency": 0.030641
+        },
+        {
+          "rank": 4,
+          "token": "TGG",
+          "count": 55,
+          "frequency": 0.030641
+        },
+        {
+          "rank": 5,
+          "token": "TTA",
+          "count": 54,
+          "frequency": 0.030084
+        },
+        {
+          "rank": 6,
+          "token": "TTC",
+          "count": 50,
+          "frequency": 0.027855
+        },
+        {
+          "rank": 7,
+          "token": "TGA",
+          "count": 49,
+          "frequency": 0.027298
+        },
+        {
+          "rank": 8,
+          "token": "TGC",
+          "count": 45,
+          "frequency": 0.02507
+        },
+        {
+          "rank": 9,
+          "token": "ATG",
+          "count": 44,
+          "frequency": 0.024513
+        },
+        {
+          "rank": 10,
+          "token": "GTT",
+          "count": 40,
+          "frequency": 0.022284
+        },
+        {
+          "rank": 11,
+          "token": "CTA",
+          "count": 39,
+          "frequency": 0.021727
+        },
+        {
+          "rank": 12,
+          "token": "AAA",
+          "count": 38,
+          "frequency": 0.02117
+        },
+        {
+          "rank": 13,
+          "token": "AAG",
+          "count": 38,
+          "frequency": 0.02117
+        },
+        {
+          "rank": 14,
+          "token": "TAA",
+          "count": 35,
+          "frequency": 0.019499
+        },
+        {
+          "rank": 15,
+          "token": "AGG",
+          "count": 35,
+          "frequency": 0.019499
+        },
+        {
+          "rank": 16,
+          "token": "ATT",
+          "count": 35,
+          "frequency": 0.019499
+        },
+        {
+          "rank": 17,
+          "token": "CTT",
+          "count": 35,
+          "frequency": 0.019499
+        },
+        {
+          "rank": 18,
+          "token": "TCA",
+          "count": 34,
+          "frequency": 0.018942
+        },
+        {
+          "rank": 19,
+          "token": "AAT",
+          "count": 33,
+          "frequency": 0.018384
+        },
+        {
+          "rank": 20,
+          "token": "AGA",
+          "count": 32,
+          "frequency": 0.017827
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_overlap_gene_e",
+      "sequence_length": 276,
+      "total_codons": 92,
+      "codon_vocabulary_size": 39,
+      "codon_zipf_alpha": 0.6595,
+      "codon_zipf_r2": 0.8374,
+      "k4_zipf_alpha": 0.4915,
+      "null_shuffled_alpha": 0.5139,
+      "reusable_subroutines_found": 23,
+      "top_subroutines": [
+        [
+          "CGTC",
+          5
+        ],
+        [
+          "CTGA",
+          4
+        ],
+        [
+          "TACG",
+          4
+        ],
+        [
+          "GGAA",
+          4
+        ],
+        [
+          "CGTCA",
+          3
+        ],
+        [
+          "TTGC",
+          3
+        ],
+        [
+          "TTAT",
+          3
+        ],
+        [
+          "GTTC",
+          3
+        ],
+        [
+          "TCAT",
+          3
+        ],
+        [
+          "CATT",
+          3
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "CTG",
+          "count": 7,
+          "frequency": 0.076087
+        },
+        {
+          "rank": 2,
+          "token": "TTA",
+          "count": 7,
+          "frequency": 0.076087
+        },
+        {
+          "rank": 3,
+          "token": "TTG",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 4,
+          "token": "TTC",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 5,
+          "token": "TCA",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 6,
+          "token": "AAA",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 7,
+          "token": "CGG",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 8,
+          "token": "AAG",
+          "count": 4,
+          "frequency": 0.043478
+        },
+        {
+          "rank": 9,
+          "token": "ATG",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 10,
+          "token": "TGG",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 11,
+          "token": "CCG",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 12,
+          "token": "ACA",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 13,
+          "token": "GTC",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 14,
+          "token": "GCG",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 15,
+          "token": "AAT",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 16,
+          "token": "ACG",
+          "count": 3,
+          "frequency": 0.032609
+        },
+        {
+          "rank": 17,
+          "token": "CTC",
+          "count": 2,
+          "frequency": 0.021739
+        },
+        {
+          "rank": 18,
+          "token": "CCT",
+          "count": 2,
+          "frequency": 0.021739
+        },
+        {
+          "rank": 19,
+          "token": "TCG",
+          "count": 2,
+          "frequency": 0.021739
+        },
+        {
+          "rank": 20,
+          "token": "TGC",
+          "count": 2,
+          "frequency": 0.021739
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_overlap_gene_k",
+      "sequence_length": 171,
+      "total_codons": 57,
+      "codon_vocabulary_size": 34,
+      "codon_zipf_alpha": 0.493,
+      "codon_zipf_r2": 0.8309,
+      "k4_zipf_alpha": 0.4356,
+      "null_shuffled_alpha": 0.4269,
+      "reusable_subroutines_found": 11,
+      "top_subroutines": [
+        [
+          "AATT",
+          4
+        ],
+        [
+          "AAAT",
+          4
+        ],
+        [
+          "TCGA",
+          4
+        ],
+        [
+          "AAAA",
+          4
+        ],
+        [
+          "GAAA",
+          3
+        ],
+        [
+          "ACTG",
+          3
+        ],
+        [
+          "GAAG",
+          2
+        ],
+        [
+          "TCTT",
+          2
+        ],
+        [
+          "TGCG",
+          2
+        ],
+        [
+          "ACCT",
+          2
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "CTT",
+          "count": 4,
+          "frequency": 0.070175
+        },
+        {
+          "rank": 2,
+          "token": "CGA",
+          "count": 3,
+          "frequency": 0.052632
+        },
+        {
+          "rank": 3,
+          "token": "AAA",
+          "count": 3,
+          "frequency": 0.052632
+        },
+        {
+          "rank": 4,
+          "token": "GAA",
+          "count": 3,
+          "frequency": 0.052632
+        },
+        {
+          "rank": 5,
+          "token": "TTA",
+          "count": 3,
+          "frequency": 0.052632
+        },
+        {
+          "rank": 6,
+          "token": "CTG",
+          "count": 3,
+          "frequency": 0.052632
+        },
+        {
+          "rank": 7,
+          "token": "AGT",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 8,
+          "token": "ATT",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 9,
+          "token": "ATC",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 10,
+          "token": "AAG",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 11,
+          "token": "CAG",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 12,
+          "token": "AAT",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 13,
+          "token": "GCG",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 14,
+          "token": "GAG",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 15,
+          "token": "CTC",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 16,
+          "token": "AAC",
+          "count": 2,
+          "frequency": 0.035088
+        },
+        {
+          "rank": 17,
+          "token": "ATG",
+          "count": 1,
+          "frequency": 0.017544
+        },
+        {
+          "rank": 18,
+          "token": "TTG",
+          "count": 1,
+          "frequency": 0.017544
+        },
+        {
+          "rank": 19,
+          "token": "ATA",
+          "count": 1,
+          "frequency": 0.017544
+        },
+        {
+          "rank": 20,
+          "token": "CTA",
+          "count": 1,
+          "frequency": 0.017544
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_nonoverlap_gene_f",
+      "sequence_length": 1284,
+      "total_codons": 428,
+      "codon_vocabulary_size": 53,
+      "codon_zipf_alpha": 0.8833,
+      "codon_zipf_r2": 0.7059,
+      "k4_zipf_alpha": 0.6016,
+      "null_shuffled_alpha": 0.5608,
+      "reusable_subroutines_found": 210,
+      "top_subroutines": [
+        [
+          "TTAT",
+          17
+        ],
+        [
+          "TTTC",
+          15
+        ],
+        [
+          "TATG",
+          14
+        ],
+        [
+          "TGTT",
+          14
+        ],
+        [
+          "TGAC",
+          14
+        ],
+        [
+          "TTCT",
+          13
+        ],
+        [
+          "GTTT",
+          13
+        ],
+        [
+          "ATTT",
+          12
+        ],
+        [
+          "ATGA",
+          12
+        ],
+        [
+          "TTCA",
+          12
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "ACT",
+          "count": 21,
+          "frequency": 0.049065
+        },
+        {
+          "rank": 2,
+          "token": "ATT",
+          "count": 19,
+          "frequency": 0.044393
+        },
+        {
+          "rank": 3,
+          "token": "TAT",
+          "count": 19,
+          "frequency": 0.044393
+        },
+        {
+          "rank": 4,
+          "token": "CGT",
+          "count": 18,
+          "frequency": 0.042056
+        },
+        {
+          "rank": 5,
+          "token": "TCT",
+          "count": 17,
+          "frequency": 0.03972
+        },
+        {
+          "rank": 6,
+          "token": "CTT",
+          "count": 17,
+          "frequency": 0.03972
+        },
+        {
+          "rank": 7,
+          "token": "GCT",
+          "count": 17,
+          "frequency": 0.03972
+        },
+        {
+          "rank": 8,
+          "token": "GTT",
+          "count": 16,
+          "frequency": 0.037383
+        },
+        {
+          "rank": 9,
+          "token": "CCT",
+          "count": 15,
+          "frequency": 0.035047
+        },
+        {
+          "rank": 10,
+          "token": "GAC",
+          "count": 14,
+          "frequency": 0.03271
+        },
+        {
+          "rank": 11,
+          "token": "GGT",
+          "count": 14,
+          "frequency": 0.03271
+        },
+        {
+          "rank": 12,
+          "token": "CAG",
+          "count": 14,
+          "frequency": 0.03271
+        },
+        {
+          "rank": 13,
+          "token": "GAT",
+          "count": 14,
+          "frequency": 0.03271
+        },
+        {
+          "rank": 14,
+          "token": "ATG",
+          "count": 12,
+          "frequency": 0.028037
+        },
+        {
+          "rank": 15,
+          "token": "GGC",
+          "count": 12,
+          "frequency": 0.028037
+        },
+        {
+          "rank": 16,
+          "token": "TTT",
+          "count": 12,
+          "frequency": 0.028037
+        },
+        {
+          "rank": 17,
+          "token": "AAT",
+          "count": 11,
+          "frequency": 0.025701
+        },
+        {
+          "rank": 18,
+          "token": "CCG",
+          "count": 11,
+          "frequency": 0.025701
+        },
+        {
+          "rank": 19,
+          "token": "CAT",
+          "count": 11,
+          "frequency": 0.025701
+        },
+        {
+          "rank": 20,
+          "token": "TTC",
+          "count": 10,
+          "frequency": 0.023364
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_nonoverlap_gene_g",
+      "sequence_length": 528,
+      "total_codons": 176,
+      "codon_vocabulary_size": 46,
+      "codon_zipf_alpha": 0.764,
+      "codon_zipf_r2": 0.8327,
+      "k4_zipf_alpha": 0.6261,
+      "null_shuffled_alpha": 0.7035,
+      "reusable_subroutines_found": 66,
+      "top_subroutines": [
+        [
+          "GGTT",
+          11
+        ],
+        [
+          "TGGT",
+          11
+        ],
+        [
+          "GTTT",
+          11
+        ],
+        [
+          "TTTG",
+          9
+        ],
+        [
+          "TGGTT",
+          7
+        ],
+        [
+          "TTCT",
+          8
+        ],
+        [
+          "TGTT",
+          8
+        ],
+        [
+          "TTTC",
+          7
+        ],
+        [
+          "TTTT",
+          7
+        ],
+        [
+          "TTAT",
+          7
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "GTT",
+          "count": 15,
+          "frequency": 0.085227
+        },
+        {
+          "rank": 2,
+          "token": "TTT",
+          "count": 11,
+          "frequency": 0.0625
+        },
+        {
+          "rank": 3,
+          "token": "TCT",
+          "count": 9,
+          "frequency": 0.051136
+        },
+        {
+          "rank": 4,
+          "token": "GGT",
+          "count": 8,
+          "frequency": 0.045455
+        },
+        {
+          "rank": 5,
+          "token": "ACT",
+          "count": 7,
+          "frequency": 0.039773
+        },
+        {
+          "rank": 6,
+          "token": "ATT",
+          "count": 7,
+          "frequency": 0.039773
+        },
+        {
+          "rank": 7,
+          "token": "AAT",
+          "count": 7,
+          "frequency": 0.039773
+        },
+        {
+          "rank": 8,
+          "token": "GAT",
+          "count": 7,
+          "frequency": 0.039773
+        },
+        {
+          "rank": 9,
+          "token": "GCT",
+          "count": 7,
+          "frequency": 0.039773
+        },
+        {
+          "rank": 10,
+          "token": "CAG",
+          "count": 6,
+          "frequency": 0.034091
+        },
+        {
+          "rank": 11,
+          "token": "TAT",
+          "count": 6,
+          "frequency": 0.034091
+        },
+        {
+          "rank": 12,
+          "token": "CGC",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 13,
+          "token": "AAC",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 14,
+          "token": "TCG",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 15,
+          "token": "CCT",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 16,
+          "token": "AAA",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 17,
+          "token": "TTG",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 18,
+          "token": "GCC",
+          "count": 4,
+          "frequency": 0.022727
+        },
+        {
+          "rank": 19,
+          "token": "ATG",
+          "count": 3,
+          "frequency": 0.017045
+        },
+        {
+          "rank": 20,
+          "token": "CAT",
+          "count": 3,
+          "frequency": 0.017045
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_nonoverlap_gene_h",
+      "sequence_length": 987,
+      "total_codons": 329,
+      "codon_vocabulary_size": 47,
+      "codon_zipf_alpha": 1.033,
+      "codon_zipf_r2": 0.7972,
+      "k4_zipf_alpha": 0.7141,
+      "null_shuffled_alpha": 0.5321,
+      "reusable_subroutines_found": 148,
+      "top_subroutines": [
+        [
+          "TGCT",
+          23
+        ],
+        [
+          "GCTG",
+          16
+        ],
+        [
+          "TGGT",
+          15
+        ],
+        [
+          "AAAG",
+          14
+        ],
+        [
+          "TGCTG",
+          10
+        ],
+        [
+          "TTGC",
+          12
+        ],
+        [
+          "TGAT",
+          12
+        ],
+        [
+          "GCTT",
+          11
+        ],
+        [
+          "CAAA",
+          11
+        ],
+        [
+          "TTGCT",
+          8
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "GCT",
+          "count": 30,
+          "frequency": 0.091185
+        },
+        {
+          "rank": 2,
+          "token": "GGT",
+          "count": 19,
+          "frequency": 0.057751
+        },
+        {
+          "rank": 3,
+          "token": "TCT",
+          "count": 17,
+          "frequency": 0.051672
+        },
+        {
+          "rank": 4,
+          "token": "AAA",
+          "count": 16,
+          "frequency": 0.048632
+        },
+        {
+          "rank": 5,
+          "token": "GAT",
+          "count": 16,
+          "frequency": 0.048632
+        },
+        {
+          "rank": 6,
+          "token": "ATT",
+          "count": 15,
+          "frequency": 0.045593
+        },
+        {
+          "rank": 7,
+          "token": "CAA",
+          "count": 15,
+          "frequency": 0.045593
+        },
+        {
+          "rank": 8,
+          "token": "AAT",
+          "count": 14,
+          "frequency": 0.042553
+        },
+        {
+          "rank": 9,
+          "token": "GAG",
+          "count": 13,
+          "frequency": 0.039514
+        },
+        {
+          "rank": 10,
+          "token": "ATG",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 11,
+          "token": "GGC",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 12,
+          "token": "CTT",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 13,
+          "token": "ACT",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 14,
+          "token": "GTT",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 15,
+          "token": "CAG",
+          "count": 12,
+          "frequency": 0.036474
+        },
+        {
+          "rank": 16,
+          "token": "GCC",
+          "count": 11,
+          "frequency": 0.033435
+        },
+        {
+          "rank": 17,
+          "token": "TTT",
+          "count": 7,
+          "frequency": 0.021277
+        },
+        {
+          "rank": 18,
+          "token": "AAG",
+          "count": 7,
+          "frequency": 0.021277
+        },
+        {
+          "rank": 19,
+          "token": "GAC",
+          "count": 6,
+          "frequency": 0.018237
+        },
+        {
+          "rank": 20,
+          "token": "TTG",
+          "count": 5,
+          "frequency": 0.015198
+        }
+      ]
+    },
+    {
+      "record_id": "phix174_intergenic_jf",
+      "sequence_length": 122,
+      "total_codons": 40,
+      "codon_vocabulary_size": 29,
+      "codon_zipf_alpha": 0.4056,
+      "codon_zipf_r2": 0.8054,
+      "k4_zipf_alpha": 0.2752,
+      "null_shuffled_alpha": 0.2987,
+      "reusable_subroutines_found": 3,
+      "top_subroutines": [
+        [
+          "AATT",
+          3
+        ],
+        [
+          "CGTC",
+          2
+        ],
+        [
+          "GGTA",
+          2
+        ]
+      ],
+      "codon_rank_distribution": [
+        {
+          "rank": 1,
+          "token": "GTC",
+          "count": 4,
+          "frequency": 0.1
+        },
+        {
+          "rank": 2,
+          "token": "AGC",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 3,
+          "token": "TGC",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 4,
+          "token": "GAG",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 5,
+          "token": "GTA",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 6,
+          "token": "AAG",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 7,
+          "token": "TTT",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 8,
+          "token": "AAT",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 9,
+          "token": "GGC",
+          "count": 2,
+          "frequency": 0.05
+        },
+        {
+          "rank": 10,
+          "token": "GCC",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 11,
+          "token": "CTG",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 12,
+          "token": "CGC",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 13,
+          "token": "CGT",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 14,
+          "token": "CTA",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 15,
+          "token": "GCA",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 16,
+          "token": "GCG",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 17,
+          "token": "CTC",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 18,
+          "token": "GGT",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 19,
+          "token": "ATG",
+          "count": 1,
+          "frequency": 0.025
+        },
+        {
+          "rank": 20,
+          "token": "TAG",
+          "count": 1,
+          "frequency": 0.025
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "f_phix174_whole_genome_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.4847,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.3239,
+        "r_squared": 0.7826
+      },
+      "effect_size": 0.1608,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_whole_genome."
+    },
+    {
+      "finding_id": "f_phix174_whole_genome_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 934,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_whole_genome."
+    },
+    {
+      "finding_id": "f_phix174_overlap_gene_e_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.6595,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.5139,
+        "r_squared": 0.8374
+      },
+      "effect_size": 0.1456,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_overlap_gene_e."
+    },
+    {
+      "finding_id": "f_phix174_overlap_gene_e_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 23,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_overlap_gene_e."
+    },
+    {
+      "finding_id": "f_phix174_overlap_gene_k_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.493,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.4269,
+        "r_squared": 0.8309
+      },
+      "effect_size": 0.0661,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_overlap_gene_k."
+    },
+    {
+      "finding_id": "f_phix174_overlap_gene_k_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 11,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_overlap_gene_k."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_f_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.8833,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.5608,
+        "r_squared": 0.7059
+      },
+      "effect_size": 0.3225,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_nonoverlap_gene_f."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_f_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 210,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_nonoverlap_gene_f."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_g_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.764,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.7035,
+        "r_squared": 0.8327
+      },
+      "effect_size": 0.0605,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_nonoverlap_gene_g."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_g_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 66,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_nonoverlap_gene_g."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_h_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 1.033,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.5321,
+        "r_squared": 0.7972
+      },
+      "effect_size": 0.5009,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_nonoverlap_gene_h."
+    },
+    {
+      "finding_id": "f_phix174_nonoverlap_gene_h_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 148,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_nonoverlap_gene_h."
+    },
+    {
+      "finding_id": "f_phix174_intergenic_jf_codon_zipf",
+      "metric": "codon_zipf_exponent_alpha",
+      "observed_value": 0.4056,
+      "control_distribution": {
+        "null_model": "mononucleotide_shuffle",
+        "null_alpha": 0.2987,
+        "r_squared": 0.8054
+      },
+      "effect_size": 0.1069,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Codon rank-frequency power law exponent for phix174_intergenic_jf."
+    },
+    {
+      "finding_id": "f_phix174_intergenic_jf_modular_subroutines",
+      "metric": "reusable_subroutine_count",
+      "observed_value": 3,
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Count of repeating LZ-78 multi-nucleotide subroutines (length >= 4) in phix174_intergenic_jf."
+    }
+  ],
+  "interpretations": [
+    {
+      "finding_ids": [
+        "f_phix174_whole_genome_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.4847 (vs null alpha=0.3239) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_overlap_gene_e_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.6595 (vs null alpha=0.5139) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_overlap_gene_k_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.493 (vs null alpha=0.4269) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_nonoverlap_gene_f_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.8833 (vs null alpha=0.5608) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_nonoverlap_gene_g_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.764 (vs null alpha=0.7035) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_nonoverlap_gene_h_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=1.033 (vs null alpha=0.5321) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    },
+    {
+      "finding_ids": [
+        "f_phix174_intergenic_jf_codon_zipf"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that a codon Zipf exponent of alpha=0.4056 (vs null alpha=0.2987) reflects non-random codon usage bias and translational efficiency constraints.",
+      "alternatives": [
+        "Biased GC composition naturally skews codon availability without linguistic intent.",
+        "tRNA abundance in host organism driving codon selection pressure."
+      ],
+      "limitations": [
+        "Zipf's law is a necessary but not sufficient condition for formal human-like or programming language."
+      ],
+      "proposed_test": "Benchmark against highly expressed ribosomal genes vs rarely expressed viral regulators."
+    }
+  ]
+}

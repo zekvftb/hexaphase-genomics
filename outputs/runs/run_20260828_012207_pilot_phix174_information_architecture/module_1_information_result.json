@@ -1,0 +1,735 @@
+[
+  {
+    "run_metadata": {
+      "run_id": "run_mod1_ds_phix174_refseq_normalized_1944928884",
+      "timestamp": "2026-08-28T01:22:08.033480+00:00",
+      "module": "module_1_information",
+      "version": "0.1.0",
+      "input_ids": [
+        "ds_phix174_refseq_normalized.json"
+      ],
+      "parameters": {
+        "num_shuffles": 100,
+        "seed": 1944928884
+      },
+      "seed": 1944928884,
+      "environment": {
+        "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "python_implementation": "CPython",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "system": "Windows",
+        "release": "10",
+        "machine": "AMD64",
+        "cpu_count": 16,
+        "installed_packages": {
+          "bio-arch": "0.1.0",
+          "networkx": "3.6.1",
+          "pytest": "9.0.3",
+          "pyyaml": "6.0.3"
+        }
+      },
+      "status": "success",
+      "warnings": []
+    },
+    "outputs": {
+      "records_analyzed": 7,
+      "record_metrics": [
+        {
+          "record_id": "phix174_whole_genome",
+          "length": 5386,
+          "gc_content": 0.447642,
+          "gc_skew": 0.040232,
+          "at_skew": -0.132101,
+          "shannon_entropy_k1": 1.984579,
+          "shannon_entropy_k2": 3.951712,
+          "conditional_entropy": 1.967133,
+          "compression_ratio": 0.315262,
+          "tandem_repeat_count": 266,
+          "autocorrelation_lag_1": 0.2695
+        },
+        {
+          "record_id": "phix174_overlap_gene_e",
+          "length": 276,
+          "gc_content": 0.478261,
+          "gc_skew": 0.045455,
+          "at_skew": -0.097222,
+          "shannon_entropy_k1": 1.99436,
+          "shannon_entropy_k2": 3.941424,
+          "conditional_entropy": 1.947064,
+          "compression_ratio": 0.427536,
+          "tandem_repeat_count": 14,
+          "autocorrelation_lag_1": 0.2655
+        },
+        {
+          "record_id": "phix174_overlap_gene_k",
+          "length": 171,
+          "gc_content": 0.403509,
+          "gc_skew": -0.014493,
+          "at_skew": 0.078431,
+          "shannon_entropy_k1": 1.970255,
+          "shannon_entropy_k2": 3.82979,
+          "conditional_entropy": 1.859535,
+          "compression_ratio": 0.48538,
+          "tandem_repeat_count": 9,
+          "autocorrelation_lag_1": 0.2765
+        },
+        {
+          "record_id": "phix174_nonoverlap_gene_f",
+          "length": 1284,
+          "gc_content": 0.449377,
+          "gc_skew": -0.07799,
+          "at_skew": -0.216407,
+          "shannon_entropy_k1": 1.97187,
+          "shannon_entropy_k2": 3.929822,
+          "conditional_entropy": 1.957952,
+          "compression_ratio": 0.355919,
+          "tandem_repeat_count": 57,
+          "autocorrelation_lag_1": 0.2588
+        },
+        {
+          "record_id": "phix174_nonoverlap_gene_g",
+          "length": 528,
+          "gc_content": 0.420455,
+          "gc_skew": -0.027027,
+          "at_skew": -0.30719,
+          "shannon_entropy_k1": 1.941348,
+          "shannon_entropy_k2": 3.871008,
+          "conditional_entropy": 1.92966,
+          "compression_ratio": 0.371212,
+          "tandem_repeat_count": 34,
+          "autocorrelation_lag_1": 0.296
+        },
+        {
+          "record_id": "phix174_nonoverlap_gene_h",
+          "length": 987,
+          "gc_content": 0.450861,
+          "gc_skew": 0.12809,
+          "at_skew": -0.066421,
+          "shannon_entropy_k1": 1.985922,
+          "shannon_entropy_k2": 3.915709,
+          "conditional_entropy": 1.929787,
+          "compression_ratio": 0.345491,
+          "tandem_repeat_count": 46,
+          "autocorrelation_lag_1": 0.2627
+        },
+        {
+          "record_id": "phix174_intergenic_jf",
+          "length": 122,
+          "gc_content": 0.516393,
+          "gc_skew": 0.142857,
+          "at_skew": -0.118644,
+          "shannon_entropy_k1": 1.986674,
+          "shannon_entropy_k2": 3.904327,
+          "conditional_entropy": 1.917653,
+          "compression_ratio": 0.557377,
+          "tandem_repeat_count": 8,
+          "autocorrelation_lag_1": 0.3306
+        }
+      ]
+    },
+    "findings": [
+      {
+        "finding_id": "f_phix174_whole_genome_composition",
+        "metric": "gc_content",
+        "observed_value": 0.447642,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_whole_genome."
+      },
+      {
+        "finding_id": "f_phix174_whole_genome_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.951712,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.951712,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.951712,
+          "null_ci_97.5": 3.951712
+        },
+        "effect_size": 0.995,
+        "uncertainty": {
+          "ci_lower": 3.951712,
+          "ci_upper": 3.951712
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_whole_genome_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.967133,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.967133,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.967133,
+          "null_ci_97.5": 1.967133
+        },
+        "effect_size": 0.995,
+        "uncertainty": {
+          "ci_lower": 1.967133,
+          "ci_upper": 1.967133
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_whole_genome_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.315262,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.323596,
+          "null_std": 0.00147,
+          "null_ci_2.5": 0.32046,
+          "null_ci_97.5": 0.326216
+        },
+        "effect_size": -5.6677,
+        "uncertainty": {
+          "ci_lower": 0.32046,
+          "ci_upper": 0.326216
+        },
+        "adjusted_p_value": 0.029703,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_e_composition",
+        "metric": "gc_content",
+        "observed_value": 0.478261,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_overlap_gene_e."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_e_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.941424,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.941424,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.941424,
+          "null_ci_97.5": 3.941424
+        },
+        "effect_size": 0.995,
+        "uncertainty": {
+          "ci_lower": 3.941424,
+          "ci_upper": 3.941424
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_e_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.947064,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.947064,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.947064,
+          "null_ci_97.5": 1.947064
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 1.947064,
+          "ci_upper": 1.947064
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_e_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.427536,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.436522,
+          "null_std": 0.006918,
+          "null_ci_2.5": 0.423913,
+          "null_ci_97.5": 0.449275
+        },
+        "effect_size": -1.2988,
+        "uncertainty": {
+          "ci_lower": 0.423913,
+          "ci_upper": 0.449275
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_k_composition",
+        "metric": "gc_content",
+        "observed_value": 0.403509,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_overlap_gene_k."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_k_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.82979,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.82979,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.82979,
+          "null_ci_97.5": 3.82979
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 3.82979,
+          "ci_upper": 3.82979
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_k_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.859535,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.859535,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.859535,
+          "null_ci_97.5": 1.859535
+        },
+        "effect_size": 0.995,
+        "uncertainty": {
+          "ci_lower": 1.859535,
+          "ci_upper": 1.859535
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_overlap_gene_k_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.48538,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.4869,
+          "null_std": 0.008502,
+          "null_ci_2.5": 0.467836,
+          "null_ci_97.5": 0.502924
+        },
+        "effect_size": -0.1788,
+        "uncertainty": {
+          "ci_lower": 0.467836,
+          "ci_upper": 0.502924
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_f_composition",
+        "metric": "gc_content",
+        "observed_value": 0.449377,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_nonoverlap_gene_f."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_f_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.929822,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.929822,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.929822,
+          "null_ci_97.5": 3.929822
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 3.929822,
+          "ci_upper": 3.929822
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_f_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.957952,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.957952,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.957952,
+          "null_ci_97.5": 1.957952
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 1.957952,
+          "ci_upper": 1.957952
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_f_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.355919,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.351098,
+          "null_std": 0.003253,
+          "null_ci_2.5": 0.343458,
+          "null_ci_97.5": 0.356698
+        },
+        "effect_size": 1.4819,
+        "uncertainty": {
+          "ci_lower": 0.343458,
+          "ci_upper": 0.356698
+        },
+        "adjusted_p_value": 0.475248,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_g_composition",
+        "metric": "gc_content",
+        "observed_value": 0.420455,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_nonoverlap_gene_g."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_g_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.871008,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.871008,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.871008,
+          "null_ci_97.5": 3.871008
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 3.871008,
+          "ci_upper": 3.871008
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_g_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.92966,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.92966,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.92966,
+          "null_ci_97.5": 1.92966
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 1.92966,
+          "ci_upper": 1.92966
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_g_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.371212,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.385796,
+          "null_std": 0.005216,
+          "null_ci_2.5": 0.376894,
+          "null_ci_97.5": 0.395833
+        },
+        "effect_size": -2.7958,
+        "uncertainty": {
+          "ci_lower": 0.376894,
+          "ci_upper": 0.395833
+        },
+        "adjusted_p_value": 0.059406,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_h_composition",
+        "metric": "gc_content",
+        "observed_value": 0.450861,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_nonoverlap_gene_h."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_h_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.915709,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.915709,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.915709,
+          "null_ci_97.5": 3.915709
+        },
+        "effect_size": 0.995,
+        "uncertainty": {
+          "ci_lower": 3.915709,
+          "ci_upper": 3.915709
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_h_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.929787,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.929787,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.929787,
+          "null_ci_97.5": 1.929787
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 1.929787,
+          "ci_upper": 1.929787
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_nonoverlap_gene_h_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.345491,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.355968,
+          "null_std": 0.003808,
+          "null_ci_2.5": 0.348531,
+          "null_ci_97.5": 0.362715
+        },
+        "effect_size": -2.7513,
+        "uncertainty": {
+          "ci_lower": 0.348531,
+          "ci_upper": 0.362715
+        },
+        "adjusted_p_value": 0.029703,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_phix174_intergenic_jf_composition",
+        "metric": "gc_content",
+        "observed_value": 0.516393,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for phix174_intergenic_jf."
+      },
+      {
+        "finding_id": "f_phix174_intergenic_jf_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.904327,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 3.904327,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.904327,
+          "null_ci_97.5": 3.904327
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 3.904327,
+          "ci_upper": 3.904327
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_phix174_intergenic_jf_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.917653,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 1.917653,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.917653,
+          "null_ci_97.5": 1.917653
+        },
+        "effect_size": -0.995,
+        "uncertainty": {
+          "ci_lower": 1.917653,
+          "ci_upper": 1.917653
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_phix174_intergenic_jf_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.557377,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 100,
+          "null_mean": 0.546393,
+          "null_std": 0.010499,
+          "null_ci_2.5": 0.52459,
+          "null_ci_97.5": 0.565574
+        },
+        "effect_size": 1.0461,
+        "uncertainty": {
+          "ci_lower": 0.52459,
+          "ci_upper": 0.565574
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      }
+    ],
+    "interpretations": [
+      {
+        "finding_ids": [
+          "f_phix174_whole_genome_compression_ratio",
+          "f_phix174_whole_genome_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_overlap_gene_e_compression_ratio",
+          "f_phix174_overlap_gene_e_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_overlap_gene_k_compression_ratio",
+          "f_phix174_overlap_gene_k_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_nonoverlap_gene_f_compression_ratio",
+          "f_phix174_nonoverlap_gene_f_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_nonoverlap_gene_g_compression_ratio",
+          "f_phix174_nonoverlap_gene_g_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_nonoverlap_gene_h_compression_ratio",
+          "f_phix174_nonoverlap_gene_h_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_phix174_intergenic_jf_compression_ratio",
+          "f_phix174_intergenic_jf_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      }
+    ],
+    "warnings": [],
+    "errors": [],
+    "artifact_paths": [
+      "outputs\\runs\\run_20260828_012207_pilot_phix174_information_architecture\\module_1_information\\ds_phix174_refseq_normalized_information_metrics.json"
+    ]
+  }
+]

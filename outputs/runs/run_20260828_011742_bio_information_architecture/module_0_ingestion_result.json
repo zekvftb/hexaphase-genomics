@@ -1,0 +1,76 @@
+[
+  {
+    "run_metadata": {
+      "run_id": "ingest_ds_lambda_lac_sample_1818051433",
+      "timestamp": "2026-08-28T01:17:42.586873+00:00",
+      "module": "module_0_ingestion",
+      "version": "0.1.0",
+      "input_ids": [
+        "synthetic_sample.fasta"
+      ],
+      "parameters": {
+        "format": "fasta",
+        "sequence_type": "DNA"
+      },
+      "seed": 902892518,
+      "environment": {
+        "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "python_implementation": "CPython",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "system": "Windows",
+        "release": "10",
+        "machine": "AMD64",
+        "cpu_count": 16,
+        "installed_packages": {
+          "bio-arch": "0.1.0",
+          "networkx": "3.6.1",
+          "pytest": "9.0.3",
+          "pyyaml": "6.0.3"
+        }
+      },
+      "status": "success",
+      "warnings": []
+    },
+    "outputs": {
+      "format": "fasta",
+      "total_records": 2,
+      "valid_records": 2
+    },
+    "findings": [
+      {
+        "finding_id": "f_ingest_ds_lambda_lac_sample",
+        "metric": "ingestion_record_count",
+        "observed_value": {
+          "total": 2,
+          "valid": 2
+        },
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "Ingested fasta records for Synthetic Lambda/Lac Fragment."
+      }
+    ],
+    "interpretations": [
+      {
+        "finding_ids": [
+          "f_ingest_ds_lambda_lac_sample"
+        ],
+        "classification": "measurement",
+        "claim": "The analysis measured 2 valid records out of 2 in synthetic_sample.fasta.",
+        "alternatives": [],
+        "limitations": [
+          "Syntactic and coordinate validation only; functional validity unverified."
+        ],
+        "proposed_test": "Verify against reference assembly or independent biological assay annotations."
+      }
+    ],
+    "warnings": [],
+    "errors": [],
+    "artifact_paths": [
+      "outputs\\runs\\run_20260828_011742_bio_information_architecture\\module_0_ingestion\\ds_lambda_lac_sample_manifest.json",
+      "outputs\\runs\\run_20260828_011742_bio_information_architecture\\module_0_ingestion\\ds_lambda_lac_sample_validation_report.json",
+      "outputs\\runs\\run_20260828_011742_bio_information_architecture\\module_0_ingestion\\ds_lambda_lac_sample_normalized.json"
+    ]
+  }
+]

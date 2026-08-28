@@ -1,0 +1,36 @@
+{
+  "run_id": "run_20260828_011742_bio_information_architecture",
+  "status": "completed",
+  "error_message": null,
+  "timestamp": "2026-08-28T01:17:42.976315+00:00",
+  "global_seed": 42,
+  "timings_seconds": {
+    "module_0_ingestion": 0.14540159999160096,
+    "module_1_information": 0.12263980001443997,
+    "module_2_regulation": 0.10473860002821311,
+    "module_3_simulation": 0.10027920000720769
+  },
+  "manifests": [
+    {
+      "dataset_id": "ds_lambda_lac_sample",
+      "source": "In-silico test benchmark",
+      "license": "CC0-1.0",
+      "retrieval_date": "2026-08-28T01:17:42.640819+00:00",
+      "checksum": "e29ad39826e8abb84956b7233c6200670694697ada3e0e88cf518885e773d67d",
+      "organism": "Synthetic Lambda/Lac Fragment",
+      "url": null,
+      "assembly": null,
+      "sequence_type": "DNA",
+      "annotations": {
+        "format": "fasta",
+        "total_records": 2,
+        "valid_records": 2,
+        "normalizations": []
+      },
+      "validation_status": "valid"
+    }
+  ],
+  "total_findings": 13,
+  "total_interpretations": 5,
+  "warnings": []
+}

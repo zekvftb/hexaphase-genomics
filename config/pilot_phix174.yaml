@@ -1,0 +1,28 @@
+# Stage 7 Pilot: Bacteriophage PhiX174 Overlapping vs Non-Overlapping Genes
+project_name: "pilot_phix174_information_architecture"
+version: "0.1.0"
+
+# Deterministic global seed
+global_seed: 2026
+dry_run: false
+output_dir: "outputs/runs"
+
+resource_limits:
+  max_kmer_length: 6
+  max_sequence_length_mb: 25
+  max_permutations: 500
+
+modules:
+  module_0_ingestion:
+    enabled: true
+    input_files:
+      - path: "data/phix174_partitions.fasta"
+        dataset_id: "ds_phix174_refseq"
+        organism: "Bacteriophage phiX174 (NC_001422.1)"
+        license: "NCBI RefSeq Public Domain"
+        source: "NCBI Entrez / RefSeq NC_001422.1"
+        sequence_type: "DNA"
+
+  module_1_information:
+    enabled: true
+    num_shuffles: 100

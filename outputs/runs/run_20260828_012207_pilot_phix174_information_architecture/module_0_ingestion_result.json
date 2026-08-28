@@ -1,0 +1,76 @@
+[
+  {
+    "run_metadata": {
+      "run_id": "ingest_ds_phix174_refseq_747357730",
+      "timestamp": "2026-08-28T01:22:07.881707+00:00",
+      "module": "module_0_ingestion",
+      "version": "0.1.0",
+      "input_ids": [
+        "phix174_partitions.fasta"
+      ],
+      "parameters": {
+        "format": "fasta",
+        "sequence_type": "DNA"
+      },
+      "seed": 1154573857,
+      "environment": {
+        "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "python_implementation": "CPython",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "system": "Windows",
+        "release": "10",
+        "machine": "AMD64",
+        "cpu_count": 16,
+        "installed_packages": {
+          "bio-arch": "0.1.0",
+          "networkx": "3.6.1",
+          "pytest": "9.0.3",
+          "pyyaml": "6.0.3"
+        }
+      },
+      "status": "success",
+      "warnings": []
+    },
+    "outputs": {
+      "format": "fasta",
+      "total_records": 7,
+      "valid_records": 7
+    },
+    "findings": [
+      {
+        "finding_id": "f_ingest_ds_phix174_refseq",
+        "metric": "ingestion_record_count",
+        "observed_value": {
+          "total": 7,
+          "valid": 7
+        },
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "Ingested fasta records for Bacteriophage phiX174 (NC_001422.1)."
+      }
+    ],
+    "interpretations": [
+      {
+        "finding_ids": [
+          "f_ingest_ds_phix174_refseq"
+        ],
+        "classification": "measurement",
+        "claim": "The analysis measured 7 valid records out of 7 in phix174_partitions.fasta.",
+        "alternatives": [],
+        "limitations": [
+          "Syntactic and coordinate validation only; functional validity unverified."
+        ],
+        "proposed_test": "Verify against reference assembly or independent biological assay annotations."
+      }
+    ],
+    "warnings": [],
+    "errors": [],
+    "artifact_paths": [
+      "outputs\\runs\\run_20260828_012207_pilot_phix174_information_architecture\\module_0_ingestion\\ds_phix174_refseq_manifest.json",
+      "outputs\\runs\\run_20260828_012207_pilot_phix174_information_architecture\\module_0_ingestion\\ds_phix174_refseq_validation_report.json",
+      "outputs\\runs\\run_20260828_012207_pilot_phix174_information_architecture\\module_0_ingestion\\ds_phix174_refseq_normalized.json"
+    ]
+  }
+]

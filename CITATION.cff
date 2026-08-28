@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "Biology as Information Architecture: A Reproducible Computational Research Framework"
+authors:
+  - family-names: "Contributors"
+    given-names: "Biology as Information Architecture"
+version: 0.1.0
+date-released: 2026-08-28
+url: "https://github.com/example/bio-information-architecture"
+license: MIT

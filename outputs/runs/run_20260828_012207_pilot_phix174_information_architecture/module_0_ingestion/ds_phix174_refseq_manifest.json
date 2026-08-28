@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ds_phix174_refseq",
+  "source": "NCBI Entrez / RefSeq NC_001422.1",
+  "license": "NCBI RefSeq Public Domain",
+  "retrieval_date": "2026-08-28T01:22:07.940011+00:00",
+  "checksum": "5af131154db6ed660b9a54da006c10eb3d2187d038982ad98b2411578c26d810",
+  "organism": "Bacteriophage phiX174 (NC_001422.1)",
+  "url": null,
+  "assembly": null,
+  "sequence_type": "DNA",
+  "annotations": {
+    "format": "fasta",
+    "total_records": 7,
+    "valid_records": 7,
+    "normalizations": []
+  },
+  "validation_status": "valid"
+}

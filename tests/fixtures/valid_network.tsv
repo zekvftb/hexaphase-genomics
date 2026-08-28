@@ -1,0 +1,4 @@
+source	target	interaction_type	confidence
+GeneA	GeneB	activation	0.95
+GeneB	GeneC	repression	0.88
+GeneC	GeneA	feedback	0.75

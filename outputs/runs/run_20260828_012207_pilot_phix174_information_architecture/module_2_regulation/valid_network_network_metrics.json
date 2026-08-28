@@ -1,0 +1,108 @@
+{
+  "run_metadata": {
+    "run_id": "run_mod2_valid_network_1846006301",
+    "timestamp": "2026-08-28T01:22:08.809987+00:00",
+    "module": "module_2_regulation",
+    "version": "0.1.0",
+    "input_ids": [
+      "valid_network.tsv"
+    ],
+    "parameters": {
+      "num_null_graphs": 50,
+      "seed": 1846006301
+    },
+    "seed": 1846006301,
+    "environment": {
+      "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "python_implementation": "CPython",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "10",
+      "machine": "AMD64",
+      "cpu_count": 16,
+      "installed_packages": {
+        "bio-arch": "0.1.0",
+        "networkx": "3.6.1",
+        "pytest": "9.0.3",
+        "pyyaml": "6.0.3"
+      }
+    },
+    "status": "success",
+    "warnings": []
+  },
+  "summary": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 0.5,
+    "reciprocity": 0.0,
+    "num_sccs": 1,
+    "num_wccs": 1,
+    "ffl_count": 0,
+    "feedback_loop_count": 1,
+    "evidence_breakdown": {
+      "experimental": 3
+    },
+    "top_regulators": [
+      [
+        "GeneA",
+        1
+      ],
+      [
+        "GeneB",
+        1
+      ],
+      [
+        "GeneC",
+        1
+      ]
+    ]
+  },
+  "findings": [
+    {
+      "finding_id": "f_valid_network_ffl_enrichment",
+      "metric": "feed_forward_loop_count",
+      "observed_value": 0,
+      "control_distribution": {
+        "null_model": "degree_preserving_directed_swap",
+        "iterations": 50,
+        "null_mean": 0.0,
+        "null_std": 0.0
+      },
+      "effect_size": 0.0,
+      "uncertainty": {
+        "null_ci_2.5": 0,
+        "null_ci_97.5": 0
+      },
+      "adjusted_p_value": 1.0,
+      "biological_context": "FFL motif census for network valid_network across 3 nodes."
+    },
+    {
+      "finding_id": "f_valid_network_evidence_composition",
+      "metric": "evidence_type_ratio",
+      "observed_value": {
+        "experimental": 3
+      },
+      "control_distribution": null,
+      "effect_size": null,
+      "uncertainty": null,
+      "adjusted_p_value": null,
+      "biological_context": "Proportion of curated vs correlation-derived edges in valid_network."
+    }
+  ],
+  "interpretations": [
+    {
+      "finding_ids": [
+        "f_valid_network_ffl_enrichment"
+      ],
+      "classification": "interpretation",
+      "claim": "One interpretation is that statistically enriched feed-forward loops provide signal filtering or pulse generation.",
+      "alternatives": [
+        "Topological by-product of gene duplication and preferential attachment during evolutionary history."
+      ],
+      "limitations": [
+        "0 of 3 edges are correlation-derived and must not be interpreted as confirmed causal mechanisms."
+      ],
+      "proposed_test": "Perform targeted gene knockdown/CRISPR interference to experimentally verify edge directionality."
+    }
+  ]
+}

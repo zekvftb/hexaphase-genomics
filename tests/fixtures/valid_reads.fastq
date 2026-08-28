@@ -1,0 +1,8 @@
+@read_001 test_sequencing_read
+ATGCATGCATGCATGC
++
+IIIIIIIIIIIIIIII
+@read_002 test_sequencing_read
+CGTACGTACGTACGTA
++
+HHHHHHHHHHHHHHHH

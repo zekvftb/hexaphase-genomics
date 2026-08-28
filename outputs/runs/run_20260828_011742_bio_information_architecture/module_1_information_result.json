@@ -1,0 +1,245 @@
+[
+  {
+    "run_metadata": {
+      "run_id": "run_mod1_ds_lambda_lac_sample_normalized_1585485011",
+      "timestamp": "2026-08-28T01:17:42.732540+00:00",
+      "module": "module_1_information",
+      "version": "0.1.0",
+      "input_ids": [
+        "ds_lambda_lac_sample_normalized.json"
+      ],
+      "parameters": {
+        "num_shuffles": 50,
+        "seed": 1585485011
+      },
+      "seed": 1585485011,
+      "environment": {
+        "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "python_implementation": "CPython",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "system": "Windows",
+        "release": "10",
+        "machine": "AMD64",
+        "cpu_count": 16,
+        "installed_packages": {
+          "bio-arch": "0.1.0",
+          "networkx": "3.6.1",
+          "pytest": "9.0.3",
+          "pyyaml": "6.0.3"
+        }
+      },
+      "status": "success",
+      "warnings": []
+    },
+    "outputs": {
+      "records_analyzed": 2,
+      "record_metrics": [
+        {
+          "record_id": "synthetic_lambda_cro_region",
+          "length": 219,
+          "gc_content": 0.424658,
+          "gc_skew": 0.053763,
+          "at_skew": 0.269841,
+          "shannon_entropy_k1": 1.952075,
+          "shannon_entropy_k2": 3.868973,
+          "conditional_entropy": 1.916898,
+          "compression_ratio": 0.456621,
+          "tandem_repeat_count": 17,
+          "autocorrelation_lag_1": 0.3119
+        },
+        {
+          "record_id": "synthetic_lac_operon_promoter",
+          "length": 117,
+          "gc_content": 0.435897,
+          "gc_skew": 0.019608,
+          "at_skew": -0.121212,
+          "shannon_entropy_k1": 1.981997,
+          "shannon_entropy_k2": 3.893779,
+          "conditional_entropy": 1.911782,
+          "compression_ratio": 0.564103,
+          "tandem_repeat_count": 7,
+          "autocorrelation_lag_1": 0.25
+        }
+      ]
+    },
+    "findings": [
+      {
+        "finding_id": "f_synthetic_lambda_cro_region_composition",
+        "metric": "gc_content",
+        "observed_value": 0.424658,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for synthetic_lambda_cro_region."
+      },
+      {
+        "finding_id": "f_synthetic_lambda_cro_region_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.868973,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 3.868973,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.868973,
+          "null_ci_97.5": 3.868973
+        },
+        "effect_size": -0.9899,
+        "uncertainty": {
+          "ci_lower": 3.868973,
+          "ci_upper": 3.868973
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_synthetic_lambda_cro_region_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.916898,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 1.916898,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.916898,
+          "null_ci_97.5": 1.916898
+        },
+        "effect_size": -0.9899,
+        "uncertainty": {
+          "ci_lower": 1.916898,
+          "ci_upper": 1.916898
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_synthetic_lambda_cro_region_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.456621,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 0.457534,
+          "null_std": 0.009362,
+          "null_ci_2.5": 0.438356,
+          "null_ci_97.5": 0.479452
+        },
+        "effect_size": -0.0975,
+        "uncertainty": {
+          "ci_lower": 0.438356,
+          "ci_upper": 0.479452
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      },
+      {
+        "finding_id": "f_synthetic_lac_operon_promoter_composition",
+        "metric": "gc_content",
+        "observed_value": 0.435897,
+        "control_distribution": null,
+        "effect_size": null,
+        "uncertainty": null,
+        "adjusted_p_value": null,
+        "biological_context": "GC content and base composition for synthetic_lac_operon_promoter."
+      },
+      {
+        "finding_id": "f_synthetic_lac_operon_promoter_entropy_k2",
+        "metric": "shannon_entropy_k2",
+        "observed_value": 3.893779,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 3.893779,
+          "null_std": 0.0,
+          "null_ci_2.5": 3.893779,
+          "null_ci_97.5": 3.893779
+        },
+        "effect_size": 0.9899,
+        "uncertainty": {
+          "ci_lower": 3.893779,
+          "ci_upper": 3.893779
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "2-mer Shannon entropy compared to dinucleotide-preserving controls."
+      },
+      {
+        "finding_id": "f_synthetic_lac_operon_promoter_conditional_entropy",
+        "metric": "conditional_entropy_k1",
+        "observed_value": 1.911782,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 1.911782,
+          "null_std": 0.0,
+          "null_ci_2.5": 1.911782,
+          "null_ci_97.5": 1.911782
+        },
+        "effect_size": -0.9899,
+        "uncertainty": {
+          "ci_lower": 1.911782,
+          "ci_upper": 1.911782
+        },
+        "adjusted_p_value": 1.0,
+        "biological_context": "First-order conditional entropy H(X_t | X_{t-1})."
+      },
+      {
+        "finding_id": "f_synthetic_lac_operon_promoter_compression_ratio",
+        "metric": "compression_ratio_zlib",
+        "observed_value": 0.564103,
+        "control_distribution": {
+          "null_model": "dinucleotide_shuffle",
+          "iterations": 50,
+          "null_mean": 0.554701,
+          "null_std": 0.007377,
+          "null_ci_2.5": 0.538462,
+          "null_ci_97.5": 0.564103
+        },
+        "effect_size": 1.2745,
+        "uncertainty": {
+          "ci_lower": 0.538462,
+          "ci_upper": 0.564103
+        },
+        "adjusted_p_value": 0.999999,
+        "biological_context": "Descriptive compression ratio proxy for sequence redundancy."
+      }
+    ],
+    "interpretations": [
+      {
+        "finding_ids": [
+          "f_synthetic_lambda_cro_region_compression_ratio",
+          "f_synthetic_lambda_cro_region_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      },
+      {
+        "finding_ids": [
+          "f_synthetic_lac_operon_promoter_compression_ratio",
+          "f_synthetic_lac_operon_promoter_entropy_k2"
+        ],
+        "classification": "interpretation",
+        "claim": "One interpretation is that deviations in compressibility from null models indicate higher-order repeat structure or motifs.",
+        "alternatives": [
+          "Local GC skews or replication origins causing periodic structural motifs without selective pressure."
+        ],
+        "limitations": [
+          "Compression algorithms (zlib) are heuristics, not exact Kolmogorov complexity calculations."
+        ],
+        "proposed_test": "Perform comparative analysis against known non-coding neutral regions or simulated genomes."
+      }
+    ],
+    "warnings": [],
+    "errors": [],
+    "artifact_paths": [
+      "outputs\\runs\\run_20260828_011742_bio_information_architecture\\module_1_information\\ds_lambda_lac_sample_normalized_information_metrics.json"
+    ]
+  }
+]

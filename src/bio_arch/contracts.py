@@ -1,0 +1,271 @@
+"""Shared data contracts and evidence classification models.
+
+Defines typed dataclasses for data exchange between modules, provenance recording,
+and scientific evidence categorization.
+"""
+
+from __future__ import annotations
+
+from dataclasses import asdict, dataclass, field
+from datetime import datetime
+from enum import Enum
+import json
+import re
+from typing import Any
+
+
+class EvidenceClass(str, Enum):
+    """Scientific evidence classification with required epistemological wording."""
+
+    MEASUREMENT = "measurement"
+    SIMULATION = "simulation"
+    INTERPRETATION = "interpretation"
+    HYPOTHESIS = "hypothesis"
+
+    @property
+    def required_prefix(self) -> str:
+        """Return the required phrasing prefix for claims of this class."""
+        prefixes = {
+            EvidenceClass.MEASUREMENT: "The analysis measured",
+            EvidenceClass.SIMULATION: "Under this model",
+            EvidenceClass.INTERPRETATION: "One interpretation is",
+            EvidenceClass.HYPOTHESIS: "This predicts",
+        }
+        return prefixes[self]
+
+
+class ValidationStatus(str, Enum):
+    """Validation outcome for ingested datasets and artifacts."""
+
+    VALID = "valid"
+    INVALID = "invalid"
+    WARNING = "warning"
+
+
+_SEMVER_REGEX = re.compile(r"^\d+\.\d+\.\d+(-[0-9A-Za-z.-]+)?(\+[0-9A-Za-z.-]+)?$")
+_SHA256_REGEX = re.compile(r"^[0-9a-fA-F]{64}$")
+
+
+def _validate_iso_timestamp(timestamp_str: str) -> None:
+    """Validate that a string conforms to ISO 8601."""
+    try:
+        datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+    except (ValueError, TypeError) as exc:
+        raise ValueError(f"Invalid ISO 8601 timestamp: '{timestamp_str}'") from exc
+
+
+def _validate_sha256(checksum: str) -> None:
+    """Validate 64-character hexadecimal SHA-256 string."""
+    if not isinstance(checksum, str) or not _SHA256_REGEX.match(checksum):
+        raise ValueError(f"Invalid SHA-256 checksum (expected 64 hex characters): '{checksum}'")
+
+
+def _validate_semver(version: str) -> None:
+    """Validate semantic version format."""
+    if not isinstance(version, str) or not _SEMVER_REGEX.match(version):
+        raise ValueError(f"Invalid semantic version (e.g. '0.1.0'): '{version}'")
+
+
+@dataclass
+class DatasetManifest:
+    """Provenance and metadata contract for ingested datasets."""
+
+    dataset_id: str
+    source: str
+    license: str
+    retrieval_date: str
+    checksum: str
+    organism: str
+    url: str | None = None
+    assembly: str | None = None
+    sequence_type: str | None = None
+    annotations: dict[str, Any] = field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.VALID
+
+    def __post_init__(self) -> None:
+        if not self.dataset_id or not isinstance(self.dataset_id, str):
+            raise ValueError("dataset_id must be a non-empty string.")
+        if not self.source:
+            raise ValueError("source must be specified.")
+        if not self.license:
+            raise ValueError("license must be specified.")
+        _validate_iso_timestamp(self.retrieval_date)
+        _validate_sha256(self.checksum)
+        if isinstance(self.validation_status, str):
+            self.validation_status = ValidationStatus(self.validation_status)
+
+    def to_dict(self) -> dict[str, Any]:
+        data = asdict(self)
+        data["validation_status"] = self.validation_status.value
+        return data
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> DatasetManifest:
+        clean_data = dict(data)
+        if "validation_status" in clean_data:
+            clean_data["validation_status"] = ValidationStatus(clean_data["validation_status"])
+        return cls(**clean_data)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> DatasetManifest:
+        return cls.from_dict(json.loads(json_str))
+
+
+@dataclass
+class AnalysisRun:
+    """Metadata tracking a specific module analysis execution."""
+
+    run_id: str
+    timestamp: str
+    module: str
+    version: str
+    input_ids: list[str] = field(default_factory=list)
+    parameters: dict[str, Any] = field(default_factory=dict)
+    seed: int | None = None
+    environment: dict[str, Any] = field(default_factory=dict)
+    status: str = "success"
+    warnings: list[str] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        if not self.run_id:
+            raise ValueError("run_id must be a non-empty string.")
+        _validate_iso_timestamp(self.timestamp)
+        _validate_semver(self.version)
+        if self.status not in ("success", "failed", "running", "warning"):
+            raise ValueError(f"Invalid status: '{self.status}'. Must be success/failed/running/warning.")
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> AnalysisRun:
+        return cls(**data)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> AnalysisRun:
+        return cls.from_dict(json.loads(json_str))
+
+
+@dataclass
+class Finding:
+    """A structured, empirical finding with observed values and controls."""
+
+    finding_id: str
+    metric: str
+    observed_value: Any
+    control_distribution: dict[str, Any] | None = None
+    effect_size: float | None = None
+    uncertainty: dict[str, float] | None = None
+    adjusted_p_value: float | None = None
+    biological_context: str = ""
+
+    def __post_init__(self) -> None:
+        if not self.finding_id:
+            raise ValueError("finding_id must be a non-empty string.")
+        if not self.metric:
+            raise ValueError("metric must be specified.")
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> Finding:
+        return cls(**data)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> Finding:
+        return cls.from_dict(json.loads(json_str))
+
+
+@dataclass
+class InterpretationRecord:
+    """An explicit interpretation, simulation, or hypothesis derived from findings."""
+
+    finding_ids: list[str]
+    classification: EvidenceClass
+    claim: str
+    alternatives: list[str] = field(default_factory=list)
+    limitations: list[str] = field(default_factory=list)
+    proposed_test: str = ""
+
+    def __post_init__(self) -> None:
+        if not self.finding_ids:
+            raise ValueError("finding_ids must contain at least one linked finding ID.")
+        if isinstance(self.classification, str):
+            self.classification = EvidenceClass(self.classification)
+        if not self.claim or not isinstance(self.claim, str):
+            raise ValueError("claim must be a non-empty string.")
+
+    def to_dict(self) -> dict[str, Any]:
+        data = asdict(self)
+        data["classification"] = self.classification.value
+        return data
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> InterpretationRecord:
+        clean_data = dict(data)
+        if "classification" in clean_data:
+            clean_data["classification"] = EvidenceClass(clean_data["classification"])
+        return cls(**clean_data)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> InterpretationRecord:
+        return cls.from_dict(json.loads(json_str))
+
+
+@dataclass
+class ModuleResult:
+    """Standardized output container emitted by all modules."""
+
+    run_metadata: AnalysisRun
+    outputs: dict[str, Any] = field(default_factory=dict)
+    findings: list[Finding] = field(default_factory=list)
+    interpretations: list[InterpretationRecord] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
+    errors: list[str] = field(default_factory=list)
+    artifact_paths: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "run_metadata": self.run_metadata.to_dict(),
+            "outputs": self.outputs,
+            "findings": [f.to_dict() for f in self.findings],
+            "interpretations": [i.to_dict() for i in self.interpretations],
+            "warnings": self.warnings,
+            "errors": self.errors,
+            "artifact_paths": self.artifact_paths,
+        }
+
+    def to_json(self, indent: int = 2) -> str:
+        return json.dumps(self.to_dict(), indent=indent)
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> ModuleResult:
+        run_metadata = AnalysisRun.from_dict(data["run_metadata"])
+        findings = [Finding.from_dict(f) for f in data.get("findings", [])]
+        interpretations = [InterpretationRecord.from_dict(i) for i in data.get("interpretations", [])]
+        return cls(
+            run_metadata=run_metadata,
+            outputs=data.get("outputs", {}),
+            findings=findings,
+            interpretations=interpretations,
+            warnings=data.get("warnings", []),
+            errors=data.get("errors", []),
+            artifact_paths=data.get("artifact_paths", []),
+        )
+
+    @classmethod
+    def from_json(cls, json_str: str) -> ModuleResult:
+        return cls.from_dict(json.loads(json_str))
