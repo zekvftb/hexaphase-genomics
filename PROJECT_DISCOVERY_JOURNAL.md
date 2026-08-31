@@ -175,6 +175,6 @@ In strict adherence to the *Biology as Information Architecture* guidelines, all
 | **CRISPR Direct-Repeat Arrays** | **505 arrays (3,451 spacers extracted)** |
 | **Gardiner-Garden CpG Islands** | **581 islands mapped** |
 | **Candidate Riboswitch Aptamers** | **274 matching consensus motifs** |
-| **Automated Pytest Unit Tests** | **150 / 150 Passing Tests (82 in `D:\DNA`, 68 in `D:\smc_lang`)** |
+| **Automated Pytest Unit Tests** | **162 / 162 Passing Tests (94 in `D:\DNA`, 68 in `D:\smc_lang`)** |
 | **Cross-Engine Implementation Parity** | **100.0% Numerical Agreement (Python vs SMC VM)** |
 

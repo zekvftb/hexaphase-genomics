@@ -1,0 +1,1323 @@
+{
+  "status": "COMPLETED",
+  "harness_version": "2.0.0-CALIBRATED",
+  "timestamp": "2026-08-31T15:43:13.105954+00:00",
+  "environment": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "system": "Windows",
+    "release": "10",
+    "machine": "AMD64",
+    "cpu_count": 16,
+    "installed_packages": {
+      "bio-arch": "0.1.0",
+      "numpy": "2.4.6",
+      "networkx": "3.6.1",
+      "biopython": "1.88",
+      "pytest": "9.0.3",
+      "pyyaml": "6.0.3"
+    }
+  },
+  "total_targets_evaluated": 54,
+  "statistically_significant_targets": 0,
+  "consistent_with_dinucleotide_noise_targets": 54,
+  "calibration_records": [
+    {
+      "target_id": "H5N1_Seg1_PB2",
+      "length_analyzed": 2341,
+      "total_length": 2341,
+      "gc_content_pct": 44.25,
+      "shannon_entropy_bits": 1.9658,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 26,
+        "total_structural_features": 28
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 24.7,
+        "null_std": 4.751,
+        "effect_size_z": 0.695,
+        "raw_p_value": 0.2673,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg2_PB1",
+      "length_analyzed": 2341,
+      "total_length": 2341,
+      "gc_content_pct": 44.08,
+      "shannon_entropy_bits": 1.9682,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 21,
+        "total_structural_features": 22
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 26.48,
+        "null_std": 5.897,
+        "effect_size_z": -0.76,
+        "raw_p_value": 0.8317,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg3_PA",
+      "length_analyzed": 2233,
+      "total_length": 2233,
+      "gc_content_pct": 43.75,
+      "shannon_entropy_bits": 1.9747,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 11,
+        "total_structural_features": 12
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 24.51,
+        "null_std": 4.871,
+        "effect_size_z": -2.568,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg4_HA",
+      "length_analyzed": 1565,
+      "total_length": 1565,
+      "gc_content_pct": 46.77,
+      "shannon_entropy_bits": 1.9731,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 10,
+        "total_structural_features": 12
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 15.38,
+        "null_std": 4.025,
+        "effect_size_z": -0.84,
+        "raw_p_value": 0.8416,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg5_NP",
+      "length_analyzed": 1458,
+      "total_length": 1458,
+      "gc_content_pct": 43.42,
+      "shannon_entropy_bits": 1.98,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 23,
+        "total_structural_features": 24
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 15.46,
+        "null_std": 3.978,
+        "effect_size_z": 2.147,
+        "raw_p_value": 0.0198,
+        "fdr_adjusted_q_value": 0.3564
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg6_NA",
+      "length_analyzed": 1760,
+      "total_length": 1760,
+      "gc_content_pct": 41.7,
+      "shannon_entropy_bits": 1.9632,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 18,
+        "total_structural_features": 20
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 19.54,
+        "null_std": 4.758,
+        "effect_size_z": 0.097,
+        "raw_p_value": 0.4653,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg7_M",
+      "length_analyzed": 1027,
+      "total_length": 1027,
+      "gc_content_pct": 47.91,
+      "shannon_entropy_bits": 1.9911,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 6,
+        "total_structural_features": 7
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 11.8,
+        "null_std": 3.114,
+        "effect_size_z": -1.541,
+        "raw_p_value": 0.9505,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "H5N1_Seg8_NS",
+      "length_analyzed": 865,
+      "total_length": 865,
+      "gc_content_pct": 41.39,
+      "shannon_entropy_bits": 1.9657,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 11,
+        "total_structural_features": 12
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 10.36,
+        "null_std": 2.798,
+        "effect_size_z": 0.586,
+        "raw_p_value": 0.3267,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "TP53",
+      "length_analyzed": 2512,
+      "total_length": 2512,
+      "gc_content_pct": 53.38,
+      "shannon_entropy_bits": 1.9918,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 2,
+        "stop_readthroughs": 18,
+        "total_structural_features": 21
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 26.15,
+        "null_std": 5.127,
+        "effect_size_z": -1.004,
+        "raw_p_value": 0.8614,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "MYC",
+      "length_analyzed": 3721,
+      "total_length": 3721,
+      "gc_content_pct": 48.78,
+      "shannon_entropy_bits": 1.9979,
+      "observed_features": {
+        "frameshift_motifs": 3,
+        "g4_quadruplexes": 2,
+        "stop_readthroughs": 27,
+        "total_structural_features": 32
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 41.25,
+        "null_std": 6.799,
+        "effect_size_z": -1.36,
+        "raw_p_value": 0.9208,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "KRAS",
+      "length_analyzed": 5306,
+      "total_length": 5306,
+      "gc_content_pct": 36.28,
+      "shannon_entropy_bits": 1.9425,
+      "observed_features": {
+        "frameshift_motifs": 8,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 54,
+        "total_structural_features": 62
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 69.71,
+        "null_std": 7.639,
+        "effect_size_z": -1.009,
+        "raw_p_value": 0.8416,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "EGFR",
+      "length_analyzed": 9905,
+      "total_length": 9905,
+      "gc_content_pct": 47.78,
+      "shannon_entropy_bits": 1.9969,
+      "observed_features": {
+        "frameshift_motifs": 9,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 79,
+        "total_structural_features": 88
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 114.1,
+        "null_std": 10.137,
+        "effect_size_z": -2.575,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "BRCA1",
+      "length_analyzed": 7088,
+      "total_length": 7088,
+      "gc_content_pct": 41.77,
+      "shannon_entropy_bits": 1.9697,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 72,
+        "total_structural_features": 73
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 81.12,
+        "null_std": 9.337,
+        "effect_size_z": -0.87,
+        "raw_p_value": 0.8317,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "PTEN",
+      "length_analyzed": 8515,
+      "total_length": 8515,
+      "gc_content_pct": 36.72,
+      "shannon_entropy_bits": 1.9468,
+      "observed_features": {
+        "frameshift_motifs": 11,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 79,
+        "total_structural_features": 90
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 104.86,
+        "null_std": 10.902,
+        "effect_size_z": -1.363,
+        "raw_p_value": 0.9307,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "BRAF",
+      "length_analyzed": 6459,
+      "total_length": 6459,
+      "gc_content_pct": 41.07,
+      "shannon_entropy_bits": 1.9756,
+      "observed_features": {
+        "frameshift_motifs": 7,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 61,
+        "total_structural_features": 69
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 73.31,
+        "null_std": 8.714,
+        "effect_size_z": -0.495,
+        "raw_p_value": 0.6832,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_DRD4",
+      "length_analyzed": 1380,
+      "total_length": 1380,
+      "gc_content_pct": 87.9,
+      "shannon_entropy_bits": 1.5056,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 1,
+        "total_structural_features": 3
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 3.55,
+        "null_std": 1.604,
+        "effect_size_z": -0.343,
+        "raw_p_value": 0.7426,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_DAT1",
+      "length_analyzed": 1860,
+      "total_length": 1860,
+      "gc_content_pct": 64.89,
+      "shannon_entropy_bits": 1.6716,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 1,
+        "total_structural_features": 1
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 10.89,
+        "null_std": 2.49,
+        "effect_size_z": -3.972,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_SNAP25",
+      "length_analyzed": 621,
+      "total_length": 621,
+      "gc_content_pct": 49.28,
+      "shannon_entropy_bits": 1.9609,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 3,
+        "total_structural_features": 3
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 5.95,
+        "null_std": 2.249,
+        "effect_size_z": -1.312,
+        "raw_p_value": 0.9604,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_SHANK3",
+      "length_analyzed": 5280,
+      "total_length": 5280,
+      "gc_content_pct": 99.32,
+      "shannon_entropy_bits": 1.0408,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 0,
+        "total_structural_features": 0
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 17.55,
+        "null_std": 3.403,
+        "effect_size_z": -5.157,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "HIV1",
+      "length_analyzed": 9181,
+      "total_length": 9181,
+      "gc_content_pct": 42.12,
+      "shannon_entropy_bits": 1.9525,
+      "observed_features": {
+        "frameshift_motifs": 10,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 107,
+        "total_structural_features": 118
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 117.251,
+        "null_std": 10.81,
+        "effect_size_z": 0.069,
+        "raw_p_value": 0.4815,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Ebola_Virus",
+      "length_analyzed": 10000,
+      "total_length": 18959,
+      "gc_content_pct": 43.19,
+      "shannon_entropy_bits": 1.9807,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 106,
+        "total_structural_features": 108
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 118.42,
+        "null_std": 11.495,
+        "effect_size_z": -0.907,
+        "raw_p_value": 0.8416,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "RSV",
+      "length_analyzed": 10000,
+      "total_length": 15191,
+      "gc_content_pct": 34.66,
+      "shannon_entropy_bits": 1.9074,
+      "observed_features": {
+        "frameshift_motifs": 6,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 130,
+        "total_structural_features": 136
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 142.95,
+        "null_std": 13.076,
+        "effect_size_z": -0.532,
+        "raw_p_value": 0.7228,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Dengue_Virus_2",
+      "length_analyzed": 10000,
+      "total_length": 10723,
+      "gc_content_pct": 45.7,
+      "shannon_entropy_bits": 1.9726,
+      "observed_features": {
+        "frameshift_motifs": 4,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 117,
+        "total_structural_features": 121
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 118.71,
+        "null_std": 10.852,
+        "effect_size_z": 0.211,
+        "raw_p_value": 0.4455,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Zika_Virus",
+      "length_analyzed": 10000,
+      "total_length": 10794,
+      "gc_content_pct": 50.73,
+      "shannon_entropy_bits": 1.9866,
+      "observed_features": {
+        "frameshift_motifs": 5,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 100,
+        "total_structural_features": 105
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 109.34,
+        "null_std": 10.85,
+        "effect_size_z": -0.4,
+        "raw_p_value": 0.6733,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Hepatitis_C",
+      "length_analyzed": 9646,
+      "total_length": 9646,
+      "gc_content_pct": 58.23,
+      "shannon_entropy_bits": 1.9788,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 79,
+        "total_structural_features": 82
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 94.82,
+        "null_std": 9.451,
+        "effect_size_z": -1.356,
+        "raw_p_value": 0.9109,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Mpox_Virus",
+      "length_analyzed": 10000,
+      "total_length": 197209,
+      "gc_content_pct": 33.0,
+      "shannon_entropy_bits": 1.913,
+      "observed_features": {
+        "frameshift_motifs": 13,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 116,
+        "total_structural_features": 129
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 119.24,
+        "null_std": 10.907,
+        "effect_size_z": 0.895,
+        "raw_p_value": 0.1881,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Influenza_A_PB2",
+      "length_analyzed": 1701,
+      "total_length": 1701,
+      "gc_content_pct": 40.74,
+      "shannon_entropy_bits": 1.9683,
+      "observed_features": {
+        "frameshift_motifs": 3,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 16,
+        "total_structural_features": 19
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 20.34,
+        "null_std": 4.619,
+        "effect_size_z": -0.29,
+        "raw_p_value": 0.6733,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Influenza_A_PB1",
+      "length_analyzed": 1410,
+      "total_length": 1410,
+      "gc_content_pct": 42.13,
+      "shannon_entropy_bits": 1.9738,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 21,
+        "total_structural_features": 22
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 16.0,
+        "null_std": 3.632,
+        "effect_size_z": 1.652,
+        "raw_p_value": 0.0891,
+        "fdr_adjusted_q_value": 0.8271
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Influenza_A_HA",
+      "length_analyzed": 1497,
+      "total_length": 1497,
+      "gc_content_pct": 46.23,
+      "shannon_entropy_bits": 1.9759,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 14,
+        "total_structural_features": 15
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 12.84,
+        "null_std": 2.891,
+        "effect_size_z": 0.747,
+        "raw_p_value": 0.3069,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "NC_001422.1",
+      "length_analyzed": 5386,
+      "total_length": 5386,
+      "gc_content_pct": 44.76,
+      "shannon_entropy_bits": 1.9846,
+      "observed_features": {
+        "frameshift_motifs": 6,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 62,
+        "total_structural_features": 68
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 66.95,
+        "null_std": 7.453,
+        "effect_size_z": 0.141,
+        "raw_p_value": 0.4356,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_whole_genome",
+      "length_analyzed": 5386,
+      "total_length": 5386,
+      "gc_content_pct": 44.76,
+      "shannon_entropy_bits": 1.9846,
+      "observed_features": {
+        "frameshift_motifs": 6,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 62,
+        "total_structural_features": 68
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 66.781,
+        "null_std": 7.623,
+        "effect_size_z": 0.16,
+        "raw_p_value": 0.4555,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_overlap_gene_e",
+      "length_analyzed": 276,
+      "total_length": 276,
+      "gc_content_pct": 47.83,
+      "shannon_entropy_bits": 1.9944,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 2,
+        "total_structural_features": 2
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 3.283,
+        "null_std": 1.711,
+        "effect_size_z": -0.75,
+        "raw_p_value": 0.8501,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_overlap_gene_k",
+      "length_analyzed": 171,
+      "total_length": 171,
+      "gc_content_pct": 40.35,
+      "shannon_entropy_bits": 1.9703,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 1,
+        "total_structural_features": 1
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 2.204,
+        "null_std": 1.392,
+        "effect_size_z": -0.865,
+        "raw_p_value": 0.9021,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_f",
+      "length_analyzed": 1284,
+      "total_length": 1284,
+      "gc_content_pct": 44.94,
+      "shannon_entropy_bits": 1.9719,
+      "observed_features": {
+        "frameshift_motifs": 2,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 20,
+        "total_structural_features": 22
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 16.331,
+        "null_std": 3.69,
+        "effect_size_z": 1.536,
+        "raw_p_value": 0.0919,
+        "fdr_adjusted_q_value": 0.8271
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_g",
+      "length_analyzed": 528,
+      "total_length": 528,
+      "gc_content_pct": 42.05,
+      "shannon_entropy_bits": 1.9413,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 5,
+        "total_structural_features": 6
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 6.012,
+        "null_std": 2.278,
+        "effect_size_z": -0.005,
+        "raw_p_value": 0.5864,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_nonoverlap_gene_h",
+      "length_analyzed": 987,
+      "total_length": 987,
+      "gc_content_pct": 45.09,
+      "shannon_entropy_bits": 1.9859,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 6,
+        "total_structural_features": 6
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 10.783,
+        "null_std": 3.168,
+        "effect_size_z": -1.51,
+        "raw_p_value": 0.958,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_intergenic_jf",
+      "length_analyzed": 122,
+      "total_length": 122,
+      "gc_content_pct": 51.64,
+      "shannon_entropy_bits": 1.9867,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 0,
+        "total_structural_features": 0
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 1.358,
+        "null_std": 1.118,
+        "effect_size_z": -1.215,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Methanocaldococcus_jannaschii",
+      "length_analyzed": 10000,
+      "total_length": 1664970,
+      "gc_content_pct": 31.13,
+      "shannon_entropy_bits": 1.8946,
+      "observed_features": {
+        "frameshift_motifs": 8,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 96,
+        "total_structural_features": 104
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 110.56,
+        "null_std": 9.643,
+        "effect_size_z": -0.68,
+        "raw_p_value": 0.7723,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Pyrococcus_furiosus",
+      "length_analyzed": 10000,
+      "total_length": 1908256,
+      "gc_content_pct": 37.69,
+      "shannon_entropy_bits": 1.9547,
+      "observed_features": {
+        "frameshift_motifs": 14,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 88,
+        "total_structural_features": 103
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 116.38,
+        "null_std": 9.835,
+        "effect_size_z": -1.36,
+        "raw_p_value": 0.9505,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Sulfolobus_solfataricus",
+      "length_analyzed": 10000,
+      "total_length": 2992245,
+      "gc_content_pct": 35.1,
+      "shannon_entropy_bits": 1.9279,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 140,
+        "total_structural_features": 141
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 139.12,
+        "null_std": 11.309,
+        "effect_size_z": 0.166,
+        "raw_p_value": 0.495,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Haloferax_volcanii",
+      "length_analyzed": 10000,
+      "total_length": 2847757,
+      "gc_content_pct": 67.24,
+      "shannon_entropy_bits": 1.9087,
+      "observed_features": {
+        "frameshift_motifs": 5,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 38,
+        "total_structural_features": 43
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 59.08,
+        "null_std": 7.652,
+        "effect_size_z": -2.101,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Erithacus_rubecula_CRY4",
+      "length_analyzed": 360,
+      "total_length": 360,
+      "gc_content_pct": 12.22,
+      "shannon_entropy_bits": 3.1194,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 0,
+        "total_structural_features": 0
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 0.0,
+        "null_std": 0.0,
+        "effect_size_z": 0.0,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_CRY1",
+      "length_analyzed": 360,
+      "total_length": 360,
+      "gc_content_pct": 36.67,
+      "shannon_entropy_bits": 3.1015,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 5,
+        "stop_readthroughs": 0,
+        "total_structural_features": 5
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 0.07,
+        "null_std": 0.256,
+        "effect_size_z": 19.225,
+        "raw_p_value": 0.0099,
+        "fdr_adjusted_q_value": 0.2673
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Homo_sapiens_CRY2",
+      "length_analyzed": 360,
+      "total_length": 360,
+      "gc_content_pct": 36.39,
+      "shannon_entropy_bits": 3.103,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 5,
+        "stop_readthroughs": 0,
+        "total_structural_features": 5
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 0.09,
+        "null_std": 0.288,
+        "effect_size_z": 17.071,
+        "raw_p_value": 0.0099,
+        "fdr_adjusted_q_value": 0.2673
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "phix174_virus",
+      "length_analyzed": 5386,
+      "total_length": 5386,
+      "gc_content_pct": 44.76,
+      "shannon_entropy_bits": 1.9846,
+      "observed_features": {
+        "frameshift_motifs": 6,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 62,
+        "total_structural_features": 68
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 66.777,
+        "null_std": 7.479,
+        "effect_size_z": 0.164,
+        "raw_p_value": 0.4625,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "lambda_phage",
+      "length_analyzed": 10000,
+      "total_length": 48502,
+      "gc_content_pct": 56.46,
+      "shannon_entropy_bits": 1.9841,
+      "observed_features": {
+        "frameshift_motifs": 6,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 100,
+        "total_structural_features": 106
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 101.9,
+        "null_std": 9.747,
+        "effect_size_z": 0.421,
+        "raw_p_value": 0.3168,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "sars_cov_2_virus",
+      "length_analyzed": 10000,
+      "total_length": 29903,
+      "gc_content_pct": 37.61,
+      "shannon_entropy_bits": 1.9537,
+      "observed_features": {
+        "frameshift_motifs": 3,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 115,
+        "total_structural_features": 118
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 1000,
+        "null_mean": 159.939,
+        "null_std": 12.053,
+        "effect_size_z": -3.479,
+        "raw_p_value": 0.999,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "human_mitochondria",
+      "length_analyzed": 10000,
+      "total_length": 16569,
+      "gc_content_pct": 44.69,
+      "shannon_entropy_bits": 1.9469,
+      "observed_features": {
+        "frameshift_motifs": 4,
+        "g4_quadruplexes": 2,
+        "stop_readthroughs": 165,
+        "total_structural_features": 171
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 150.93,
+        "null_std": 11.512,
+        "effect_size_z": 1.743,
+        "raw_p_value": 0.0396,
+        "fdr_adjusted_q_value": 0.5346
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "regulatory_switch_locus",
+      "length_analyzed": 6200,
+      "total_length": 6200,
+      "gc_content_pct": 43.02,
+      "shannon_entropy_bits": 1.9855,
+      "observed_features": {
+        "frameshift_motifs": 3,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 55,
+        "total_structural_features": 58
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 65.55,
+        "null_std": 7.148,
+        "effect_size_z": -1.056,
+        "raw_p_value": 0.9208,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Ideonella_sakaiensis_PETase",
+      "length_analyzed": 900,
+      "total_length": 900,
+      "gc_content_pct": 60.0,
+      "shannon_entropy_bits": 1.9587,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 1,
+        "stop_readthroughs": 4,
+        "total_structural_features": 5
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 5.96,
+        "null_std": 2.22,
+        "effect_size_z": -0.432,
+        "raw_p_value": 0.7426,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "Ideonella_sakaiensis_MHETase",
+      "length_analyzed": 1839,
+      "total_length": 1839,
+      "gc_content_pct": 65.04,
+      "shannon_entropy_bits": 1.8749,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 10,
+        "total_structural_features": 10
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 14.46,
+        "null_std": 3.286,
+        "effect_size_z": -1.357,
+        "raw_p_value": 0.9208,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "JCVI_syn3_0_minimal_operating_system",
+      "length_analyzed": 5400,
+      "total_length": 5400,
+      "gc_content_pct": 8.26,
+      "shannon_entropy_bits": 1.2778,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 0,
+        "total_structural_features": 0
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 37.21,
+        "null_std": 6.943,
+        "effect_size_z": -5.359,
+        "raw_p_value": 1.0,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "synthetic_lambda_cro_region",
+      "length_analyzed": 219,
+      "total_length": 219,
+      "gc_content_pct": 42.47,
+      "shannon_entropy_bits": 1.9521,
+      "observed_features": {
+        "frameshift_motifs": 1,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 3,
+        "total_structural_features": 4
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 2.75,
+        "null_std": 1.559,
+        "effect_size_z": 0.802,
+        "raw_p_value": 0.2871,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    },
+    {
+      "target_id": "synthetic_lac_operon_promoter",
+      "length_analyzed": 117,
+      "total_length": 117,
+      "gc_content_pct": 43.59,
+      "shannon_entropy_bits": 1.982,
+      "observed_features": {
+        "frameshift_motifs": 0,
+        "g4_quadruplexes": 0,
+        "stop_readthroughs": 2,
+        "total_structural_features": 2
+      },
+      "null_distribution": {
+        "model": "Altschul-Erickson Dinucleotide Shuffle",
+        "iterations": 100,
+        "null_mean": 1.76,
+        "null_std": 1.264,
+        "effect_size_z": 0.19,
+        "raw_p_value": 0.5347,
+        "fdr_adjusted_q_value": 1.0
+      },
+      "epistemic_classification": "[Measurement: Consistent with Random Dinucleotide Background Noise]",
+      "is_significant": false
+    }
+  ]
+}
