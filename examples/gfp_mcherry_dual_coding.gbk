@@ -1,0 +1,42 @@
+LOCUS       GFP_MCHERRY_AAV     709 bp    DNA     linear   SYN 31-AUG-2026
+DEFINITION  Dual-coding GFP (F0) and mCherry (F1) compact AAV expression vector.
+ACCESSION   GFP_MCHERRY_AAV
+VERSION     1.0
+KEYWORDS    synthetic biology; dual-coding; HexaPhase; AAV optimization.
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..709
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+     CDS             1..708
+                     /gene="Target_Protein_F0"
+                     /codon_start=1
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDEL"
+                     /note="Frame 0 primary CDS (Identity: 100.0%)"
+     CDS             2..709
+                     /gene="Target_Protein_F1"
+                     /codon_start=1
+                     /translation="*VKERSSSQVSFLSSWSSMEMSMDTSLASQERERETQPTGNSHSSSSAPRVSCPSPGPLSLPHSVMASSVFHGTRTI*SNTTSLSQLCRRAMSKSVRYSSKMTATTRPVLRLSSKATLSSTELSLKVSISRRTATSSGTSLSTTTIATTSTSWRISRKTGSRSTSRSDTISRTEASNWQTTISRTHRSETALSFSPTITISVRSQLSARTQTRSVITWYSSSSSRQQASPMEWMS*"
+                     /note="Frame +1 overlapping CDS (Identity: 11.44%, BLOSUM62: 65.68%)"
+     misc_feature    1..709
+                     /note="Human CAI: 0.7687; Compression: 2.0x"
+     misc_feature    1..709
+                     /note="Restriction Site Detected: HindIII:AAGCTT"
+     misc_feature    1..709
+                     /note="Restriction Site Detected: XhoI:CTCGAG"
+ORIGIN
+        1 atgagtaaag gagaggagct cttcacaggt gtcgttccta tcctcgtgga gctcgatgga
+       61 gatgtcaatg gacacaagtt tagcgtctca ggagagggag agggagacgc aacctacggg
+      121 aaactcacac tcaagttcat ctgcaccacg ggtaagctgc ccgtcccctg gcccactctc
+      181 gttaccacat tcagttatgg cgtccagtgt ttttcacggt acccggacca tatgaagcaa
+      241 cacgacttct ttaagtcagc tatgccggag ggctatgtcc aagagcgtac gatattcttc
+      301 aaagatgacg gcaactacaa gacccgtgct gaggttaagt tcgaaggcga cactctcgtc
+      361 aacagaattg agcttaaagg tatcgatttc aaggaggacg gcaacatcct cgggcacaag
+      421 cttgagtaca actacaatag ccacaacgtc tacatcatgg cggataagca gaaaaacggg
+      481 atcaaggtca acttcaagat cagacacaat atcgaggacg gaagcgtcca actggcagac
+      541 cactatcagc agaacacacc gatcggagac ggccctgtcc ttctccccga caatcactat
+      601 ctcagtacgc agtcagctct cagcaaggac ccaaacgaga agcgtgatca catggtactc
+      661 ctcgagttcg tcacggcagc aggcatcacc catggaatgg atgagctga
+//

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sbol="http://sbols.org/v3#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:so="https://identifiers.org/SO:">
+  <sbol:Component rdf:about="https://hexaphase.org/constructs/gfp_mcherry_dual_coding">
+    <sbol:displayId>gfp_mcherry_dual_coding</sbol:displayId>
+    <sbol:name>gfp_mcherry_dual_coding</sbol:name>
+    <dcterms:description>Dual-coding synthetic construct (Compression: 2.0x, CAI: 0.7687)</dcterms:description>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:hasSequence rdf:resource="https://hexaphase.org/constructs/gfp_mcherry_dual_coding_seq"/>
+    <sbol:hasFeature>
+      <sbol:SubComponent rdf:about="https://hexaphase.org/constructs/gfp_mcherry_dual_coding_f0">
+        <sbol:displayId>CDS_Frame_0</sbol:displayId>
+        <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+      </sbol:SubComponent>
+    </sbol:hasFeature>
+    <sbol:hasFeature>
+      <sbol:SubComponent rdf:about="https://hexaphase.org/constructs/gfp_mcherry_dual_coding_f1">
+        <sbol:displayId>CDS_Frame_1</sbol:displayId>
+        <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+      </sbol:SubComponent>
+    </sbol:hasFeature>
+  </sbol:Component>
+  <sbol:Sequence rdf:about="https://hexaphase.org/constructs/gfp_mcherry_dual_coding_seq">
+    <sbol:displayId>gfp_mcherry_dual_coding_seq</sbol:displayId>
+    <sbol:elements>ATGAGTAAAGGAGAGGAGCTCTTCACAGGTGTCGTTCCTATCCTCGTGGAGCTCGATGGAGATGTCAATGGACACAAGTTTAGCGTCTCAGGAGAGGGAGAGGGAGACGCAACCTACGGGAAACTCACACTCAAGTTCATCTGCACCACGGGTAAGCTGCCCGTCCCCTGGCCCACTCTCGTTACCACATTCAGTTATGGCGTCCAGTGTTTTTCACGGTACCCGGACCATATGAAGCAACACGACTTCTTTAAGTCAGCTATGCCGGAGGGCTATGTCCAAGAGCGTACGATATTCTTCAAAGATGACGGCAACTACAAGACCCGTGCTGAGGTTAAGTTCGAAGGCGACACTCTCGTCAACAGAATTGAGCTTAAAGGTATCGATTTCAAGGAGGACGGCAACATCCTCGGGCACAAGCTTGAGTACAACTACAATAGCCACAACGTCTACATCATGGCGGATAAGCAGAAAAACGGGATCAAGGTCAACTTCAAGATCAGACACAATATCGAGGACGGAAGCGTCCAACTGGCAGACCACTATCAGCAGAACACACCGATCGGAGACGGCCCTGTCCTTCTCCCCGACAATCACTATCTCAGTACGCAGTCAGCTCTCAGCAAGGACCCAAACGAGAAGCGTGATCACATGGTACTCCTCGAGTTCGTCACGGCAGCAGGCATCACCCATGGAATGGATGAGCTGA</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </sbol:Sequence>
+</rdf:RDF>

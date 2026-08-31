@@ -4,7 +4,7 @@ An open-source, reproducible framework examining biological systems
 through computational and information-theoretic perspectives.
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 from bio_arch.contracts import (
     AnalysisRun,
