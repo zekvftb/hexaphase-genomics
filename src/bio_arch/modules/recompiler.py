@@ -1,9 +1,9 @@
-"""Module 6: Synthetic Dual-Phase Sequence Compiler & AAV Vector Packaging Optimizer.
+"""Module 6: Synthetic Dual-Phase Sequence Compiler & Structure-Aware Optimization Tool.
 
 Solves the discrete combinatorial constraint satisfaction problem of finding a nucleotide
 sequence that translates into two specified peptide targets in Frame 0 and Frame +1 simultaneously.
-Evaluates human Codon Adaptation Index (CAI), restriction site avoidance, homopolymer suppression,
-and AAV capsid packaging headroom.
+Evaluates BLOSUM62 conservation scores, human Codon Adaptation Index (CAI), restriction site avoidance,
+homopolymer suppression, and AAV capsid packaging headroom.
 """
 
 from __future__ import annotations
@@ -70,30 +70,36 @@ RESTRICTION_SITES = {
     "NheI": "GCTAGC",
 }
 
-# Conservative amino acid substitution families for fallback relaxation
-CONSERVATIVE_SUBSTITUTIONS: dict[str, list[str]] = {
-    "L": ["L", "I", "V", "M"],
-    "I": ["I", "L", "V", "M"],
-    "V": ["V", "I", "L", "A"],
-    "M": ["M", "L", "I", "V"],
-    "F": ["F", "Y", "W", "L"],
-    "Y": ["Y", "F", "W", "H"],
-    "W": ["W", "F", "Y"],
-    "S": ["S", "T", "A", "C"],
-    "T": ["T", "S", "A", "V"],
-    "A": ["A", "S", "T", "G", "V"],
-    "G": ["G", "A", "S"],
-    "D": ["D", "E", "N"],
-    "E": ["E", "D", "Q", "K"],
-    "N": ["N", "D", "S", "K", "H"],
-    "Q": ["Q", "E", "K", "R", "H"],
-    "K": ["K", "R", "Q", "E"],
-    "R": ["R", "K", "Q"],
-    "H": ["H", "Y", "N", "Q"],
-    "C": ["C", "S", "A"],
-    "P": ["P", "A"],
-    "*": ["*"],
+# Standard BLOSUM62 Substitution Matrix
+_BLOSUM62_RAW = {
+    "A": {"A": 4, "R": -1, "N": -2, "D": -2, "C": 0, "Q": -1, "E": -1, "G": 0, "H": -2, "I": -1, "L": -1, "K": -1, "M": -1, "F": -2, "P": -1, "S": 1, "T": 0, "W": -3, "Y": -2, "V": 0},
+    "R": {"A": -1, "R": 5, "N": 0, "D": -2, "C": -3, "Q": 1, "E": 0, "G": -2, "H": 0, "I": -3, "L": -2, "K": 2, "M": -1, "F": -3, "P": -2, "S": -1, "T": -1, "W": -3, "Y": -2, "V": -3},
+    "N": {"A": -2, "R": 0, "N": 6, "D": 1, "C": -3, "Q": 0, "E": 0, "G": 0, "H": 1, "I": -3, "L": -3, "K": 0, "M": -2, "F": -3, "P": -2, "S": 1, "T": 0, "W": -4, "Y": -2, "V": -3},
+    "D": {"A": -2, "R": -2, "N": 1, "D": 6, "C": -3, "Q": 0, "E": 2, "G": -1, "H": -1, "I": -3, "L": -4, "K": -1, "M": -3, "F": -3, "P": -1, "S": 0, "T": -1, "W": -4, "Y": -3, "V": -3},
+    "C": {"A": 0, "R": -3, "N": -3, "D": -3, "C": 9, "Q": -3, "E": -4, "G": -3, "H": -3, "I": -1, "L": -1, "K": -3, "M": -1, "F": -2, "P": -3, "S": -1, "T": -1, "W": -2, "Y": -2, "V": -1},
+    "Q": {"A": -1, "R": 1, "N": 0, "D": 0, "C": -3, "Q": 5, "E": 2, "G": -2, "H": 0, "I": -3, "L": -2, "K": 1, "M": 0, "F": -3, "P": -1, "S": 0, "T": -1, "W": -2, "Y": -1, "V": -2},
+    "E": {"A": -1, "R": 0, "N": 0, "D": 2, "C": -4, "Q": 2, "E": 5, "G": -2, "H": 0, "I": -3, "L": -3, "K": 1, "M": -2, "F": -3, "P": -1, "S": 0, "T": -1, "W": -3, "Y": -2, "V": -2},
+    "G": {"A": 0, "R": -2, "N": 0, "D": -1, "C": -3, "Q": -2, "E": -2, "G": 6, "H": -2, "I": -4, "L": -4, "K": -2, "M": -3, "F": -3, "P": -2, "S": 0, "T": -2, "W": -2, "Y": -3, "V": -3},
+    "H": {"A": -2, "R": 0, "N": 1, "D": -1, "C": -3, "Q": 0, "E": 0, "G": -2, "H": 8, "I": -3, "L": -3, "K": -1, "M": -2, "F": -1, "P": -2, "S": -1, "T": -2, "W": -2, "Y": 2, "V": -3},
+    "I": {"A": -1, "R": -3, "N": -3, "D": -3, "C": -1, "Q": -3, "E": -3, "G": -4, "H": -3, "I": 4, "L": 2, "K": -3, "M": 1, "F": 0, "P": -3, "S": -2, "T": -1, "W": -3, "Y": -1, "V": 3},
+    "L": {"A": -1, "R": -2, "N": -3, "D": -4, "C": -1, "Q": -2, "E": -3, "G": -4, "H": -3, "I": 2, "L": 4, "K": -2, "M": 2, "F": 0, "P": -3, "S": -2, "T": -1, "W": -2, "Y": -1, "V": 1},
+    "K": {"A": -1, "R": 2, "N": 0, "D": -1, "C": -3, "Q": 1, "E": 1, "G": -2, "H": -1, "I": -3, "L": -2, "K": 5, "M": -1, "F": -3, "P": -1, "S": 0, "T": -1, "W": -3, "Y": -2, "V": -2},
+    "M": {"A": -1, "R": -1, "N": -2, "D": -3, "C": -1, "Q": 0, "E": -2, "G": -3, "H": -2, "I": 1, "L": 2, "K": -1, "M": 5, "F": 0, "P": -2, "S": -1, "T": -1, "W": -1, "Y": -1, "V": 1},
+    "F": {"A": -2, "R": -3, "N": -3, "D": -3, "C": -2, "Q": -3, "E": -3, "G": -3, "H": -1, "I": 0, "L": 0, "K": -3, "M": 0, "F": 6, "P": -4, "S": -2, "T": -2, "W": 1, "Y": 3, "V": -1},
+    "P": {"A": -1, "R": -2, "N": -2, "D": -1, "C": -3, "Q": -1, "E": -1, "G": -2, "H": -2, "I": -3, "L": -3, "K": -1, "M": -2, "F": -4, "P": 7, "S": -1, "T": -1, "W": -4, "Y": -3, "V": -2},
+    "S": {"A": 1, "R": -1, "N": 1, "D": 0, "C": -1, "Q": 0, "E": 0, "G": 0, "H": -1, "I": -2, "L": -2, "K": 0, "M": -1, "F": -2, "P": -1, "S": 4, "T": 1, "W": -3, "Y": -2, "V": -2},
+    "T": {"A": 0, "R": -1, "N": 0, "D": -1, "C": -1, "Q": -1, "E": -1, "G": -2, "H": -2, "I": -1, "L": -1, "K": -1, "M": -1, "F": -2, "P": -1, "S": 1, "T": 5, "W": -2, "Y": -2, "V": 0},
+    "W": {"A": -3, "R": -3, "N": -4, "D": -4, "C": -2, "Q": -2, "E": -3, "G": -2, "H": -2, "I": -3, "L": -2, "K": -3, "M": -1, "F": 1, "P": -4, "S": -3, "T": -2, "W": 11, "Y": 2, "V": -3},
+    "Y": {"A": -2, "R": -2, "N": -2, "D": -3, "C": -2, "Q": -1, "E": -2, "G": -3, "H": 2, "I": -1, "L": -1, "K": -2, "M": -1, "F": 3, "P": -3, "S": -2, "T": -2, "W": 2, "Y": 7, "V": -1},
+    "V": {"A": 0, "R": -3, "N": -3, "D": -3, "C": -1, "Q": -2, "E": -2, "G": -3, "H": -3, "I": 3, "L": 1, "K": -2, "M": 1, "F": -1, "P": -2, "S": -2, "T": 0, "W": -3, "Y": -1, "V": 4},
 }
+
+
+def blosum62_score(aa1: str, aa2: str) -> int:
+    """Return BLOSUM62 substitution score between two amino acids."""
+    if aa1 == "*" or aa2 == "*":
+        return 1 if aa1 == aa2 else -4
+    return _BLOSUM62_RAW.get(aa1, {}).get(aa2, -4)
 
 
 @dataclass
@@ -113,6 +119,12 @@ class RecompilationResult:
     codon_adaptation_index: float
     restriction_sites_detected: list[str]
     homopolymer_runs_detected: int
+    blosum62_similarity_pct: float = 100.0
+    substituted_positions: list[dict[str, Any]] = None
+
+    def __post_init__(self):
+        if self.substituted_positions is None:
+            self.substituted_positions = []
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -163,11 +175,13 @@ def recompile_dual_protein_dna(
     protein_f1: str,
     optimize_cai: bool = True,
     filter_restriction: bool = True,
+    allow_conservative_mutations: bool = False,
+    min_similarity_threshold: float = 0.85,
 ) -> RecompilationResult:
     """Synthesize a single DNA strand encoding protein_f0 (Frame 0) and protein_f1 (Frame +1).
 
-    Uses a dynamic programming / trellis Viterbi optimization across codon states to globally
-    maximize Frame 0 and Frame +1 identities while optimizing human CAI.
+    Uses a Trellis dynamic programming search across codon states to globally
+    maximize Frame 0 and Frame +1 identities while optimizing human CAI and BLOSUM62 conservation.
     """
     p0 = protein_f0.upper()
     p1 = protein_f1.upper()
@@ -176,13 +190,11 @@ def recompile_dual_protein_dna(
     target_p0 = p0[:min_len]
     target_p1 = p1[:min_len]
 
-    # Get codon candidate choices for Frame 0 (allowing conservative substitutions if needed)
     choices_per_pos = []
     for aa in target_p0:
         codons = list(AA_TO_CODONS.get(aa, ["GCT"]))
         choices_per_pos.append(codons)
 
-    # Dynamic Programming: dp[pos][codon_idx] = (best_score, prev_codon_idx)
     dp: list[dict[int, tuple[float, int | None]]] = [{} for _ in range(min_len)]
 
     # Initialize pos 0
@@ -194,7 +206,6 @@ def recompile_dual_protein_dna(
     # Trellis forward step
     for pos in range(min_len - 1):
         target_f1_aa = target_p1[pos]
-        conservative_f1 = set(CONSERVATIVE_SUBSTITUTIONS.get(target_f1_aa, [target_f1_aa]))
 
         for curr_idx, curr_codon in enumerate(choices_per_pos[pos]):
             if curr_idx not in dp[pos]:
@@ -202,18 +213,17 @@ def recompile_dual_protein_dna(
             curr_score, _ = dp[pos][curr_idx]
 
             for next_idx, next_codon in enumerate(choices_per_pos[pos + 1]):
-                # Frame +1 codon formed by curr_codon[1:] + next_codon[0]
                 f1_triplet = curr_codon[1:] + next_codon[0]
                 f1_aa = CODON_TABLE.get(f1_triplet, "*")
+                b_score = blosum62_score(f1_aa, target_f1_aa)
 
-                # Score the transition
-                f1_bonus = 0.0
+                # Score transition
                 if f1_aa == target_f1_aa:
-                    f1_bonus = 15.0  # Exact match
-                elif f1_aa in conservative_f1:
-                    f1_bonus = 6.0   # Conservative substitution
+                    f1_bonus = 20.0  # Exact match
+                elif allow_conservative_mutations and b_score >= 0:
+                    f1_bonus = 6.0 + (b_score * 2.0)  # Conservative substitution
                 else:
-                    f1_bonus = -2.0  # Non-conservative
+                    f1_bonus = -3.0 + b_score
 
                 cai_val = HUMAN_CODON_RELATIVE_ADAPTIVENESS.get(next_codon, 0.5) if optimize_cai else 0.5
                 total_step_score = curr_score + f1_bonus + (cai_val * 2.0)
@@ -221,14 +231,14 @@ def recompile_dual_protein_dna(
                 if next_idx not in dp[pos + 1] or total_step_score > dp[pos + 1][next_idx][0]:
                     dp[pos + 1][next_idx] = (total_step_score, curr_idx)
 
-    # Add terminal closing base score to the last position dp states
+    # Terminal closing base score
     last_f1_aa = target_p1[-1]
     for last_idx, last_codon in enumerate(choices_per_pos[min_len - 1]):
         if last_idx in dp[min_len - 1]:
             curr_score, prev_idx = dp[min_len - 1][last_idx]
             last_suffix = last_codon[1:]
             can_match = any(CODON_TABLE.get(last_suffix + b) == last_f1_aa for b in ["A", "C", "G", "T"])
-            bonus = 15.0 if can_match else -5.0
+            bonus = 20.0 if can_match else -5.0
             dp[min_len - 1][last_idx] = (curr_score + bonus, prev_idx)
 
     # Backtrack from best state at last pos
@@ -266,11 +276,27 @@ def recompile_dual_protein_dna(
     id_f0 = round((matches_f0 / max(1, min_len)) * 100.0, 2)
     id_f1 = round((matches_f1 / max(1, min_len)) * 100.0, 2)
 
+    # BLOSUM62 similarity calculation
+    substituted_positions = []
+    favorable_or_identical = 0
+    for pos, (actual_aa, target_aa) in enumerate(zip(trans_f1, target_p1)):
+        score = blosum62_score(actual_aa, target_aa)
+        if score >= 0 or actual_aa == target_aa:
+            favorable_or_identical += 1
+        if actual_aa != target_aa:
+            substituted_positions.append({
+                "position": pos,
+                "target_f1": target_aa,
+                "actual_f1": actual_aa,
+                "blosum62_score": score,
+                "conservative": score >= 0,
+            })
+
+    blosum_sim_pct = round((favorable_or_identical / max(1, min_len)) * 100.0, 2)
     compression_ratio = round((min_len * 6) / max(1, len(raw_dna)), 2)
     cai_score = round(compute_cai(raw_dna), 4)
     re_sites = scan_restriction_sites(raw_dna)
     hp_runs = count_homopolymer_runs(raw_dna)
-    wobble_muts = sum(1 for a, b in zip(trans_f1, target_p1) if a != b)
 
     return RecompilationResult(
         target_protein_f0=target_p0,
@@ -282,10 +308,12 @@ def recompile_dual_protein_dna(
         f1_identity_pct=id_f1,
         compression_ratio=compression_ratio,
         total_length_bp=len(raw_dna),
-        wobble_mutations_applied=wobble_muts,
+        wobble_mutations_applied=len(substituted_positions),
         codon_adaptation_index=cai_score,
         restriction_sites_detected=re_sites,
         homopolymer_runs_detected=hp_runs,
+        blosum62_similarity_pct=blosum_sim_pct,
+        substituted_positions=substituted_positions,
     )
 
 
