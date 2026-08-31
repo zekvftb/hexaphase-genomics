@@ -1,9 +1,9 @@
-"""Module 8: Biological Memory & Security Architecture.
+"""Module 8: Feature Extraction for CRISPR Arrays, CpG Methylation Islands, and Riboswitch Elements.
 
-Decompiles advanced cellular computing primitives:
-1. CRISPR Direct-Repeat & Spacer Arrays (Append-Only Hardware Malware Logs)
-2. CpG Epigenetic Memory Islands (Non-Volatile 1-Bit Latches / NVRAM)
-3. RNA Riboswitch Transducers (Analog-to-Digital Chemical Converters / ADCs)
+Extracts and characterizes well-documented biological regulatory structures:
+1. CRISPR Direct-Repeat & Spacer Arrays (Adaptive immune memory loci in prokaryotes)
+2. CpG Islands & Methylation Regions (Epigenetic regulatory regions using Gardiner-Garden criteria)
+3. Riboswitch Regulatory Elements (Metabolite-binding RNA aptamers with expression platforms)
 """
 
 from __future__ import annotations
@@ -56,7 +56,7 @@ def scan_cpg_islands(
     min_gc: float = 0.50,
     min_obs_exp: float = 0.60,
 ) -> list[CpgMemoryIsland]:
-    """Scan sequence for epigenetic 1-bit non-volatile memory registers (Gardiner-Garden & Frommer criteria).
+    """Scan sequence for CpG islands according to Gardiner-Garden & Frommer criteria.
 
     Criteria:
     - Window length >= 200 bp
@@ -144,7 +144,7 @@ def scan_crispr_arrays(
     max_spacer_len: int = 75,
     min_repeats: int = 3,
 ) -> list[CrisprArray]:
-    """Identify and decompile CRISPR direct-repeat / spacer arrays (Append-Only Malware Logs)."""
+    """Identify and parse candidate CRISPR direct-repeat / spacer arrays in prokaryotic sequences."""
     seq_upper = sequence.upper()
     n = len(seq_upper)
     if n < 100:
@@ -254,7 +254,7 @@ def scan_all_biological_circuits(
     sequence: str,
     genome_id: str = "unknown",
 ) -> BiologicalCircuitReport:
-    """Execute complete biological memory & security architecture audit across a genome."""
+    """Execute comprehensive regulatory structure scan (CRISPR, CpG islands, Riboswitches) across a genome."""
     crispr = scan_crispr_arrays(sequence)
     cpg = scan_cpg_islands(sequence)
     riboswitches = scan_riboswitch_adcs(sequence)

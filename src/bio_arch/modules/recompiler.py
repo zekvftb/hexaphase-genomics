@@ -1,7 +1,8 @@
-"""Module 6: Dual-Phase Biological Recompiler.
+"""Module 6: Synthetic Dual-Phase Sequence Compiler & Combinatorial Optimization Tool.
 
-Synthesizes de novo DNA sequences that encode two distinct functional proteins
-simultaneously in Frame 0 and Frame +1 via Wobble Carrier Wave modulation.
+Solves the discrete combinatorial constraint satisfaction problem of finding a nucleotide
+sequence that translates into two specified peptide targets in Frame 0 and Frame +1 simultaneously.
+Used in synthetic biology to engineer compact multi-coding genetic constructs.
 """
 
 from __future__ import annotations

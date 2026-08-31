@@ -1,17 +1,17 @@
-"""Module 4: Biological Logic Gates and Hardware Execution Switch Scanner.
+"""Module 4: Regulatory Structural Feature & Programmed Execution Branch Scanner.
 
-Systematically identifies and characterizes non-canonical, hardware-like biological
-execution switches across nucleic acid sequences, including:
-1. Programmed -1/+1 Ribosomal Frameshift Multiplexers (If/Else branching gates)
-2. G-Quadruplex & i-Motif Molecular Transistors (Physical circuit breakers)
-3. Programmed Stop-Codon Readthrough Extension Modules (Buffer overflow gates)
-4. Convergent Transcriptional Collision XOR Switches (Mutual exclusion flip-flops)
-5. Rolling-Circle circRNA Infinite Loops (while(true) repeat generators)
+Systematically identifies candidate structural regulatory elements and programmed translation events, including:
+1. Programmed -1/+1 Ribosomal Frameshift Motifs (Slippery heptamer + downstream stem-loop/pseudoknot)
+2. G-Quadruplex & i-Motif Structural Modulators (Secondary structure transcription/translation modulators)
+3. Programmed Stop-Codon Readthrough Contexts (Permissive stop codon hexanucleotide contexts)
+4. Convergent Transcriptional Collision Regions (Bidirectional overlapping transcription units)
+5. Rolling-Circle circRNA Repeat Regions (Periodic repeated sequences)
 """
 
 from __future__ import annotations
 
 import math
+import random
 import re
 from typing import Any
 
@@ -20,6 +20,7 @@ from bio_arch.contracts import (
     LogicGateScanReport,
     LogicGateType,
 )
+from bio_arch.modules.information import shuffle_dinucleotide
 
 # Canonical slippery heptanucleotide patterns: [AUGC] [AA|UU|GG|CC] [AU] [AU] [AUC]
 SLIPPERY_PATTERNS = [
@@ -320,8 +321,10 @@ def scan_all_logic_gates(
     sequence: str,
     genome_id: str = "unknown",
     annotations: list[dict[str, Any]] | None = None,
+    num_shuffles: int = 0,
+    seed: int = 42,
 ) -> LogicGateScanReport:
-    """Execute complete multi-architecture biological logic gate audit across a genome."""
+    """Execute multi-architecture regulatory structural feature audit with optional null controls."""
     fs_gates = scan_frameshift_branches(sequence)
     g4_gates = scan_g_quadruplexes(sequence)
     rt_gates = scan_readthrough_gates(sequence)
@@ -337,14 +340,40 @@ def scan_all_logic_gates(
         LogicGateType.ROLLING_CIRCLE_LOOP.value: 0,
     }
 
-    summary = {
+    summary: dict[str, Any] = {
         "total_logic_gates_detected": len(all_gates),
         "branching_multiplexers": len(fs_gates),
         "g4_circuit_breakers": len(g4_gates),
         "stop_readthrough_gates": len(rt_gates),
         "xor_collision_switches": len(xor_gates),
-        "computational_density_per_kb": round((len(all_gates) / max(1, len(sequence))) * 1000.0, 3),
+        "feature_density_per_kb": round((len(all_gates) / max(1, len(sequence))) * 1000.0, 3),
     }
+
+    # Optional dinucleotide-preserving null model controls
+    if num_shuffles > 0 and len(sequence) > 10:
+        rng = random.Random(seed)
+        null_counts: list[int] = []
+        for _ in range(num_shuffles):
+            shuffled_seq = shuffle_dinucleotide(sequence, rng)
+            shuf_fs = scan_frameshift_branches(shuffled_seq)
+            shuf_g4 = scan_g_quadruplexes(shuffled_seq)
+            shuf_rt = scan_readthrough_gates(shuffled_seq)
+            null_counts.append(len(shuf_fs) + len(shuf_g4) + len(shuf_rt))
+
+        mean_null = sum(null_counts) / len(null_counts)
+        variance = sum((x - mean_null) ** 2 for x in null_counts) / max(1, len(null_counts) - 1)
+        std_null = math.sqrt(variance)
+        z_score = (len(all_gates) - mean_null) / (std_null + 1e-9)
+        empirical_p = (sum(1 for x in null_counts if x >= len(all_gates)) + 1.0) / (len(null_counts) + 1.0)
+
+        summary["null_control"] = {
+            "model": "dinucleotide_preserving_shuffle",
+            "iterations": num_shuffles,
+            "null_mean": round(mean_null, 3),
+            "null_std": round(std_null, 3),
+            "effect_size_z": round(z_score, 3),
+            "empirical_p_value": round(empirical_p, 4),
+        }
 
     return LogicGateScanReport(
         genome_id=genome_id,

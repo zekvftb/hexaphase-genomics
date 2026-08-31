@@ -1,10 +1,7 @@
-"""Module 5: Universal Biological Compiler & Genomic Machine Code Decompiler.
+"""Module 5: Symbolic Sequence Intermediate Representation (IR) & Codon Entropy Analyzer.
 
-Decodes the fundamental assembly instruction set architecture (ISA) of biological genomes.
-Provides:
-1. Wobble-position entropy and dual-phase information synchronization analysis.
-2. Genomic Bytecode Decompiler: Converts raw nucleotide sequences into cycle-accurate
-   Biological Assembly (.asm) and executable SMC machine code.
+Provides descriptive codon-position entropy analysis and human-readable symbolic
+intermediate representations (.asm IR) for annotating genomic sequence features.
 """
 
 from __future__ import annotations

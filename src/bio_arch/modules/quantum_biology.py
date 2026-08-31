@@ -1,9 +1,11 @@
-r"""Module 9: Quantum Biology, Cryptochrome Radical Pairs & Proton Tunneling Simulator.
+r"""Module 9: Theoretical Biophysical Simulation: Proton Tunneling, Radical Pairs & DNA Charge Transport.
 
-Implements rigorous biophysical quantum models:
-1. Löwdin Quantum Proton Tunneling (WKB approximation for spontaneous cancer hotspots)
-2. Cryptochrome Quantum Radical Pair Magnetoreception (Avian CRY4 vs Human CRY1/CRY2)
-3. 1D Tight-Binding DNA $\pi$-Stack Quantum Electron Telemetry & Guanine Traps
+Implements biophysical simulation models based on published theoretical literature:
+1. Löwdin Proton Tunneling Simulation: 1D WKB barrier penetration across hydrogen-bonded base pairs.
+2. Cryptochrome Radical Pair Dynamics: Theoretical spin-state yields in Avian and Human Cryptochrome homologs.
+3. 1D Tight-Binding DNA Charge Transport: Simulation of electronic transmission along base-pair pi-stacks.
+
+Note: All outputs represent mathematical models [Simulation] requiring experimental biophysical validation.
 """
 
 from __future__ import annotations
@@ -32,7 +34,7 @@ DEFAULT_TUNNEL_WIDTH_M = 0.38e-10 # Typical H-bond double-well potential width (
 
 # Base Ionization Potentials (eV) for 1D Tight-Binding Model
 BASE_IONIZATION_ENERGIES_EV = {
-    "G": 7.75,  # Guanine (lowest ionization energy = quantum trap)
+    "G": 7.75,  # Guanine (lowest ionization energy = localized radical trap)
     "A": 8.24,  # Adenine
     "C": 8.87,  # Cytosine
     "T": 9.14,  # Thymine
@@ -47,7 +49,7 @@ def calculate_wkb_proton_tunneling(
     base_barrier_height_ev: float = 0.38,
     temperature_k: float = 310.15,
 ) -> list[QuantumTunnelingRecord]:
-    """Calculate Löwdin quantum proton tunneling rates and identify cancer mutation hotspots.
+    """Simulate theoretical 1D Löwdin proton tunneling rates across codons using the WKB approximation.
 
     Uses the WKB (Wentzel-Kramers-Brillouin) quantum barrier penetration formula:
         T_wkb = exp(-2 * sqrt(2 * m_p * (V_0 - E)) * delta_x / hbar)

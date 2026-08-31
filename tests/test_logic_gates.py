@@ -101,3 +101,20 @@ def test_scan_all_logic_gates_e2e():
     json_str = report.to_json()
     assert "TEST_VIRUS_01" in json_str
     assert "gates_found" in json_str
+
+
+def test_scan_all_logic_gates_with_null_controls():
+    """Verify calculation of dinucleotide-preserved null controls and effect sizes."""
+    test_genome = (
+        "ATGCGTACGTTTAAACACGTACGCGCGCGTAAAGCGCGCTAGCTA"
+        "NNNNGGGAATGGGAATGGGAATGGGNNNN"
+        "TGACAAGCGCGCGAAAAACGCGCGCTAA"
+    )
+    report = scan_all_logic_gates(test_genome, genome_id="TEST_NULL_01", num_shuffles=20, seed=42)
+    assert "null_control" in report.summary
+    null_info = report.summary["null_control"]
+    assert null_info["iterations"] == 20
+    assert "effect_size_z" in null_info
+    assert "empirical_p_value" in null_info
+    assert 0.0 <= null_info["empirical_p_value"] <= 1.0
+

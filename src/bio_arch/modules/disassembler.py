@@ -1,14 +1,13 @@
-"""Module: Biological Disassembler and Abstract Syntax Tree (AST) Parser.
+"""Module: Symbolic Genomic Disassembler & Sequence Annotation Parser.
 
-Treats biological genomic sequences as compiled binary bytecode.
-Scans for canonical genetic execution primitives:
-- Promoters (-35 / -10 Pribnow boxes): Function entry points.
-- Operators: Conditional IF guards / access control gates.
-- Ribosome Binding Sites (Shine-Dalgarno): Calling convention stack setup.
-- Open Reading Frames (ORFs): Executable instruction streams.
-- Stop Codons & Terminators: Function return / HALT opcodes.
+Maps canonical biological sequence features to symbolic intermediate representation (IR) opcodes:
+- Promoters (-35 / -10 Pribnow consensus): Transcription initiation sites.
+- Operators / Transcription Factor Binding Sites: Regulatory control regions.
+- Ribosome Binding Sites (Shine-Dalgarno): Translation initiation signals.
+- Open Reading Frames (ORFs): Protein-coding sequence regions.
+- Stop Codons & Intrinsic Terminators: Translation and transcription termination signals.
 
-Emits assembly-style disassembly listings and decompiled Python pseudocode.
+Emits human-readable symbolic assembly listings (.asm) for structural visualization.
 """
 
 from __future__ import annotations
