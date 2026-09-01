@@ -38,8 +38,8 @@ def run_empirical_benchmark(base_dir: Path | None = None) -> dict:
         gt_data = json.loads(gt_file.read_text(encoding="utf-8"))
 
     nat_dna = gt_data["natural_dna_sequence"]
-    nat_p0 = gt_data["natural_protein_0"]
-    nat_p1 = gt_data["natural_protein_1"]
+    nat_p0 = gt_data.get("natural_polymerase_peptide", gt_data.get("natural_protein_0"))
+    nat_p1 = gt_data.get("natural_surface_peptide", gt_data.get("natural_protein_1"))
     seq_len_aa = len(nat_p0)
 
     print("=" * 80)

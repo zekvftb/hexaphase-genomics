@@ -27,6 +27,8 @@ def test_ncbi_ground_truth_ingestion(hbv_ground_truth):
     assert hbv_ground_truth["overlap_dna_length_bp"] == 682
     assert len(hbv_ground_truth["natural_protein_0"]) == 226
     assert len(hbv_ground_truth["natural_protein_1"]) == 226
+    assert hbv_ground_truth["natural_polymerase_peptide"] == hbv_ground_truth["natural_protein_0"]
+    assert hbv_ground_truth["natural_surface_peptide"] == hbv_ground_truth["natural_protein_1"]
 
     # Verify natural sequence translates accurately in both frames
     nat_dna = hbv_ground_truth["natural_dna_sequence"]
