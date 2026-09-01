@@ -1,0 +1,1840 @@
+{
+  "timestamp_iso": "2026-09-01T10:48:02.043551+00:00",
+  "ground_truth_accession": "NC_003977.2",
+  "organism": "Hepatitis B virus",
+  "target_protein_0": "HBV Polymerase (overlapping domain)",
+  "target_protein_1": "HBV Small Surface Antigen (HBsAg)",
+  "sequence_length_aa": 226,
+  "dna_length_bp": 679,
+  "frame_0_identity_pct": 100.0,
+  "frame_1_identity_pct": 100.0,
+  "blosum62_similarity_pct": 100.0,
+  "natural_viral_cai": 0.6927,
+  "synthetic_mammalian_cai": 0.7301,
+  "cai_improvement_percent": 5.4,
+  "codon_matches_with_wildtype": 216,
+  "codon_concordance_percent": 95.58,
+  "restriction_sites_detected": [
+    "BamHI:GGATCC"
+  ],
+  "homopolymer_runs_detected": 3,
+  "null_model": {
+    "n_shuffles": 500,
+    "null_mean_joint_matches": 31.79,
+    "null_std_joint_matches": 5.5,
+    "actual_joint_matches": 452,
+    "z_score": 76.43,
+    "empirical_p_value": 0.0,
+    "statistically_significant": true
+  },
+  "codon_comparison": [
+    {
+      "residue_index": 1,
+      "target_f0_aa": "H",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 2,
+      "target_f0_aa": "G",
+      "target_f1_aa": "E",
+      "natural_codon_f0": "GGA",
+      "synthetic_codon_f0": "GGA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 3,
+      "target_f0_aa": "E",
+      "target_f1_aa": "N",
+      "natural_codon_f0": "GAA",
+      "synthetic_codon_f0": "GAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 4,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 5,
+      "target_f0_aa": "H",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "CAC",
+      "synthetic_codon_f0": "CAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 6,
+      "target_f0_aa": "I",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "ATC",
+      "synthetic_codon_f0": "ATC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 7,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 8,
+      "target_f0_aa": "I",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "ATT",
+      "synthetic_codon_f0": "ATT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 9,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 10,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 11,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 12,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 13,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 14,
+      "target_f0_aa": "R",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "CGT",
+      "synthetic_codon_f0": "CGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 15,
+      "target_f0_aa": "V",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 16,
+      "target_f0_aa": "T",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "ACA",
+      "synthetic_codon_f0": "ACA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 17,
+      "target_f0_aa": "G",
+      "target_f1_aa": "A",
+      "natural_codon_f0": "GGC",
+      "synthetic_codon_f0": "GGC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 18,
+      "target_f0_aa": "G",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "GGG",
+      "synthetic_codon_f0": "GGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 19,
+      "target_f0_aa": "V",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 20,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 21,
+      "target_f0_aa": "L",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 22,
+      "target_f0_aa": "V",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 23,
+      "target_f0_aa": "D",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "GAC",
+      "synthetic_codon_f0": "GAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 24,
+      "target_f0_aa": "K",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "AAG",
+      "synthetic_codon_f0": "AAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 25,
+      "target_f0_aa": "N",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "AAT",
+      "synthetic_codon_f0": "AAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 26,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 27,
+      "target_f0_aa": "H",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "CAC",
+      "synthetic_codon_f0": "CAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 28,
+      "target_f0_aa": "N",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "AAT",
+      "synthetic_codon_f0": "AAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 29,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 30,
+      "target_f0_aa": "A",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "GCA",
+      "synthetic_codon_f0": "GCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 31,
+      "target_f0_aa": "E",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "GAG",
+      "synthetic_codon_f0": "GAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 32,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 33,
+      "target_f0_aa": "R",
+      "target_f1_aa": "D",
+      "natural_codon_f0": "AGA",
+      "synthetic_codon_f0": "AGA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 34,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 35,
+      "target_f0_aa": "V",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 36,
+      "target_f0_aa": "V",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 37,
+      "target_f0_aa": "D",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "GAC",
+      "synthetic_codon_f0": "GAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 38,
+      "target_f0_aa": "F",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "TTC",
+      "synthetic_codon_f0": "TTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 39,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 40,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "N",
+      "natural_codon_f0": "CAA",
+      "synthetic_codon_f0": "CAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 41,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 42,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 43,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 44,
+      "target_f0_aa": "G",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "GGG",
+      "synthetic_codon_f0": "GGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 45,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 46,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "TAC",
+      "synthetic_codon_f0": "TAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 47,
+      "target_f0_aa": "R",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "CGT",
+      "synthetic_codon_f0": "CGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 48,
+      "target_f0_aa": "V",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 49,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 50,
+      "target_f0_aa": "W",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "TGG",
+      "synthetic_codon_f0": "TGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 51,
+      "target_f0_aa": "P",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "CCA",
+      "synthetic_codon_f0": "CCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 52,
+      "target_f0_aa": "K",
+      "target_f1_aa": "N",
+      "natural_codon_f0": "AAA",
+      "synthetic_codon_f0": "AAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 53,
+      "target_f0_aa": "F",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "TTC",
+      "synthetic_codon_f0": "TTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 54,
+      "target_f0_aa": "A",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "GCA",
+      "synthetic_codon_f0": "GCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 55,
+      "target_f0_aa": "V",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "GTC",
+      "synthetic_codon_f0": "GTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 56,
+      "target_f0_aa": "P",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "CCC",
+      "synthetic_codon_f0": "CCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 57,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 58,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 59,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "N",
+      "natural_codon_f0": "CAA",
+      "synthetic_codon_f0": "CAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 60,
+      "target_f0_aa": "S",
+      "target_f1_aa": "H",
+      "natural_codon_f0": "TCA",
+      "synthetic_codon_f0": "TCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 61,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 62,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 63,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 64,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 65,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 66,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 67,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 68,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 69,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 70,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 71,
+      "target_f0_aa": "W",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "TGG",
+      "synthetic_codon_f0": "TGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 72,
+      "target_f0_aa": "L",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "TTA",
+      "synthetic_codon_f0": "TTA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 73,
+      "target_f0_aa": "S",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "TCG",
+      "synthetic_codon_f0": "TCG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 74,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 75,
+      "target_f0_aa": "D",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "GAT",
+      "synthetic_codon_f0": "GAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 76,
+      "target_f0_aa": "V",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 77,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 78,
+      "target_f0_aa": "A",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "GCG",
+      "synthetic_codon_f0": "GCG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 79,
+      "target_f0_aa": "A",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "GCG",
+      "synthetic_codon_f0": "GCG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 80,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 81,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "TAT",
+      "synthetic_codon_f0": "TAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 82,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 83,
+      "target_f0_aa": "L",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 84,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 85,
+      "target_f0_aa": "L",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 86,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 87,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 88,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 89,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 90,
+      "target_f0_aa": "M",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "ATG",
+      "synthetic_codon_f0": "ATG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 91,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 92,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 93,
+      "target_f0_aa": "L",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 94,
+      "target_f0_aa": "L",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 95,
+      "target_f0_aa": "V",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 96,
+      "target_f0_aa": "G",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "GGT",
+      "synthetic_codon_f0": "GGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 97,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 98,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 99,
+      "target_f0_aa": "G",
+      "target_f1_aa": "D",
+      "natural_codon_f0": "GGA",
+      "synthetic_codon_f0": "GGA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 100,
+      "target_f0_aa": "L",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "CTA",
+      "synthetic_codon_f0": "TTA",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 101,
+      "target_f0_aa": "S",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "TCA",
+      "synthetic_codon_f0": "TCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 102,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 103,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "TAT",
+      "synthetic_codon_f0": "TAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 104,
+      "target_f0_aa": "V",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 105,
+      "target_f0_aa": "A",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "GCC",
+      "synthetic_codon_f0": "GCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 106,
+      "target_f0_aa": "R",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "CGT",
+      "synthetic_codon_f0": "CGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 107,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 108,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 109,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 110,
+      "target_f0_aa": "N",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "AAT",
+      "synthetic_codon_f0": "AAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 111,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 112,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 113,
+      "target_f0_aa": "I",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "ATC",
+      "synthetic_codon_f0": "ATC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 114,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 115,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 116,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 117,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CAG",
+      "synthetic_codon_f0": "CAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 118,
+      "target_f0_aa": "H",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "CAC",
+      "synthetic_codon_f0": "CAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 119,
+      "target_f0_aa": "G",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "GGG",
+      "synthetic_codon_f0": "GGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 120,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 121,
+      "target_f0_aa": "M",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "ATG",
+      "synthetic_codon_f0": "ATG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 122,
+      "target_f0_aa": "P",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "CCG",
+      "synthetic_codon_f0": "CCG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 123,
+      "target_f0_aa": "D",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "GAC",
+      "synthetic_codon_f0": "GAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 124,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 125,
+      "target_f0_aa": "H",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 126,
+      "target_f0_aa": "D",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "GAC",
+      "synthetic_codon_f0": "GAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 127,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "TAC",
+      "synthetic_codon_f0": "TAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 128,
+      "target_f0_aa": "C",
+      "target_f1_aa": "A",
+      "natural_codon_f0": "TGC",
+      "synthetic_codon_f0": "TGC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 129,
+      "target_f0_aa": "S",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "TCA",
+      "synthetic_codon_f0": "TCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 130,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 131,
+      "target_f0_aa": "N",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "AAC",
+      "synthetic_codon_f0": "AAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 132,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 133,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "TAT",
+      "synthetic_codon_f0": "TAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 134,
+      "target_f0_aa": "V",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "GTA",
+      "synthetic_codon_f0": "GTA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 135,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 136,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 137,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 138,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 139,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 140,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "TAC",
+      "synthetic_codon_f0": "TAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 141,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "K",
+      "natural_codon_f0": "CAA",
+      "synthetic_codon_f0": "CAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 142,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 143,
+      "target_f0_aa": "F",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "TTC",
+      "synthetic_codon_f0": "TTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 144,
+      "target_f0_aa": "G",
+      "target_f1_aa": "D",
+      "natural_codon_f0": "GGA",
+      "synthetic_codon_f0": "GGA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 145,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "CGG",
+      "synthetic_codon_f0": "CGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 146,
+      "target_f0_aa": "K",
+      "target_f1_aa": "N",
+      "natural_codon_f0": "AAA",
+      "synthetic_codon_f0": "AAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 147,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 148,
+      "target_f0_aa": "H",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "CAC",
+      "synthetic_codon_f0": "CAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 149,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 150,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "TAT",
+      "synthetic_codon_f0": "TAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 151,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 152,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 153,
+      "target_f0_aa": "P",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "CCC",
+      "synthetic_codon_f0": "CCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 154,
+      "target_f0_aa": "I",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "ATC",
+      "synthetic_codon_f0": "ATC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 155,
+      "target_f0_aa": "I",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "ATC",
+      "synthetic_codon_f0": "ATC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 156,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 157,
+      "target_f0_aa": "G",
+      "target_f1_aa": "A",
+      "natural_codon_f0": "GGC",
+      "synthetic_codon_f0": "GGC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 158,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 159,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "CGG",
+      "synthetic_codon_f0": "CGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 160,
+      "target_f0_aa": "K",
+      "target_f1_aa": "K",
+      "natural_codon_f0": "AAA",
+      "synthetic_codon_f0": "AAA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 161,
+      "target_f0_aa": "I",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "ATT",
+      "synthetic_codon_f0": "ATT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 162,
+      "target_f0_aa": "P",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CCT",
+      "synthetic_codon_f0": "CCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 163,
+      "target_f0_aa": "M",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "ATG",
+      "synthetic_codon_f0": "ATG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 164,
+      "target_f0_aa": "G",
+      "target_f1_aa": "E",
+      "natural_codon_f0": "GGA",
+      "synthetic_codon_f0": "GGA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 165,
+      "target_f0_aa": "V",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 166,
+      "target_f0_aa": "G",
+      "target_f1_aa": "A",
+      "natural_codon_f0": "GGC",
+      "synthetic_codon_f0": "GGC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 167,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 168,
+      "target_f0_aa": "S",
+      "target_f1_aa": "A",
+      "natural_codon_f0": "AGC",
+      "synthetic_codon_f0": "AGC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 169,
+      "target_f0_aa": "P",
+      "target_f1_aa": "R",
+      "natural_codon_f0": "CCG",
+      "synthetic_codon_f0": "CCG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 170,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 171,
+      "target_f0_aa": "L",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CTC",
+      "synthetic_codon_f0": "CTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 172,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "CTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 173,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 174,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CAG",
+      "synthetic_codon_f0": "CAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 175,
+      "target_f0_aa": "F",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 176,
+      "target_f0_aa": "T",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "ACT",
+      "synthetic_codon_f0": "ACT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 177,
+      "target_f0_aa": "S",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "AGT",
+      "synthetic_codon_f0": "AGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 178,
+      "target_f0_aa": "A",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "GCC",
+      "synthetic_codon_f0": "GCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 179,
+      "target_f0_aa": "I",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "ATT",
+      "synthetic_codon_f0": "ATT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 180,
+      "target_f0_aa": "C",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "TGT",
+      "synthetic_codon_f0": "TGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 181,
+      "target_f0_aa": "S",
+      "target_f1_aa": "Q",
+      "natural_codon_f0": "TCA",
+      "synthetic_codon_f0": "TCA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 182,
+      "target_f0_aa": "V",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 183,
+      "target_f0_aa": "V",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 184,
+      "target_f0_aa": "R",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "CGT",
+      "synthetic_codon_f0": "CGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 185,
+      "target_f0_aa": "R",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "AGG",
+      "synthetic_codon_f0": "AGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 186,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 187,
+      "target_f0_aa": "F",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "TTC",
+      "synthetic_codon_f0": "TTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 188,
+      "target_f0_aa": "P",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "CCC",
+      "synthetic_codon_f0": "CCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 189,
+      "target_f0_aa": "H",
+      "target_f1_aa": "T",
+      "natural_codon_f0": "CAC",
+      "synthetic_codon_f0": "CAC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 190,
+      "target_f0_aa": "C",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "TGT",
+      "synthetic_codon_f0": "TGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 191,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 192,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 193,
+      "target_f0_aa": "F",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "TTC",
+      "synthetic_codon_f0": "TTC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 194,
+      "target_f0_aa": "S",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "AGT",
+      "synthetic_codon_f0": "AGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 195,
+      "target_f0_aa": "Y",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "TAT",
+      "synthetic_codon_f0": "TAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 196,
+      "target_f0_aa": "M",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "ATG",
+      "synthetic_codon_f0": "ATG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 197,
+      "target_f0_aa": "D",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "GAT",
+      "synthetic_codon_f0": "GAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 198,
+      "target_f0_aa": "D",
+      "target_f1_aa": "M",
+      "natural_codon_f0": "GAT",
+      "synthetic_codon_f0": "GAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 199,
+      "target_f0_aa": "V",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "GTG",
+      "synthetic_codon_f0": "GTG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 200,
+      "target_f0_aa": "V",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "GTA",
+      "synthetic_codon_f0": "GTA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 201,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 202,
+      "target_f0_aa": "G",
+      "target_f1_aa": "G",
+      "natural_codon_f0": "GGG",
+      "synthetic_codon_f0": "GGG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 203,
+      "target_f0_aa": "A",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "GCC",
+      "synthetic_codon_f0": "GCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 204,
+      "target_f0_aa": "K",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "AAG",
+      "synthetic_codon_f0": "AAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 205,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 206,
+      "target_f0_aa": "V",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "GTA",
+      "synthetic_codon_f0": "GTA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 207,
+      "target_f0_aa": "Q",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "CAG",
+      "synthetic_codon_f0": "CAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 208,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 209,
+      "target_f0_aa": "L",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 210,
+      "target_f0_aa": "E",
+      "target_f1_aa": "S",
+      "natural_codon_f0": "GAG",
+      "synthetic_codon_f0": "GAG",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 211,
+      "target_f0_aa": "S",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "TCC",
+      "synthetic_codon_f0": "TCC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 212,
+      "target_f0_aa": "L",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 213,
+      "target_f0_aa": "F",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 214,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 215,
+      "target_f0_aa": "A",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GCT",
+      "synthetic_codon_f0": "GCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 216,
+      "target_f0_aa": "V",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "GTT",
+      "synthetic_codon_f0": "GTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 217,
+      "target_f0_aa": "T",
+      "target_f1_aa": "P",
+      "natural_codon_f0": "ACC",
+      "synthetic_codon_f0": "ACC",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 218,
+      "target_f0_aa": "N",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "AAT",
+      "synthetic_codon_f0": "AAT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 219,
+      "target_f0_aa": "F",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "TTT",
+      "synthetic_codon_f0": "TTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 220,
+      "target_f0_aa": "L",
+      "target_f1_aa": "F",
+      "natural_codon_f0": "CTT",
+      "synthetic_codon_f0": "CTT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 221,
+      "target_f0_aa": "L",
+      "target_f1_aa": "C",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 222,
+      "target_f0_aa": "S",
+      "target_f1_aa": "L",
+      "natural_codon_f0": "TCT",
+      "synthetic_codon_f0": "TCT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 223,
+      "target_f0_aa": "L",
+      "target_f1_aa": "W",
+      "natural_codon_f0": "TTG",
+      "synthetic_codon_f0": "CTG",
+      "codon_concordant": false
+    },
+    {
+      "residue_index": 224,
+      "target_f0_aa": "G",
+      "target_f1_aa": "V",
+      "natural_codon_f0": "GGT",
+      "synthetic_codon_f0": "GGT",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 225,
+      "target_f0_aa": "I",
+      "target_f1_aa": "Y",
+      "natural_codon_f0": "ATA",
+      "synthetic_codon_f0": "ATA",
+      "codon_concordant": true
+    },
+    {
+      "residue_index": 226,
+      "target_f0_aa": "H",
+      "target_f1_aa": "I",
+      "natural_codon_f0": "CAT",
+      "synthetic_codon_f0": "CAT",
+      "codon_concordant": true
+    }
+  ]
+}
