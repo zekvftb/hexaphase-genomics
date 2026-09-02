@@ -1,0 +1,1312 @@
+{
+  "timestamp_iso": "2026-09-02T15:10:44.981912+00:00",
+  "n_shuffles": 10,
+  "null_model_algorithm": "Altschul-Erickson Dinucleotide Eulerian Walk",
+  "significance_threshold_alpha": 0.01,
+  "experiment_a_compression": {
+    "NC_003977.2": {
+      "accession": "NC_003977.2",
+      "organism": "Hepatitis B virus",
+      "genome_length_bp": 3182,
+      "lz76_complexity": {
+        "natural_value": 692,
+        "null_mean": 698.7,
+        "null_std": 1.567,
+        "z_score": -4.28,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "compression_ratio_zlib": {
+        "natural_value": 0.3253,
+        "null_mean": 0.3323,
+        "null_std": 0.002,
+        "z_score": -3.53,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w64": {
+        "natural_value": 1.929,
+        "null_mean": 1.9526,
+        "null_std": 0.005,
+        "z_score": -4.76,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w128": {
+        "natural_value": 1.9513,
+        "null_mean": 1.972,
+        "null_std": 0.0037,
+        "z_score": -5.61,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      }
+    },
+    "NC_005148.1": {
+      "accession": "NC_005148.1",
+      "organism": "Porcine circovirus 2",
+      "genome_length_bp": 1768,
+      "lz76_complexity": {
+        "natural_value": 421,
+        "null_mean": 423.1,
+        "null_std": 2.2336,
+        "z_score": -0.94,
+        "empirical_p_value": 0.4,
+        "decision": "Accept H0 (Consistent with Markov-1)"
+      },
+      "compression_ratio_zlib": {
+        "natural_value": 0.3433,
+        "null_mean": 0.3432,
+        "null_std": 0.0022,
+        "z_score": 0.03,
+        "empirical_p_value": 1.0,
+        "decision": "Accept H0 (Consistent with Markov-1)"
+      },
+      "entropy_w64": {
+        "natural_value": 1.9229,
+        "null_mean": 1.9529,
+        "null_std": 0.0053,
+        "z_score": -5.7,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w128": {
+        "natural_value": 1.9519,
+        "null_mean": 1.9738,
+        "null_std": 0.0033,
+        "z_score": -6.59,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      }
+    },
+    "NC_001401.2": {
+      "accession": "NC_001401.2",
+      "organism": "adeno-associated virus 2",
+      "genome_length_bp": 4679,
+      "lz76_complexity": {
+        "natural_value": 972,
+        "null_mean": 976.6,
+        "null_std": 2.3664,
+        "z_score": -1.94,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "compression_ratio_zlib": {
+        "natural_value": 0.3108,
+        "null_mean": 0.3258,
+        "null_std": 0.0016,
+        "z_score": -9.4,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w64": {
+        "natural_value": 1.9428,
+        "null_mean": 1.9559,
+        "null_std": 0.003,
+        "z_score": -4.31,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w128": {
+        "natural_value": 1.9637,
+        "null_mean": 1.9748,
+        "null_std": 0.002,
+        "z_score": -5.48,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      }
+    },
+    "NC_001422.1": {
+      "accession": "NC_001422.1",
+      "organism": "Escherichia phage phiX174",
+      "genome_length_bp": 5386,
+      "lz76_complexity": {
+        "natural_value": 1089,
+        "null_mean": 1101.6,
+        "null_std": 2.5033,
+        "z_score": -5.03,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "compression_ratio_zlib": {
+        "natural_value": 0.3153,
+        "null_mean": 0.3236,
+        "null_std": 0.0009,
+        "z_score": -9.02,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w64": {
+        "natural_value": 1.9416,
+        "null_mean": 1.9493,
+        "null_std": 0.0018,
+        "z_score": -4.26,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w128": {
+        "natural_value": 1.96,
+        "null_mean": 1.9671,
+        "null_std": 0.0015,
+        "z_score": -4.65,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      }
+    },
+    "NC_001669.1": {
+      "accession": "NC_001669.1",
+      "organism": "Betapolyomavirus macacae",
+      "genome_length_bp": 5243,
+      "lz76_complexity": {
+        "natural_value": 1055,
+        "null_mean": 1056.9,
+        "null_std": 2.7264,
+        "z_score": -0.7,
+        "empirical_p_value": 0.5,
+        "decision": "Accept H0 (Consistent with Markov-1)"
+      },
+      "compression_ratio_zlib": {
+        "natural_value": 0.3067,
+        "null_mean": 0.3155,
+        "null_std": 0.0015,
+        "z_score": -5.69,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w64": {
+        "natural_value": 1.9104,
+        "null_mean": 1.9362,
+        "null_std": 0.0026,
+        "z_score": -9.99,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      },
+      "entropy_w128": {
+        "natural_value": 1.9363,
+        "null_mean": 1.9562,
+        "null_std": 0.0022,
+        "z_score": -9.15,
+        "empirical_p_value": 0.0,
+        "decision": "Reject H0 (Deviates from Markov-1)"
+      }
+    }
+  },
+  "experiment_b_zipf_grammar": {
+    "NC_003977.2": {
+      "accession": "NC_003977.2",
+      "organism": "Hepatitis B virus",
+      "genome_length_bp": 3182,
+      "kmer_fits": {
+        "k_3": {
+          "k": 3,
+          "unique_kmers": 64,
+          "zipf_alpha": {
+            "natural_value": 0.3892,
+            "null_mean": 0.3631,
+            "null_std": 0.0045,
+            "z_score": 5.75,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7189,
+            "null_mean": 0.737,
+            "null_std": 0.031,
+            "z_score": -0.58,
+            "empirical_p_value": 0.6,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_4": {
+          "k": 4,
+          "unique_kmers": 254,
+          "zipf_alpha": {
+            "natural_value": 0.5201,
+            "null_mean": 0.4664,
+            "null_std": 0.006,
+            "z_score": 8.87,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.6532,
+            "null_mean": 0.6826,
+            "null_std": 0.027,
+            "z_score": -1.09,
+            "empirical_p_value": 0.2,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_5": {
+          "k": 5,
+          "unique_kmers": 891,
+          "zipf_alpha": {
+            "natural_value": 0.5895,
+            "null_mean": 0.5648,
+            "null_std": 0.0121,
+            "z_score": 2.03,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7326,
+            "null_mean": 0.7434,
+            "null_std": 0.0098,
+            "z_score": -1.1,
+            "empirical_p_value": 0.3,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_6": {
+          "k": 6,
+          "unique_kmers": 1967,
+          "zipf_alpha": {
+            "natural_value": 0.4269,
+            "null_mean": 0.4059,
+            "null_std": 0.0067,
+            "z_score": 3.15,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.832,
+            "null_mean": 0.8359,
+            "null_std": 0.0062,
+            "z_score": -0.62,
+            "empirical_p_value": 0.5,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_005148.1": {
+      "accession": "NC_005148.1",
+      "organism": "Porcine circovirus 2",
+      "genome_length_bp": 1768,
+      "kmer_fits": {
+        "k_3": {
+          "k": 3,
+          "unique_kmers": 64,
+          "zipf_alpha": {
+            "natural_value": 0.3698,
+            "null_mean": 0.3406,
+            "null_std": 0.0073,
+            "z_score": 4.0,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8154,
+            "null_mean": 0.7932,
+            "null_std": 0.0374,
+            "z_score": 0.59,
+            "empirical_p_value": 0.3,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_4": {
+          "k": 4,
+          "unique_kmers": 255,
+          "zipf_alpha": {
+            "natural_value": 0.5544,
+            "null_mean": 0.4862,
+            "null_std": 0.0179,
+            "z_score": 3.81,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7119,
+            "null_mean": 0.679,
+            "null_std": 0.0393,
+            "z_score": 0.84,
+            "empirical_p_value": 0.6,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_5": {
+          "k": 5,
+          "unique_kmers": 781,
+          "zipf_alpha": {
+            "natural_value": 0.5419,
+            "null_mean": 0.5055,
+            "null_std": 0.0106,
+            "z_score": 3.45,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8335,
+            "null_mean": 0.8039,
+            "null_std": 0.0144,
+            "z_score": 2.06,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        },
+        "k_6": {
+          "k": 6,
+          "unique_kmers": 1341,
+          "zipf_alpha": {
+            "natural_value": 0.3245,
+            "null_mean": 0.2932,
+            "null_std": 0.0074,
+            "z_score": 4.24,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8044,
+            "null_mean": 0.7763,
+            "null_std": 0.0093,
+            "z_score": 3.03,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001401.2": {
+      "accession": "NC_001401.2",
+      "organism": "adeno-associated virus 2",
+      "genome_length_bp": 4679,
+      "kmer_fits": {
+        "k_3": {
+          "k": 3,
+          "unique_kmers": 64,
+          "zipf_alpha": {
+            "natural_value": 0.3533,
+            "null_mean": 0.3133,
+            "null_std": 0.004,
+            "z_score": 9.9,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.5823,
+            "null_mean": 0.5938,
+            "null_std": 0.0247,
+            "z_score": -0.47,
+            "empirical_p_value": 0.5,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_4": {
+          "k": 4,
+          "unique_kmers": 255,
+          "zipf_alpha": {
+            "natural_value": 0.4761,
+            "null_mean": 0.4068,
+            "null_std": 0.0071,
+            "z_score": 9.82,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.5929,
+            "null_mean": 0.5901,
+            "null_std": 0.0311,
+            "z_score": 0.09,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_5": {
+          "k": 5,
+          "unique_kmers": 950,
+          "zipf_alpha": {
+            "natural_value": 0.5893,
+            "null_mean": 0.5371,
+            "null_std": 0.0165,
+            "z_score": 3.17,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.6909,
+            "null_mean": 0.6773,
+            "null_std": 0.0146,
+            "z_score": 0.93,
+            "empirical_p_value": 0.4,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_6": {
+          "k": 6,
+          "unique_kmers": 2476,
+          "zipf_alpha": {
+            "natural_value": 0.4885,
+            "null_mean": 0.4579,
+            "null_std": 0.0057,
+            "z_score": 5.33,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8368,
+            "null_mean": 0.8208,
+            "null_std": 0.0076,
+            "z_score": 2.1,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001422.1": {
+      "accession": "NC_001422.1",
+      "organism": "Escherichia phage phiX174",
+      "genome_length_bp": 5386,
+      "kmer_fits": {
+        "k_3": {
+          "k": 3,
+          "unique_kmers": 64,
+          "zipf_alpha": {
+            "natural_value": 0.4164,
+            "null_mean": 0.353,
+            "null_std": 0.0028,
+            "z_score": 23.02,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.739,
+            "null_mean": 0.9088,
+            "null_std": 0.0136,
+            "z_score": -12.5,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        },
+        "k_4": {
+          "k": 4,
+          "unique_kmers": 255,
+          "zipf_alpha": {
+            "natural_value": 0.535,
+            "null_mean": 0.4261,
+            "null_std": 0.0043,
+            "z_score": 25.47,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7254,
+            "null_mean": 0.8342,
+            "null_std": 0.0223,
+            "z_score": -4.88,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        },
+        "k_5": {
+          "k": 5,
+          "unique_kmers": 965,
+          "zipf_alpha": {
+            "natural_value": 0.6641,
+            "null_mean": 0.5655,
+            "null_std": 0.0064,
+            "z_score": 15.49,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7329,
+            "null_mean": 0.7232,
+            "null_std": 0.0113,
+            "z_score": 0.86,
+            "empirical_p_value": 0.3,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_6": {
+          "k": 6,
+          "unique_kmers": 2553,
+          "zipf_alpha": {
+            "natural_value": 0.5454,
+            "null_mean": 0.4968,
+            "null_std": 0.0052,
+            "z_score": 9.39,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8516,
+            "null_mean": 0.8414,
+            "null_std": 0.0052,
+            "z_score": 1.96,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001669.1": {
+      "accession": "NC_001669.1",
+      "organism": "Betapolyomavirus macacae",
+      "genome_length_bp": 5243,
+      "kmer_fits": {
+        "k_3": {
+          "k": 3,
+          "unique_kmers": 64,
+          "zipf_alpha": {
+            "natural_value": 0.6826,
+            "null_mean": 0.6666,
+            "null_std": 0.0049,
+            "z_score": 3.29,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.3966,
+            "null_mean": 0.4146,
+            "null_std": 0.0039,
+            "z_score": -4.58,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        },
+        "k_4": {
+          "k": 4,
+          "unique_kmers": 247,
+          "zipf_alpha": {
+            "natural_value": 0.7588,
+            "null_mean": 0.7291,
+            "null_std": 0.0285,
+            "z_score": 1.04,
+            "empirical_p_value": 0.2,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.4835,
+            "null_mean": 0.4684,
+            "null_std": 0.0077,
+            "z_score": 1.97,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "k_5": {
+          "k": 5,
+          "unique_kmers": 849,
+          "zipf_alpha": {
+            "natural_value": 0.6605,
+            "null_mean": 0.6327,
+            "null_std": 0.0089,
+            "z_score": 3.11,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.7045,
+            "null_mean": 0.6683,
+            "null_std": 0.0074,
+            "z_score": 4.91,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        },
+        "k_6": {
+          "k": 6,
+          "unique_kmers": 2308,
+          "zipf_alpha": {
+            "natural_value": 0.5604,
+            "null_mean": 0.5309,
+            "null_std": 0.0048,
+            "z_score": 6.14,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "zipf_r2": {
+            "natural_value": 0.8502,
+            "null_mean": 0.829,
+            "null_std": 0.006,
+            "z_score": 3.55,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          }
+        }
+      }
+    }
+  },
+  "experiment_c_automaton_stability": {
+    "NC_003977.2": {
+      "accession": "NC_003977.2",
+      "organism": "Hepatitis B virus",
+      "genome_length_bp": 3182,
+      "frame_execution": {
+        "frame_0": {
+          "frame": 0,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 30.4,
+            "null_std": 48.0444,
+            "z_score": -0.63,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 28.323,
+            "null_std": 45.1178,
+            "z_score": -0.63,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.5678,
+            "null_std": 0.7609,
+            "z_score": -0.75,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_1": {
+          "frame": 1,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 100,
+            "null_mean": 10.5,
+            "null_std": 31.4863,
+            "z_score": 2.84,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 95.0,
+            "null_mean": 9.843,
+            "null_std": 29.9405,
+            "z_score": 2.84,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.0,
+            "null_mean": 0.4921,
+            "null_std": 0.6887,
+            "z_score": 0.74,
+            "empirical_p_value": 0.4,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 100.0,
+            "null_std": 316.2278,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_2": {
+          "frame": 2,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 1,
+            "null_mean": 10.7,
+            "null_std": 31.3902,
+            "z_score": -0.31,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.33,
+            "null_mean": 9.708,
+            "null_std": 30.408,
+            "z_score": -0.31,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.585,
+            "null_mean": 0.7355,
+            "null_std": 0.6834,
+            "z_score": 1.24,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 248.9,
+            "null_std": 483.6832,
+            "z_score": -0.51,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_005148.1": {
+      "accession": "NC_005148.1",
+      "organism": "Porcine circovirus 2",
+      "genome_length_bp": 1768,
+      "frame_execution": {
+        "frame_0": {
+          "frame": 0,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 30.6,
+            "null_std": 47.9147,
+            "z_score": -0.64,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 28.59,
+            "null_std": 45.2401,
+            "z_score": -0.63,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.7242,
+            "null_std": 0.8194,
+            "z_score": -0.88,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 0.3,
+            "null_std": 0.483,
+            "z_score": -0.62,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_1": {
+          "frame": 1,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.0,
+            "null_std": 0.0,
+            "z_score": 0.0,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 50.1,
+            "null_std": 52.6001,
+            "z_score": -0.95,
+            "empirical_p_value": 0.4,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 46.915,
+            "null_std": 49.3426,
+            "z_score": -0.95,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.7599,
+            "null_std": 0.6964,
+            "z_score": -1.09,
+            "empirical_p_value": 0.6,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 0.2,
+            "null_std": 0.4216,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_2": {
+          "frame": 2,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 0.5,
+            "null_std": 0.8498,
+            "z_score": -0.59,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 0.25,
+            "null_std": 0.4714,
+            "z_score": -0.53,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.711,
+            "null_std": 0.7998,
+            "z_score": -0.89,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 116.7,
+            "null_std": 249.1541,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001401.2": {
+      "accession": "NC_001401.2",
+      "organism": "adeno-associated virus 2",
+      "genome_length_bp": 4679,
+      "frame_execution": {
+        "frame_0": {
+          "frame": 0,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.5,
+            "null_std": 0.527,
+            "z_score": -0.95,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 100,
+            "null_mean": 10.1,
+            "null_std": 31.5892,
+            "z_score": 2.85,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 92.53,
+            "null_mean": 9.5,
+            "null_std": 30.0416,
+            "z_score": 2.76,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.585,
+            "null_mean": 0.1822,
+            "null_std": 0.3865,
+            "z_score": 3.63,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 149.8,
+            "null_std": 473.7092,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_1": {
+          "frame": 1,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.2,
+            "null_std": 0.4216,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 20.9,
+            "null_std": 41.7305,
+            "z_score": -0.5,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 19.234,
+            "null_std": 39.9339,
+            "z_score": -0.48,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.0,
+            "null_mean": 0.6645,
+            "null_std": 0.7288,
+            "z_score": 0.46,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 0.2,
+            "null_std": 0.4216,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_2": {
+          "frame": 2,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.0,
+            "null_std": 0.0,
+            "z_score": 0.0,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 30.3,
+            "null_std": 48.0995,
+            "z_score": -0.63,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 28.7,
+            "null_std": 46.0403,
+            "z_score": -0.62,
+            "empirical_p_value": 0.7,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.8847,
+            "null_std": 0.6981,
+            "z_score": -1.27,
+            "empirical_p_value": 0.4,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 100.1,
+            "null_std": 210.766,
+            "z_score": -0.47,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001422.1": {
+      "accession": "NC_001422.1",
+      "organism": "Escherichia phage phiX174",
+      "genome_length_bp": 5386,
+      "frame_execution": {
+        "frame_0": {
+          "frame": 0,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.3,
+            "null_std": 0.483,
+            "z_score": -0.62,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 100,
+            "null_mean": 12.6,
+            "null_std": 30.8048,
+            "z_score": 2.84,
+            "empirical_p_value": 0.1,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 94.55,
+            "null_mean": 11.059,
+            "null_std": 28.6859,
+            "z_score": 2.91,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.0331,
+            "null_mean": 1.2851,
+            "null_std": 0.5772,
+            "z_score": -0.44,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 3,
+            "null_mean": 199.9,
+            "null_std": 421.1631,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_1": {
+          "frame": 1,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.0,
+            "null_std": 0.0,
+            "z_score": 0.0,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 40.3,
+            "null_std": 51.3854,
+            "z_score": -0.78,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 37.722,
+            "null_std": 48.679,
+            "z_score": -0.77,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.8868,
+            "null_std": 0.7085,
+            "z_score": -1.25,
+            "empirical_p_value": 0.4,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 49.8,
+            "null_std": 157.1304,
+            "z_score": -0.32,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_2": {
+          "frame": 2,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.2,
+            "null_std": 0.4216,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 100,
+            "null_mean": 20.5,
+            "null_std": 41.908,
+            "z_score": 1.9,
+            "empirical_p_value": 0.2,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 96.25,
+            "null_mean": 19.205,
+            "null_std": 39.9491,
+            "z_score": 1.93,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 0.918,
+            "null_mean": 0.805,
+            "null_std": 0.9267,
+            "z_score": 0.12,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 0.3,
+            "null_std": 0.6749,
+            "z_score": -0.44,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    },
+    "NC_001669.1": {
+      "accession": "NC_001669.1",
+      "organism": "Betapolyomavirus macacae",
+      "genome_length_bp": 5243,
+      "frame_execution": {
+        "frame_0": {
+          "frame": 0,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.2,
+            "null_std": 0.4216,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 20.2,
+            "null_std": 42.0603,
+            "z_score": -0.48,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 19.117,
+            "null_std": 39.9946,
+            "z_score": -0.48,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.0,
+            "null_mean": 0.7503,
+            "null_std": 0.5503,
+            "z_score": 0.45,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 233.6,
+            "null_std": 498.2044,
+            "z_score": -0.47,
+            "empirical_p_value": 0.8,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_1": {
+          "frame": 1,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.1,
+            "null_std": 0.3162,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 0,
+            "null_mean": 20.0,
+            "null_std": 42.1637,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 0.0,
+            "null_mean": 19.01,
+            "null_std": 40.0766,
+            "z_score": -0.47,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": -0.0,
+            "null_mean": 0.4,
+            "null_std": 0.5164,
+            "z_score": -0.77,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 100.0,
+            "null_std": 316.2278,
+            "z_score": -0.32,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        },
+        "frame_2": {
+          "frame": 2,
+          "clean_termination": {
+            "natural_value": 0.0,
+            "null_mean": 0.3,
+            "null_std": 0.483,
+            "z_score": -0.62,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "max_stack_depth": {
+            "natural_value": 100,
+            "null_mean": 20.1,
+            "null_std": 42.1122,
+            "z_score": 1.9,
+            "empirical_p_value": 0.2,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "mean_stack_depth": {
+            "natural_value": 95.0,
+            "null_mean": 18.83,
+            "null_std": 39.5244,
+            "z_score": 1.93,
+            "empirical_p_value": 0.0,
+            "decision": "Reject H0 (Deviates from Markov-1)"
+          },
+          "operation_entropy": {
+            "natural_value": 1.0,
+            "null_mean": 0.7766,
+            "null_std": 0.7098,
+            "z_score": 0.31,
+            "empirical_p_value": 1.0,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          },
+          "underflow_crashes": {
+            "natural_value": 0,
+            "null_mean": 100.1,
+            "null_std": 316.1928,
+            "z_score": -0.32,
+            "empirical_p_value": 0.9,
+            "decision": "Accept H0 (Consistent with Markov-1)"
+          }
+        }
+      }
+    }
+  }
+}
