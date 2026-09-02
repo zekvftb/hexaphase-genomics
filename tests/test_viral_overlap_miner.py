@@ -120,3 +120,30 @@ def test_viral_overlap_miner_parameter_customization():
     )
     assert custom_miner.min_length_aa == 50
     assert custom_miner.significance_alpha == 0.001
+
+
+def test_candidate_dossier_generation():
+    """Verify inspection, biophysical profiling, and dossier generation."""
+    from scripts.mining.inspect_top_candidates import (
+        calculate_isoelectric_point,
+        calculate_molecular_weight,
+        detect_transmembrane_helices,
+        inspect_and_profile_candidates,
+    )
+
+    root = Path(__file__).parent.parent
+    res = inspect_and_profile_candidates(root)
+
+    assert "top_candidates" in res
+    assert len(res["top_candidates"]) == 5
+    dossier_file = root / "outputs" / "CANDIDATE_DISCOVERY_DOSSIER.md"
+    assert dossier_file.is_file()
+
+    top_1 = res["top_candidates"][0]
+    assert "molecular_weight_kda" in top_1
+    assert "isoelectric_point" in top_1
+    assert "tm_helices" in top_1
+    assert "kozak_info" in top_1
+    assert top_1["molecular_weight_kda"] > 0
+    assert 0 < top_1["isoelectric_point"] < 14
+
