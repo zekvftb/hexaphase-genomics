@@ -107,3 +107,15 @@ def test_non_canonical_pipeline_artifacts():
         assert "Host_CAI" in sample
         assert "Hydrophobic_Moment" in sample
         assert "Z_Score" in sample
+
+
+def test_inspect_top_non_canonical_smorfs_runner():
+    """Verify the multi-parametric smORF profiler and report generator."""
+    from scripts.mining.inspect_top_non_canonical_smorfs import inspect_and_display_top_smorfs
+
+    root = Path(__file__).parent.parent
+    report_text = inspect_and_display_top_smorfs(root)
+    assert "Top Non-Canonical & Near-Cognate smORF Candidates" in report_text
+    assert "Multi-Parametric Ranking Table" in report_text
+    assert "Candidate #1" in report_text
+
