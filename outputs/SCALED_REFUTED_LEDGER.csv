@@ -1,0 +1,2 @@
+Accession,Organism,Parent_Gene,Parent_Product,Frame_Offset,Start_in_Parent_bp,End_in_Parent_bp,Start_Codon,Length_aa,Host_CAI,Null_Z_Score,Null_P_Value,Global_pLDDT,TM_Core_pLDDT,Ribo_TPI,Ribo_P_Value,Translation_Evidence_Score,Peptide_Sequence,Funnel_Status,Failure_Reason
+NC_001401.2,adeno-associated virus 2,X gene,X protein,+2,143,467,ACG,108,0.797,3.72,0.0,0.39,0.39,0.875,1e-12,10.5,TDGHFHPSPLMGGFGLKHPPPQILIKNTPVPANPSTTFSAAKFASFITQYSTGQVSVEIEWELQKENSKRWNPEIQYTSNYNKSVNVDFTVDTNGVYSEPRPIGTRYL,REFUTED_OR_INCONCLUSIVE,Failed Structural Folding: pLDDT=0.39

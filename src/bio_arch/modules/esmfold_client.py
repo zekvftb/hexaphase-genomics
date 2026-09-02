@@ -37,17 +37,20 @@ class ESMFoldClient:
     """Client for ESMFold structural prediction API with caching and deterministic fallback."""
 
     DEFAULT_ENDPOINT = "https://api.esmatlas.com/foldSequence/v1/pdb/"
+    DEFAULT_TIMEOUT = 2
 
-    def __init__(self, cache_dir: Path | None = None, endpoint: str = DEFAULT_ENDPOINT) -> None:
+    def __init__(self, cache_dir: Path | None = None, endpoint: str = DEFAULT_ENDPOINT, timeout: int = DEFAULT_TIMEOUT) -> None:
         self.endpoint = endpoint
+        self.default_timeout = timeout
         if cache_dir is None:
             self.cache_dir = Path(__file__).resolve().parent.parent.parent / "data" / "structures" / "esmfold"
         else:
             self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def fold_sequence(self, peptide: str, use_cache: bool = True, timeout: int = 15) -> str:
+    def fold_sequence(self, peptide: str, use_cache: bool = True, timeout: int | None = None) -> str:
         """Query ESMAtlas API for 3D structure or retrieve from cache."""
+        timeout_val = timeout if timeout is not None else self.default_timeout
         peptide = peptide.strip().upper()
         if not peptide:
             return ""
@@ -66,7 +69,7 @@ class ESMFoldClient:
                 headers={"Content-Type": "text/plain", "User-Agent": "Hexaphase-ESMFold/1.0"},
                 method="POST",
             )
-            with urllib.request.urlopen(req, timeout=timeout) as response:
+            with urllib.request.urlopen(req, timeout=timeout_val) as response:
                 if response.status == 200:
                     pdb_text = response.read().decode("utf-8")
                     if "ATOM" in pdb_text:
@@ -120,9 +123,10 @@ class ESMFoldClient:
         tm_start_aa: int | None = None,
         tm_end_aa: int | None = None,
         use_cache: bool = True,
+        timeout: int | None = None,
     ) -> dict:
         """Compute 3D coordinates and evaluate global & regional structural metrics."""
-        pdb_text = self.fold_sequence(peptide, use_cache=use_cache)
+        pdb_text = self.fold_sequence(peptide, use_cache=use_cache, timeout=timeout)
         per_res_plddt = self.parse_plddt_from_pdb(pdb_text)
 
         if not per_res_plddt:
