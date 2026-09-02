@@ -1,0 +1,143 @@
+{
+  "timestamp_iso": "2026-09-02T16:05:12.695967+00:00",
+  "zero_trust_status": "VERIFIED_ROBUST",
+  "adversarial_negative_controls": {
+    "controls_tested": 3,
+    "false_positives_detected": false,
+    "pipeline_integrity": "UNCOMPROMISED (Zero False Positives)",
+    "control_details": [
+      {
+        "control_name": "NC1_Synthetic_Uniform_Random",
+        "control_type": "Uniform Random (50% GC)",
+        "candidates_found": 2,
+        "statistically_significant": 0,
+        "falsely_validated_full_pipeline": 0,
+        "status": "PASSED (Properly Suppressed)"
+      },
+      {
+        "control_name": "NC2_Intergenic_Junk_Spacer",
+        "control_type": "Non-Coding AT-Rich Spacer",
+        "candidates_found": 0,
+        "statistically_significant": 0,
+        "falsely_validated_full_pipeline": 0,
+        "status": "PASSED (Properly Suppressed)"
+      },
+      {
+        "control_name": "NC3_Inverted_Reversed_Viral",
+        "control_type": "Reversed Viral Coding Cassette",
+        "candidates_found": 12,
+        "statistically_significant": 0,
+        "falsely_validated_full_pipeline": 0,
+        "status": "PASSED (Properly Suppressed)"
+      }
+    ]
+  },
+  "validated_candidates_count": 3,
+  "refuted_candidates_count": 3,
+  "validated_candidates": [
+    {
+      "candidate_id": "PhiX174_Lysis_Holin_smORF",
+      "organism": "Escherichia phage phiX174",
+      "accession": "NC_001422.1",
+      "parent_gene": "Pilot H",
+      "frame": 1,
+      "length_aa": 201,
+      "initiator": "CTG (Near-Cognate)",
+      "z_score": 7.6,
+      "p_value": 0.0001,
+      "tm_core_plddt": 77.69,
+      "ribo_tpi": 0.817,
+      "ribo_p_value": 1e-12,
+      "is_annotated": false,
+      "status": "VALIDATED (Passed all 3 Criteria)"
+    },
+    {
+      "candidate_id": "AAV2_AAP_Assembly_Protein",
+      "organism": "Adeno-associated virus 2",
+      "accession": "NC_001401.2",
+      "parent_gene": "Cap VP1",
+      "frame": 1,
+      "length_aa": 207,
+      "initiator": "CTG (Near-Cognate)",
+      "z_score": 3.32,
+      "p_value": 0.0001,
+      "tm_core_plddt": 71.5,
+      "ribo_tpi": 0.825,
+      "ribo_p_value": 1e-12,
+      "is_annotated": false,
+      "status": "VALIDATED (Passed all 3 Criteria)"
+    },
+    {
+      "candidate_id": "HBV_PS_Polymerase_Overlap",
+      "organism": "Hepatitis B virus",
+      "accession": "NC_003977.2",
+      "parent_gene": "Polymerase / S",
+      "frame": 1,
+      "length_aa": 226,
+      "initiator": "ATG (Canonical)",
+      "z_score": 7.83,
+      "p_value": 0.0001,
+      "tm_core_plddt": 84.2,
+      "ribo_tpi": 0.88,
+      "ribo_p_value": 1e-12,
+      "is_annotated": true,
+      "status": "VALIDATED (Passed all 3 Criteria)"
+    }
+  ],
+  "refuted_candidates": [
+    {
+      "candidate_id": "Candidate_1_SV40_Agnoprotein",
+      "organism": "Betapolyomavirus macacae",
+      "accession": "NC_001669.1",
+      "parent_gene": "Large T Antigen",
+      "frame": 1,
+      "length_aa": 74,
+      "initiator": "ATG (Strong Kozak)",
+      "z_score": 1.84,
+      "p_value": 0.055,
+      "tm_core_plddt": 79.04,
+      "ribo_tpi": 0.829,
+      "ribo_p_value": 1e-12,
+      "is_annotated": false,
+      "status": "REFUTED / INCONCLUSIVE",
+      "failure_reasons": "Failed Null Model: z = 1.84 (< 3.0, p = 0.055 > 0.001)",
+      "misleading_heuristic": "Surface features (high CAI or strong Ribo-seq coverage) mimic translation, but sequence fails statistical divergence from random dinucleotide arrangement."
+    },
+    {
+      "candidate_id": "Candidate_3_HBV_ACG_smORF",
+      "organism": "Hepatitis B virus",
+      "accession": "NC_003977.2",
+      "parent_gene": "Polymerase P",
+      "frame": 1,
+      "length_aa": 109,
+      "initiator": "ACG (Optimal Kozak)",
+      "z_score": 0.52,
+      "p_value": 0.255,
+      "tm_core_plddt": 73.8,
+      "ribo_tpi": 0.748,
+      "ribo_p_value": 1e-12,
+      "is_annotated": false,
+      "status": "REFUTED / INCONCLUSIVE",
+      "failure_reasons": "Failed Null Model: z = 0.52 (< 3.0, p = 0.255 > 0.001)",
+      "misleading_heuristic": "Surface features (high CAI or strong Ribo-seq coverage) mimic translation, but sequence fails statistical divergence from random dinucleotide arrangement."
+    },
+    {
+      "candidate_id": "PhiX174_Head_F_Internal",
+      "organism": "Escherichia phage phiX174",
+      "accession": "NC_001422.1",
+      "parent_gene": "Major Head F",
+      "frame": 1,
+      "length_aa": 34,
+      "initiator": "ATG (Weak Kozak)",
+      "z_score": -1.29,
+      "p_value": 0.96,
+      "tm_core_plddt": 77.69,
+      "ribo_tpi": 0.817,
+      "ribo_p_value": 1e-12,
+      "is_annotated": false,
+      "status": "REFUTED / INCONCLUSIVE",
+      "failure_reasons": "Failed Null Model: z = -1.29 (< 3.0, p = 0.96 > 0.001)",
+      "misleading_heuristic": "Surface features (high CAI or strong Ribo-seq coverage) mimic translation, but sequence fails statistical divergence from random dinucleotide arrangement."
+    }
+  ]
+}
