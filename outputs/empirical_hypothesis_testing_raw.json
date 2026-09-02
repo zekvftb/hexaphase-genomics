@@ -1,5 +1,5 @@
 {
-  "timestamp_iso": "2026-09-02T15:10:44.981912+00:00",
+  "timestamp_iso": "2026-09-02T15:24:53.432913+00:00",
   "n_shuffles": 10,
   "null_model_algorithm": "Altschul-Erickson Dinucleotide Eulerian Walk",
   "significance_threshold_alpha": 0.01,
