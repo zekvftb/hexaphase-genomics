@@ -1,0 +1,10 @@
+{
+  "accession": "NC_015783.1",
+  "family": "Anelloviridae",
+  "name": "Torque teno virus 1",
+  "organism": "Torque teno virus",
+  "topology": "circular",
+  "genome_length_bp": 3725,
+  "num_annotated_cds": 0,
+  "cds_features": []
+}

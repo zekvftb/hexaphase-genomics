@@ -1,0 +1,710 @@
+LOCUS       NC_003977               3182 bp    DNA     circular VRL 25-MAR-2021
+DEFINITION  Hepatitis B virus (strain ayw) genome.
+ACCESSION   NC_003977
+VERSION     NC_003977.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq; antigen; core antigen; genome; signal peptide.
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3182)
+  AUTHORS   Abraham,T.M. and Loeb,D.D.
+  TITLE     The topology of hepatitis B virus pregenomic RNA promotes its
+            replication
+  JOURNAL   J. Virol. 81 (21), 11577-11584 (2007)
+   PUBMED   17699570
+REFERENCE   2  (bases 1 to 3182)
+  AUTHORS   Chen,A., Kao,Y.F. and Brown,C.M.
+  TITLE     Translation of the first upstream ORF in the hepatitis B virus
+            pregenomic RNA modulates translation at the core and polymerase
+            initiation codons
+  JOURNAL   Nucleic Acids Res. 33 (4), 1169-1181 (2005)
+   PUBMED   15731337
+REFERENCE   3  (bases 1773 to 2478)
+  AUTHORS   Borisova,G.P., Pumpen,P.P., Bychko,V.V., Pushko,P.M., Kalis,Y.V.,
+            Dishler,A.V., Gren,E.Y., Tsibinogin,V.V. and Kukain,R.A.
+  TITLE     Structure and expression of the gene of the core antigen of human
+            hepatitis B virus (HBV) in Escherichia coli cells
+  JOURNAL   Dokl. Biochem. 279, 386-390 (1985)
+REFERENCE   4  (bases 1 to 3182)
+  AUTHORS   Galibert,F., Mandart,E., Fitoussi,F., Tiollais,P. and Charnay,P.
+  TITLE     Nucleotide sequence of the hepatitis B virus genome (subtype ayw)
+            cloned in E. coli
+  JOURNAL   Nature 281 (5733), 646-650 (1979)
+   PUBMED   399327
+REFERENCE   5  (bases 1 to 3182)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-OCT-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to V01460.
+            On Oct 23, 2015 this sequence version replaced NC_003977.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3182
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /strain="ayw"
+                     /db_xref="taxon:10407"
+     gene            join(2309..3182,1..1625)
+                     /gene="P"
+                     /locus_tag="HBVgp1"
+                     /db_xref="GeneID:944565"
+     CDS             join(2309..3182,1..1625)
+                     /gene="P"
+                     /locus_tag="HBVgp1"
+                     /note="reverse transcriptase; DNA polymerase; P protein; P;
+                     HP; protein P; polymerase with reverse; transcriptase and
+                     RNAses H activit"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_009173866.1"
+                     /db_xref="GeneID:944565"
+                     /translation="MPLSYQHFRRLLLLDDEAGPLEEELPRLADEGLNRRVAEDLNLGN
+                     LNVSIPWTHKVGNFTGLYSSTVPVFNPHWKTPSFPNIHLHQDIIKKCEQFVGPLTVNEK
+                     RRLQLIMPARFYPKVTKYLPLDKGIKPYYPEHLVNHYFQTRHYLHTLWKAGILYKRETT
+                     HSASFCGSPYSWEQDLQHGAESFHQQSSGILSRPPVGSSLQSKHRKSRLGLQSQQGHLA
+                     RRQQGRSWSIRAGFHPTARRPFGVEPSGSGHTTNFASKSASCLHQSPVRKAAYPAVSTF
+                     EKHSSSGHAVEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCSDYCLSLIVNLLEDWGP
+                     CAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQFSRGNYRVSWPKFAVP
+                     NLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILN
+                     NQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQ
+                     FTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHLNPNKTK
+                     RWGYSLNFMGYVIGCYGSLPQEHIIQKIKECFRKLPINRPIDWKVCQRIVGLLGFAAPF
+                     TQCGYPALMPLYACIQSKQAFTFSPTYKAFLCKQYLNLYPVARQRPGLCQVFADATPTG
+                     WGLVMGHQRMRGTFSAPLPIHTAELLAACFARSRSGANIIGTDNSVVLSRKYTSFPWLL
+                     GCAANWILRGTSFVYVPSALNPADDPSRGRLGLSRPLLRLPFRPTTGRTSLYADSPSVP
+                     SHLPDRVHFASPLHVAWRPP"
+     gene            join(2850..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /db_xref="GeneID:944569"
+     CDS             join(2850..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="long surface protein; PreS1; L protein; LHBs; large
+                     S protein; pre-S1/pre-S2/S regions; L glycoprotein;
+                     L-HBsAG; LHBs"
+                     /codon_start=1
+                     /product="large envelope protein"
+                     /protein_id="YP_009173869.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MGQNLSTSNPLGFFPDHQLDPAFRANTANPDWDFNPNKDTWPDAN
+                     KVGAGAFGLGFTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNT
+                     HPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALN
+                     MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSN
+                     HSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTST
+                     GPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLV
+                     PFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             join(3174..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="middle surface protein; PreS2; M protein; MHBs;
+                     middle S protein; pre-S2/S"
+                     /codon_start=1
+                     /product="middle envelope protein"
+                     /protein_id="YP_009173870.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSI
+                     FSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCL
+                     GQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCP
+                     LIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWAS
+                     ARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI
+                     "
+     CDS             157..837
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="small surface protein; S; HBs antigen; SHBs; S
+                     protein; S glycoprotein; S-HBsAg, SHB, small S protein; S
+                     gene product, putative"
+                     /codon_start=1
+                     /product="small envelope protein"
+                     /protein_id="YP_009173871.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGT
+                     TVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGML
+                     PVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLW
+                     EWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCL
+                     WVYI"
+     gene            1376..1840
+                     /gene="X"
+                     /locus_tag="HBVgp3"
+                     /db_xref="GeneID:944566"
+     CDS             1376..1840
+                     /gene="X"
+                     /locus_tag="HBVgp3"
+                     /note="X protein; HBx; X; HBx; peptide X; pX"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_009173867.1"
+                     /db_xref="GeneID:944566"
+                     /translation="MAARLCCQLDPARDVLCLRPVGAESCGRPFSGSLGTLSSPSPSAV
+                     PTDHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNAHQILPKVLHKRTLGLSAMS
+                     TTDLEAYFKDCLFKDWEELGEEIRLKVFVLGGCRHKLVCAPAPCNFFTSA"
+     misc_difference complement(1775)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     gene            1816..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /db_xref="GeneID:944568"
+     CDS             1816..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="precore; HBe antigen; PreC; HBeAg; precore protein;
+                     external core antigen; HBeAg; p25; precursor"
+                     /codon_start=1
+                     /product="pre-capsid protein"
+                     /protein_id="YP_009173857.1"
+                     /db_xref="GOA:P03146"
+                     /db_xref="InterPro:IPR002006"
+                     /db_xref="UniProtKB/Swiss-Prot:P03146"
+                     /db_xref="GeneID:944568"
+                     /translation="MQLFHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGATVELL
+                     SFLPSDFFPSVRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMTLATWVGVN
+                     LEDPASRDLVVSYVNTNMGLKFRQLLWFHISCLTFGRETVIEYLVSFGVWIRTPPAYRP
+                     PNAPILSTLPETTVVRRRGRSPRRRTPSPRRRRSQSPRRRRSQSRESQC"
+     sig_peptide     1816..1902
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="signal peptide (aa -29 to -1)"
+     mRNA            join(1820..3182,1..1932)
+                     /product="pgRNA"
+                     /note="pre-genomic RNA; encodes core and polymerase;
+                     template for reverse transcription"
+                     /citation=[1]
+     CDS             1903..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="core; capsid; HBc antigen; C; core protein; core
+                     antigen; HBcAg; p21.5; C protein"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009173868.3"
+                     /db_xref="GeneID:944568"
+                     /translation="MDIDPYKEFGATVELLSFLPSDFFPSVRDLLDTASALYREALESP
+                     EHCSPHHTALRQAILCWGELMTLATWVGVNLEDPASRDLVVSYVNTNMGLKFRQLLWFH
+                     ISCLTFGRETVIEYLVSFGVWIRTPPAYRPPNAPILSTLPETTVVRRRGRSPRRRTPSP
+                     RRRRSQSPRRRRSQSRESQC"
+     misc_difference complement(1910)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(1913)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(1998..2000)
+                     /note="GGT(Thr) is GTT(Asn) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2078)
+                     /note="A is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2081)
+                     /note="A is C in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2123)
+                     /note="AAC(Val) is ACC(Gly) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2139..2141)
+                     /note="CGC(Ala) is TAT(Ile) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2144)
+                     /note="A is G in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2147)
+                     /note="T is C in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2188)
+                     /note="C is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2201)
+                     /note="G is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2267)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2319)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     CDS             572..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (379 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.7127; z=11.13; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LGFFPDHQLDPAFRANTANPDWDFNPNKDTWPDANKVGAGAFGLG
+                     FTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNTHPQAMQWNST
+                     TFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENITSGFLG
+                     PLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCPPTC
+                     PGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCMTTA
+                     QGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFVGLS
+                     PTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             506..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (401 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.7173; z=10.87; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VGHHILGNKIYSMGQNLSTSNPLGFFPDHQLDPAFRANTANPDWD
+                     FNPNKDTWPDANKVGAGAFGLGFTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGR
+                     QPTPLSPPLRNTHPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLS
+                     SIFSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTV
+                     CLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPV
+                     CPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEW
+                     ASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWV
+                     YI"
+     CDS             542..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (389 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.7151; z=9.75; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="MGQNLSTSNPLGFFPDHQLDPAFRANTANPDWDFNPNKDTWPDAN
+                     KVGAGAFGLGFTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNT
+                     HPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALN
+                     MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSN
+                     HSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTST
+                     GPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLV
+                     PFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             596..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (371 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.7085; z=9.01; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LDPAFRANTANPDWDFNPNKDTWPDANKVGAGAFGLGFTPPHGGL
+                     LGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNTHPQAMQWNSTTFHQTLQD
+                     PRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENITSGFLGPLLVLQAG
+                     FFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCL
+                     RRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPS
+                     CCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFVGLSPTVWLSVI
+                     WMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             731..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (326 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6969; z=8.28; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNTHPQA
+                     MQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENI
+                     TSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPT
+                     SCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCR
+                     TCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQ
+                     WFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             6..845
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (280 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.7095; z=8.08; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCSDYCLSLIVNLL
+                     EDWGPCAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQFSRGNYRVSWP
+                     KFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSN
+                     SRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSP
+                     FLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             195..1169
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (325 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.7179; z=7.75; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VEPSGSGHTTNFASKSASCLHQSPVRKAAYPAVSTFEKHSSSGHA
+                     VEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCSDYCLSLIVNLLEDWGPCAEHGEHHI
+                     RIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQFSRGNYRVSWPKFAVPNLQSLTNLL
+                     SSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDL
+                     HDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVV
+                     RRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             701..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (336 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6973; z=7.59; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LGFTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLS
+                     PPLRNTHPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRI
+                     GDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNS
+                     QSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPG
+                     SSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFS
+                     WLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             93..1169
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (359 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.7173; z=7.5; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LGLQSQQGHLARRQQGRSWSIRAGFHPTARRPFGVEPSGSGHTTN
+                     FASKSASCLHQSPVRKAAYPAVSTFEKHSSSGHAVEFHNLPPNSARSQSERPVFPCWWL
+                     QFRNSKPCSDYCLSLIVNLLEDWGPCAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAE
+                     SRLVVDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAM
+                     PHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHL
+                     YSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQH
+                     LESLFTAVTNFLLSLGIHL"
+     CDS             770..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (313 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.7003; z=7.31; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LPANPPPASTNRQSGRQPTPLSPPLRNTHPQAMQWNSTTFHQTLQ
+                     DPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENITSGFLGPLLVLQA
+                     GFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMC
+                     LRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYP
+                     SCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFVGLSPTVWLSV
+                     IWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             120..1169
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (350 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.7237; z=6.99; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LARRQQGRSWSIRAGFHPTARRPFGVEPSGSGHTTNFASKSASCL
+                     HQSPVRKAAYPAVSTFEKHSSSGHAVEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCS
+                     DYCLSLIVNLLEDWGPCAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQ
+                     FSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSG
+                     LSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGF
+                     RKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVT
+                     NFLLSLGIHL"
+     CDS             830..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (293 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6974; z=6.23; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LSPPLRNTHPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVN
+                     PVLTTASPLSSIFSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWT
+                     SLNFLGGTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLV
+                     LLDYQGMLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSS
+                     WAFGKFLWEWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLP
+                     LLPIFFCLWVYI"
+     CDS             842..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (289 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6955; z=6.22; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LRNTHPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLT
+                     TASPLSSIFSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNF
+                     LGGTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDY
+                     QGMLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFG
+                     KFLWEWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPI
+                     FFCLWVYI"
+     CDS             899..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (270 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6879; z=6.08; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNM
+                     ENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNH
+                     SPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTG
+                     PCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVP
+                     FVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             330..1169
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (280 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.7095; z=5.81; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCSDYCLSLIVNLL
+                     EDWGPCAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQFSRGNYRVSWP
+                     KFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSN
+                     SRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSP
+                     FLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             923..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (262 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6831; z=5.46; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENITSGFL
+                     GPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCPPT
+                     CPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCMTT
+                     AQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFVGL
+                     SPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             866..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (281 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6932; z=5.23; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="MQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSI
+                     FSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCL
+                     GQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCP
+                     LIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWAS
+                     ARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI
+                     "
+     CDS             971..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (246 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6819; z=5.16; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LTTASPLSSIFSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRI
+                     LTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFL
+                     FILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPS
+                     DGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWG
+                     PSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             914..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (265 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6861; z=4.91; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALNMENITS
+                     GFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSC
+                     PPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTC
+                     MTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWF
+                     VGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             105..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (192 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6825; z=4.77; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAF
+                     YHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLL
+                     YQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDD
+                     VVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             267..845
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (193 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6839; z=4.64; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VVDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAA
+                     FYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLL
+                     LYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMD
+                     DVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             270..845
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (192 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6825; z=4.5; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAF
+                     YHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLL
+                     YQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDD
+                     VVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             102..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (193 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6839; z=4.31; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VVDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAA
+                     FYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLL
+                     LYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMD
+                     DVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             1025..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (228 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.687; z=4.15; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLG
+                     GTTVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKF
+                     LWEWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFF
+                     CLWVYI"
+     CDS             141..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (180 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6772; z=4.09; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPH
+                     LLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYS
+                     HPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLE
+                     SLFTAVTNFLLSLGIHL"
+     CDS             1091..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (206 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6878; z=3.84; p=0.0"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSC
+                     PPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTC
+                     MTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWF
+                     VGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             306..845
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (180 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6772; z=3.73; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPH
+                     LLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYS
+                     HPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLE
+                     SLFTAVTNFLLSLGIHL"
+     CDS             1031..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (226 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6848; z=3.5; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGT
+                     TVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGML
+                     PVCPLIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLW
+                     EWASARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCL
+                     WVYI"
+     CDS             204..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (159 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6724; z=3.45; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRI
+                     LNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLL
+                     AQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             357..845
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (163 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6732; z=3.42; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSS
+                     NSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLS
+                     PFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL
+                     "
+     CDS             1070..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (213 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6848; z=3.34; p=0.005"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTS
+                     NHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTS
+                     TGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLL
+                     VPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             1094..1711
+                     /gene="smORF_P_F+1"
+                     /product="Candidate dual-coding smORF (205 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +1
+                     of P; CAI=0.6904; z=3.29; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSNHSPTSCP
+                     PTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTSTGPCRTCM
+                     TTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLVPFVQWFV
+                     GLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             192..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (163 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6732; z=3.11; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSS
+                     NSRILNNQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLS
+                     PFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL
+                     "
+     CDS             591..1169
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (193 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.6839; z=2.88; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="VVDFSQFSRGNYRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAA
+                     FYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQHGTMPDLHDYCSRNLYVSLLL
+                     LYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMD
+                     DVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+     CDS             219..680
+                     /gene="smORF_S_F+2"
+                     /product="Candidate dual-coding smORF (154 aa, Known
+                     Annotated)"
+                     /note="Candidate unannotated dual-coding smORF in frame +2
+                     of S; CAI=0.684; z=2.77; p=0.01"
+                     /inference="CODON_ADAPTATION_AND_NULL_MODEL_P_LT_0.01"
+                     /translation="LDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILNNQH
+                     GTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTS
+                     AICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHL"
+ORIGIN
+        1 aattccacaa ccttccacca aactctgcaa gatcccagag tgagaggcct gtatttccct
+       61 gctggtggct ccagttcagg aacagtaaac cctgttctga ctactgcctc tcccttatcg
+      121 tcaatcttct cgaggattgg ggaccctgcg ctgaacatgg agaacatcac atcaggattc
+      181 ctaggacccc ttctcgtgtt acaggcgggg tttttcttgt tgacaagaat cctcacaata
+      241 ccgcagagtc tagactcgtg gtggacttct ctcaattttc tagggggaac taccgtgtgt
+      301 cttggccaaa attcgcagtc cccaacctcc aatcactcac caacctcttg tcctccaact
+      361 tgtcctggtt atcgctggat gtgtctgcgg cgttttatca tcttcctctt catcctgctg
+      421 ctatgcctca tcttcttgtt ggttcttctg gactatcaag gtatgttgcc cgtttgtcct
+      481 ctaattccag gatcctcaac aaccagcacg ggaccatgcc ggacctgcat gactactgct
+      541 caaggaacct ctatgtatcc ctcctgttgc tgtaccaaac cttcggacgg aaattgcacc
+      601 tgtattccca tcccatcatc ctgggctttc ggaaaattcc tatgggagtg ggcctcagcc
+      661 cgtttctcct ggctcagttt actagtgcca tttgttcagt ggttcgtagg gctttccccc
+      721 actgtttggc tttcagttat atggatgatg tggtattggg ggccaagtct gtacagcatc
+      781 ttgagtccct ttttaccgct gttaccaatt ttcttttgtc tttgggtata catttaaacc
+      841 ctaacaaaac aaagagatgg ggttactctc taaattttat gggttatgtc attggatgtt
+      901 atgggtcctt gccacaagaa cacatcatac aaaaaatcaa agaatgtttt agaaaacttc
+      961 ctattaacag gcctattgat tggaaagtat gtcaacgaat tgtgggtctt ttgggttttg
+     1021 ctgccccttt tacacaatgt ggttatcctg cgttgatgcc tttgtatgca tgtattcaat
+     1081 ctaagcaggc tttcactttc tcgccaactt acaaggcctt tctgtgtaaa caatacctga
+     1141 acctttaccc cgttgcccgg caacggccag gtctgtgcca agtgtttgct gacgcaaccc
+     1201 ccactggctg gggcttggtc atgggccatc agcgcatgcg tggaaccttt tcggctcctc
+     1261 tgccgatcca tactgcggaa ctcctagccg cttgttttgc tcgcagcagg tctggagcaa
+     1321 acattatcgg gactgataac tctgttgtcc tatcccgcaa atatacatcg tttccatggc
+     1381 tgctaggctg tgctgccaac tggatcctgc gcgggacgtc ctttgtttac gtcccgtcgg
+     1441 cgctgaatcc tgcggacgac ccttctcggg gtcgcttggg actctctcgt ccccttctcc
+     1501 gtctgccgtt ccgaccgacc acggggcgca cctctcttta cgcggactcc ccgtctgtgc
+     1561 cttctcatct gccggaccgt gtgcacttcg cttcacctct gcacgtcgca tggagaccac
+     1621 cgtgaacgcc caccaaatat tgcccaaggt cttacataag aggactcttg gactctcagc
+     1681 aatgtcaacg accgaccttg aggcatactt caaagactgt ttgtttaaag actgggagga
+     1741 gttgggggag gagattaggt taaaggtctt tgtactagga ggctgtaggc ataaattggt
+     1801 ctgcgcacca gcaccatgca actttttcac ctctgcctaa tcatctcttg ttcatgtcct
+     1861 actgttcaag cctccaagct gtgccttggg tggctttggg gcatggacat cgacccttat
+     1921 aaagaatttg gagctactgt ggagttactc tcgtttttgc cttctgactt ctttccttca
+     1981 gtacgagatc ttctagatac cgcctcagct ctgtatcggg aagccttaga gtctcctgag
+     2041 cattgttcac ctcaccatac tgcactcagg caagcaattc tttgctgggg ggaactaatg
+     2101 actctagcta cctgggtggg tgttaatttg gaagatccag cgtctagaga cctagtagtc
+     2161 agttatgtca acactaatat gggcctaaag ttcaggcaac tcttgtggtt tcacatttct
+     2221 tgtctcactt ttggaagaga aacagttata gagtatttgg tgtctttcgg agtgtggatt
+     2281 cgcactcctc cagcttatag accaccaaat gcccctatcc tatcaacact tccggagact
+     2341 actgttgtta gacgacgagg caggtcccct agaagaagaa ctccctcgcc tcgcagacga
+     2401 aggtctcaat cgccgcgtcg cagaagatct caatctcggg aatctcaatg ttagtattcc
+     2461 ttggactcat aaggtgggga actttactgg gctttattct tctactgtac ctgtctttaa
+     2521 tcctcattgg aaaacaccat cttttcctaa tatacattta caccaagaca ttatcaaaaa
+     2581 atgtgaacag tttgtaggcc cactcacagt taatgagaaa agaagattgc aattgattat
+     2641 gcctgccagg ttttatccaa aggttaccaa atatttacca ttggataagg gtattaaacc
+     2701 ttattatcca gaacatctag ttaatcatta cttccaaact agacactatt tacacactct
+     2761 atggaaggcg ggtatattat ataagagaga aacaacacat agcgcctcat tttgtgggtc
+     2821 accatattct tgggaacaag atctacagca tggggcagaa tctttccacc agcaatcctc
+     2881 tgggattctt tcccgaccac cagttggatc cagccttcag agcaaacacc gcaaatccag
+     2941 attgggactt caatcccaac aaggacacct ggccagacgc caacaaggta ggagctggag
+     3001 cattcgggct gggtttcacc ccaccgcacg gaggcctttt ggggtggagc cctcaggctc
+     3061 agggcatact acaaactttg ccagcaaatc cgcctcctgc ctccaccaat cgccagtcag
+     3121 gaaggcagcc taccccgctg tctccacctt tgagaaacac tcatcctcag gccatgcagt
+     3181 gg
+//

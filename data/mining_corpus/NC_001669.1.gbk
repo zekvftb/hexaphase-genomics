@@ -1,0 +1,1398 @@
+LOCUS       NC_001669               5243 bp    DNA     circular VRL 04-JUN-2019
+DEFINITION  Simian virus 40 complete genome.
+ACCESSION   NC_001669
+VERSION     NC_001669.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Betapolyomavirus macacae
+  ORGANISM  Betapolyomavirus macacae
+            Viruses; Floreoviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+            Sepolyvirales; Polyomaviridae; Betapolyomavirus.
+REFERENCE   1  (sites)
+  AUTHORS   Kube,D. and Milavetz,B.
+  TITLE     Generation of a nucleosome-free promoter region in SV40 does not
+            require T-antigen binding to site I
+  JOURNAL   Virology 172 (1), 100-105 (1989)
+   PUBMED   2549706
+REFERENCE   2  (sites)
+  AUTHORS   Behm,M., Lowman,H., Ng,S.C. and Bina,M.
+  TITLE     Analysis of temperature-sensitive mutations in the simian virus 40
+            gene encoding virion protein 1
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 85 (24), 9421-9425 (1988)
+   PUBMED   2849104
+REFERENCE   3  (sites)
+  AUTHORS   Khalili,K., Brady,J. and Khoury,G.
+  TITLE     Translational regulation of SV40 early mRNA defines a new viral
+            protein
+  JOURNAL   Cell 48 (4), 639-645 (1987)
+   PUBMED   3028644
+REFERENCE   4  (bases 4556 to 4657; 4907 to 4937)
+  AUTHORS   Noble,J.C., Prives,C. and Manley,J.L.
+  TITLE     In vitro splicing of simian virus 40 early pre mRNA
+  JOURNAL   Nucleic Acids Res. 14 (3), 1219-1235 (1986)
+   PUBMED   3005968
+REFERENCE   5  (sites)
+  AUTHORS   Barrera-Saldana,H., Takahashi,K., Vigneron,M., Wildeman,A.,
+            Davidson,I. and Chambon,P.
+  TITLE     All six GC-motifs of the SV40 early upstream element contribute to
+            promoter activity in vivo and in vitro
+  JOURNAL   EMBO J. 4 (13B), 3839-3849 (1985)
+   PUBMED   3004974
+REFERENCE   6  (sites)
+  AUTHORS   Stringer,J.R.
+  TITLE     Recombination between poly[d(GT).d(CA)] sequences in simian virus
+            40-infected cultured cells
+  JOURNAL   Mol. Cell. Biol. 5 (6), 1247-1259 (1985)
+   PUBMED   2993859
+REFERENCE   7  (bases 1499 to 2590)
+  AUTHORS   Ng,S.C., Behm,M. and Bina,M.
+  TITLE     DNA sequence alterations responsible for the synthesis of
+            thermosensitive VP1 in temperature-sensitive BC mutants of simian
+            virus 40
+  JOURNAL   J. Virol. 54 (2), 646-649 (1985)
+   PUBMED   2985830
+REFERENCE   8  (sites)
+  AUTHORS   Scheller,A. and Prives,C.
+  TITLE     Simian virus 40 and polyomavirus large tumor antigens have
+            different requirements for high-affinity sequence-specific DNA
+            binding
+  JOURNAL   J. Virol. 54 (2), 532-545 (1985)
+   PUBMED   2985816
+REFERENCE   9  (sites)
+  AUTHORS   Hutchinson,N.I., Chang,L.S., Pater,M.M., Bouck,N., Shenk,T.E. and
+            di Mayorca,G.
+  TITLE     Characterization of a new simian virus 40 mutant, tsA3900, isolated
+            from deletion mutant tsA1499
+  JOURNAL   J. Virol. 53 (3), 814-821 (1985)
+   PUBMED   2983092
+REFERENCE   10 (bases 1 to 366; 5230 to 5243)
+  AUTHORS   Swimmer,C. and Shenk,T.
+  TITLE     A viable simian virus 40 variant that carries a newly generated
+            sequence reiteration in place of the normal duplicated enhancer
+            element
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 81 (21), 6652-6656 (1984)
+   PUBMED   6093109
+REFERENCE   11 (sites)
+  AUTHORS   Hartzell,S.W., Byrne,B.J. and Subramanian,K.N.
+  TITLE     The simian virus 40 minimal origin and the 72-base-pair repeat are
+            required simultaneously for efficient induction of late gene
+            expression with large tumor antigen
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 81 (20), 6335-6339 (1984)
+   PUBMED   6093097
+REFERENCE   12 (sites)
+  AUTHORS   Sadofsky,M. and Alwine,J.C.
+  TITLE     Sequences on the 3' side of hexanucleotide AAUAAA affect efficiency
+            of cleavage at the polyadenylation site
+  JOURNAL   Mol. Cell. Biol. 4 (8), 1460-1468 (1984)
+   PUBMED   6149460
+REFERENCE   13 (bases 1582 to 1635; 2524 to 2652)
+  AUTHORS   Innis,J.W. and Scott,W.A.
+  TITLE     DNA replication and chromatin structure of simian virus 40
+            insertion mutants
+  JOURNAL   Mol. Cell. Biol. 4 (8), 1499-1507 (1984)
+   PUBMED   6092914
+REFERENCE   14 (bases 304 to 528)
+  AUTHORS   Hay,N., Kessler,M. and Aloni,Y.
+  TITLE     SV40 deletion mutant (d1861) with agnoprotein shortened by four
+            amino acids
+  JOURNAL   Virology 137 (1), 160-170 (1984)
+   PUBMED   6089413
+REFERENCE   15 (bases 1 to 33; 5213 to 5243)
+  AUTHORS   Cohen,G.L., Wright,P.J., DeLucia,A.L., Lewton,B.A., Anderson,M.E.
+            and Tegtmeyer,P.
+  TITLE     Critical spatial requirement within the origin of simian virus 40
+            DNA replication
+  JOURNAL   J. Virol. 51 (1), 91-96 (1984)
+   PUBMED   6328047
+REFERENCE   16 (sites)
+  AUTHORS   Hay,R.T., Hendrickson,E.A. and DePamphilis,M.L.
+  TITLE     Sequence specificity for the initiation of RNA-primed simian virus
+            40 DNA synthesis in vivo
+  JOURNAL   J. Mol. Biol. 175 (2), 131-157 (1984)
+   PUBMED   6202875
+REFERENCE   17 (bases 1 to 118; 5186 to 5243)
+  AUTHORS   Tseng,B.Y. and Ahlem,C.N.
+  TITLE     Mouse primase initiation sites in the origin region of simian virus
+            40
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 81 (8), 2342-2346 (1984)
+   PUBMED   6326122
+REFERENCE   18 (sites)
+  AUTHORS   Lycan,D.E. and Danna,K.J.
+  TITLE     S1 mapping of purified nascent transcripts of simian virus 40
+  JOURNAL   Mol. Cell. Biol. 4 (4), 625-633 (1984)
+   PUBMED   6325887
+REFERENCE   19 (bases 1 to 294; 297 to 379)
+  AUTHORS   Weber,F., de Villiers,J. and Schaffner,W.
+  TITLE     An SV40 'enhancer trap' incorporates exogenous enhancers or
+            generates enhancers from its own sequences
+  JOURNAL   Cell 36 (4), 983-992 (1984)
+   PUBMED   6323032
+REFERENCE   20 (sites)
+  AUTHORS   Pomerantz,B.J. and Hassell,J.A.
+  TITLE     Polyomavirus and simian virus 40 large T antigens bind to common
+            DNA sequences
+  JOURNAL   J. Virol. 49 (3), 925-937 (1984)
+   PUBMED   6321773
+REFERENCE   21 (sites)
+  AUTHORS   Hartzell,S.W., Byrne,B.J. and Subramanian,K.N.
+  TITLE     Mapping of the late promoter of simian virus 40
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 81 (1), 23-27 (1984)
+   PUBMED   6320166
+REFERENCE   22 (bases 1 to 26; 5170 to 5243)
+  AUTHORS   Jones,K.A. and Tjian,R.
+  TITLE     Essential contact residues within SV40 large T antigen binding
+            sites I and II identified by alkylation-interference
+  JOURNAL   Cell 36 (1), 155-162 (1984)
+   PUBMED   6319005
+REFERENCE   23 (bases 1 to 33; 5213 to 5243)
+  AUTHORS   Lewton,B.A., DeLucia,A.L. and Tegtmeyer,P.
+  TITLE     Binding of simian virus 40 a protein to DNA with deletions at the
+            origin of replication
+  JOURNAL   J. Virol. 49 (1), 9-13 (1984)
+   PUBMED   6317897
+REFERENCE   24 (bases 1709 to 1786)
+  AUTHORS   Liu,L.F., Rowe,T.C., Yang,L., Tewey,K.M. and Chen,G.L.
+  TITLE     Cleavage of DNA by mammalian DNA topoisomerase II
+  JOURNAL   J. Biol. Chem. 258 (24), 15365-15370 (1983)
+   PUBMED   6317692
+REFERENCE   25 (sites)
+  AUTHORS   Sohn,U., Szyszko,J., Coombs,D. and Krause,M.
+  TITLE     7S-K nuclear RNA from simian virus 40-transformed cells has
+            sequence homology to the viral early promoter
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 80 (23), 7090-7094 (1983)
+   PUBMED   6196783
+REFERENCE   26 (bases 21 to 118)
+  AUTHORS   Dynan,W.S. and Tjian,R.
+  TITLE     The promoter-specific transcription factor Sp1 binds to upstream
+            sequences in the SV40 early promoter
+  JOURNAL   Cell 35 (1), 79-87 (1983)
+   PUBMED   6313230
+REFERENCE   27 (bases 335 to 394; 1706 to 1753)
+  AUTHORS   Margolskee,R.F. and Nathans,D.
+  TITLE     Suppression of a VP1 mutant of simian virus 40 by missense
+            mutations in serine codons of the viral agnogene
+  JOURNAL   J. Virol. 48 (2), 405-409 (1983)
+   PUBMED   6312098
+REFERENCE   28 (bases 253 to 482)
+  AUTHORS   Piatak,M., Ghosh,P.K., Norkin,L.C. and Weissman,S.M.
+  TITLE     Sequences locating the 5' ends of the major simian virus 40 late
+            mRNA forms
+  JOURNAL   J. Virol. 48 (2), 503-520 (1983)
+   PUBMED   6194314
+REFERENCE   29 (bases 2773 to 4406)
+  AUTHORS   Tornow,J. and Cole,C.N.
+  TITLE     Intracistronic complementation in the simian virus 40 A gene
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 80 (20), 6312-6316 (1983)
+   PUBMED   6312452
+REFERENCE   30 (bases 1 to 49; 5181 to 5243)
+  AUTHORS   Tenen,D.G., Livingston,D.M., Wang,S.S. and Martin,R.G.
+  TITLE     Effect of a stem-loop structure within the SV40 replication origin
+            upon SV40 T antigen binding to origin region sequences
+  JOURNAL   Cell 34 (2), 629-639 (1983)
+   PUBMED   6311434
+REFERENCE   31 (bases 5165 to 5243)
+  AUTHORS   Tenen,D.G., Taylor,T.S., Haines,L.L., Bradley,M.K., Martin,R.G. and
+            Livingston,D.M.
+  TITLE     Binding of simian virus 40 large T antigen from virus-infected
+            monkey cells to wild-type and mutant viral replication origins
+  JOURNAL   J. Mol. Biol. 168 (4), 791-808 (1983)
+   PUBMED   6310127
+REFERENCE   32 (bases 1 to 134; 5216 to 5243)
+  AUTHORS   Everett,R.D., Baty,D. and Chambon,P.
+  TITLE     The repeated GC-rich motifs upstream from the TATA box are
+            important elements of the SV40 early promoter
+  JOURNAL   Nucleic Acids Res. 11 (8), 2447-2464 (1983)
+   PUBMED   6304653
+REFERENCE   33 (bases 1 to 14; 5210 to 5243)
+  AUTHORS   Rio,D.C. and Tjian,R.
+  TITLE     SV40 T antigen binding site mutations that affect autoregulation
+  JOURNAL   Cell 32 (4), 1227-1240 (1983)
+   PUBMED   6301686
+REFERENCE   34 (bases 3512 to 3565; 4154 to 4311)
+  AUTHORS   Pipas,J.M., Peden,K.W. and Nathans,D.
+  TITLE     Mutational analysis of simian virus 40 T antigen: isolation and
+            characterization of mutants with deletions in the T-antigen gene
+  JOURNAL   Mol. Cell. Biol. 3 (2), 203-213 (1983)
+   PUBMED   6300656
+REFERENCE   35 (bases 1 to 129; 5228 to 5243)
+  AUTHORS   Byrne,B.J., Davis,M.S., Yamaguchi,J., Bergsma,D.J. and
+            Subramanian,K.N.
+  TITLE     Definition of the simian virus 40 early promoter region and
+            demonstration of a host range bias in the enhancement effect of the
+            simian virus 40 72-base-pair repeat
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 80 (3), 721-725 (1983)
+   PUBMED   6298771
+REFERENCE   36 (sites)
+  AUTHORS   Mertz,J.E., Murphy,A. and Barkan,A.
+  TITLE     Mutants deleted in the agnogene of simian virus 40 define a new
+            complementation group
+  JOURNAL   J. Virol. 45 (1), 36-46 (1983)
+   PUBMED   6296443
+REFERENCE   37 (bases 80 to 350)
+  AUTHORS   Contreras,R., Gheysen,D., Knowland,J., van de Voorde,A. and
+            Fiers,W.
+  TITLE     Evidence for the direct involvement of DNA replication origin in
+            synthesis of late SV40 RNA
+  JOURNAL   Nature 300 (5892), 500-505 (1982)
+   PUBMED   6292733
+REFERENCE   38 (bases 284 to 326)
+  AUTHORS   Brady,J., Radonovich,M., Vodkin,M., Natarajan,V., Thoren,M.,
+            Das,G., Janik,J. and Salzman,N.P.
+  TITLE     Site-specific base substitution and deletion mutations that enhance
+            or suppress transcription of the SV40 major late RNA
+  JOURNAL   Cell 31 (3 PT 2), 625-633 (1982)
+   PUBMED   7159930
+REFERENCE   39 (bases 1 to 16; 5227 to 5243)
+  AUTHORS   Bergsma,D.J., Olive,D.M., Hartzell,S.W., Byrne,B.J. and
+            Subramanian,K.N.
+  TITLE     Cyclization of linear chimeric plasmids in vivo by a novel
+            end-to-end joining reaction or by intramolecular recombination: one
+            of the products contains a 147-bp perfect palindrome stable in
+            Escherichia coli
+  JOURNAL   Gene 20 (2), 157-167 (1982)
+   PUBMED   6299884
+REFERENCE   40 (bases 255 to 2535)
+  AUTHORS   Johnson,A.D., Barkan,A. and Mertz,J.E.
+  TITLE     Nucleotide sequence analysis of the recombinant joints in 16
+            naturally arising deletion mutants of simian virus 40
+  JOURNAL   Virology 123 (2), 464-469 (1982)
+   PUBMED   6294985
+REFERENCE   41 (bases 2619 to 2920)
+  AUTHORS   Polvino-Bodnar,M. and Cole,C.N.
+  TITLE     Construction and characterization of viable deletion mutants of
+            simian virus 40 lacking sequences near the 3' end of the early
+            region
+  JOURNAL   J. Virol. 43 (2), 489-502 (1982)
+   PUBMED   6287029
+REFERENCE   42 (sites)
+  AUTHORS   Alwine,J.C.
+  TITLE     Evidence for simian virus 40 late transcriptional control: mixed
+            infections of wild-type simian virus 40 and a late leader deletion
+            mutant exhibit trans effects on late viral RNA synthesis
+  JOURNAL   J. Virol. 42 (3), 798-803 (1982)
+   PUBMED   6284996
+REFERENCE   43 (bases 5164 to 5243; 1 to 48)
+  AUTHORS   Tenen,D.G., Haines,L.L. and Livingston,D.M.
+  TITLE     Binding of an analog of the simian virus 40 T antigen to wild-type
+            and mutant viral replication origins
+  JOURNAL   J. Mol. Biol. 157 (3), 473-492 (1982)
+   PUBMED   6288963
+REFERENCE   44 (bases 260 to 422)
+  AUTHORS   Hay,N., Skolnik-David,H. and Aloni,Y.
+  TITLE     Attenuation in the control of SV40 gene expression
+  JOURNAL   Cell 29 (1), 183-193 (1982)
+   PUBMED   6286139
+REFERENCE   45 (sites)
+  AUTHORS   Edwards,K.A., Halligan,B.D., Davis,J.L., Nivera,N.L. and Liu,L.F.
+  TITLE     Recognition sites of eukaryotic DNA topoisomerase I: DNA nucleotide
+            sequencing analysis of topo I cleavage sites on SV40 DNA
+  JOURNAL   Nucleic Acids Res. 10 (8), 2565-2576 (1982)
+   PUBMED   6281736
+REFERENCE   46 (sites)
+  AUTHORS   DiMaio,D. and Nathans,D.
+  TITLE     Regulatory mutants of simian virus 40. Effect of mutations at a T
+            antigen binding site on DNA replication and expression of viral
+            genes
+  JOURNAL   J. Mol. Biol. 156 (3), 531-548 (1982)
+   PUBMED   6288959
+REFERENCE   47 (bases 1 to 107; 5146 to 5243)
+  AUTHORS   Hay,R.T. and DePamphilis,M.L.
+  TITLE     Initiation of SV40 DNA replication in vivo: location and structure
+            of 5' ends of DNA synthesized in the ori region
+  JOURNAL   Cell 28 (4), 767-779 (1982)
+   PUBMED   6178514
+REFERENCE   48 (sites)
+  AUTHORS   Lebowitz,P. and Ghosh,P.K.
+  TITLE     Initiation and regulation of simian virus 40 early transcription in
+            vitro
+  JOURNAL   J. Virol. 41 (2), 449-461 (1982)
+   PUBMED   6281460
+REFERENCE   49 (sites)
+  AUTHORS   Bergsma,D.J., Olive,D.M., Hartzell,S.W. and Subramanian,K.N.
+  TITLE     Territorial limits and functional anatomy of the simian virus 40
+            replication origin
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 79 (2), 381-385 (1982)
+   PUBMED   6281769
+REFERENCE   50 (sites)
+  AUTHORS   Fromm,M. and Berg,P.
+  TITLE     Deletion mapping of DNA regions required for SV40 early region
+            promoter function in vivo
+  JOURNAL   J. Mol. Appl. Genet. 1 (5), 457-481 (1982)
+   PUBMED   6296253
+REFERENCE   51 (bases 325 to 622; 1463 to 1511)
+  AUTHORS   Piatak,M., Subramanian,K.N., Roy,P. and Weissman,S.M.
+  TITLE     Late messenger RNA production by viable simian virus 40 mutants
+            with deletions in the leader region
+  JOURNAL   J. Mol. Biol. 153 (3), 589-618 (1981)
+   PUBMED   6279878
+REFERENCE   52 (sites)
+  AUTHORS   Banerji,J., Rusconi,S. and Schaffner,W.
+  TITLE     Expression of a beta-globin gene is enhanced by remote SV40 DNA
+            sequences
+  JOURNAL   Cell 27 (2 PT 1), 299-308 (1981)
+   PUBMED   6277502
+REFERENCE   53 (bases 2644 to 2923)
+  AUTHORS   Feunteun,J., Carmichael,G., Nicolas,J.C. and Kress,M.
+  TITLE     Mutant carrying deletions in the two simian virus 40 early genes
+  JOURNAL   J. Virol. 40 (3), 625-634 (1981)
+   PUBMED   6275110
+REFERENCE   54 (sites)
+  AUTHORS   Hansen,U., Tenen,D.G., Livingston,D.M. and Sharp,P.A.
+  TITLE     T antigen repression of SV40 early transcription from two promoters
+  JOURNAL   Cell 27 (3 PT 2), 603-613 (1981)
+   PUBMED   6101224
+REFERENCE   55 (sites)
+  AUTHORS   Moreau,P., Hen,R., Wasylyk,B., Everett,R., Gaub,M.P. and Chambon,P.
+  TITLE     The SV40 72 base repair repeat has a striking effect on gene
+            expression both in SV40 and other chimeric recombinants
+  JOURNAL   Nucleic Acids Res. 9 (22), 6047-6068 (1981)
+   PUBMED   6273820
+REFERENCE   56 (sites)
+  AUTHORS   Jackson,V. and Chalkley,R.
+  TITLE     Use of whole-cell fixation to visualize replicating and maturing
+            simian virus 40: identification of new viral gene product
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 78 (10), 6081-6085 (1981)
+   PUBMED   6273846
+REFERENCE   57 (bases 1 to 102; 5148 to 5243)
+  AUTHORS   Ghosh,P.K. and Lebowitz,P.
+  TITLE     Simian virus 40 early mRNA's contain multiple 5' termini upstream
+            and downstream from a Hogness-Goldberg sequence; a shift in 5'
+            termini during the lytic cycle is mediated by large T antigen
+  JOURNAL   J. Virol. 40 (1), 224-240 (1981)
+   PUBMED   6270376
+REFERENCE   58 (bases 1 to 177; 5171 to 5243)
+  AUTHORS   Myers,R.M., Rio,D.C., Robbins,A.K. and Tjian,R.
+  TITLE     SV40 gene expression is modulated by the cooperative binding of T
+            antigen to DNA
+  JOURNAL   Cell 25 (2), 373-384 (1981)
+   PUBMED   6269743
+REFERENCE   59 (sites)
+  AUTHORS   Jay,G., Nomura,S., Anderson,C.W. and Khoury,G.
+  TITLE     Identification of the SV40 agnogene product: a DNA binding protein
+  JOURNAL   Nature 291 (5813), 346-349 (1981)
+   PUBMED   6262654
+REFERENCE   60 (sites)
+  AUTHORS   Fitzgerald,M. and Shenk,T.
+  TITLE     The sequence 5'-AAUAAA-3'forms parts of the recognition site for
+            polyadenylation of late SV40 mRNAs
+  JOURNAL   Cell 24 (1), 251-260 (1981)
+   PUBMED   6113054
+REFERENCE   61 (sites)
+  AUTHORS   Mathis,D.J. and Chambon,P.
+  TITLE     The SV40 early region TATA box is required for accurate in vitro
+            initiation of transcription
+  JOURNAL   Nature 290 (5804), 310-315 (1981)
+   PUBMED   6259539
+REFERENCE   62 (bases 1 to 173; 182 to 280; 5216 to 5243)
+  AUTHORS   Benoist,C. and Chambon,P.
+  TITLE     In vivo sequence requirements of the SV40 early promotor region
+  JOURNAL   Nature 290 (5804), 304-310 (1981)
+   PUBMED   6259538
+REFERENCE   63 (bases 306 to 428)
+  AUTHORS   Woodworth-Gutai,M.
+  TITLE     Recombination in SV40-infected cells: viral DNA sequences at sites
+            of circularization of transfecting linear DNA
+  JOURNAL   Virology 109 (2), 353-365 (1981)
+   PUBMED   6259817
+REFERENCE   64 (bases 1 to 32; 212 to 236; 5161 to 5243)
+  AUTHORS   McKay,R. and DiMaio,D.
+  TITLE     Binding of an SV40 T antigen-related protein to the DNA of SV40
+            regulatory mutants
+  JOURNAL   Nature 289 (5800), 810-813 (1981)
+   PUBMED   6258090
+REFERENCE   65 (bases 101 to 178; 251 to 280)
+  AUTHORS   Gruss,P., Dhar,R. and Khoury,G.
+  TITLE     Simian virus 40 tandem repeated sequences as an element of the
+            early promoter
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 78 (2), 943-947 (1981)
+   PUBMED   6262784
+REFERENCE   66 (bases 110 to 178; 251 to 601)
+  AUTHORS   Barkan,A. and Mertz,J.E.
+  TITLE     DNA sequence analysis of simian virus 40 mutants with deletions
+            mapping in the leader region of the late viral mRNA's: mutants with
+            deletions similar in size and position exhibit varied phenotypes
+  JOURNAL   J. Virol. 37 (2), 730-737 (1981)
+   PUBMED   6261017
+REFERENCE   67 (bases 1 to 54; 5148 to 5243)
+  AUTHORS   Ghosh,P.K., Lebowitz,P., Frisque,R.J. and Gluzman,Y.
+  TITLE     Identification of a promoter component involved in positioning the
+            5' termini of simian virus 40 early mRNAs
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 78 (1), 100-104 (1981)
+   PUBMED   6264425
+REFERENCE   68 (sites)
+  AUTHORS   Buchman,A.R., Burnett,L. and Berg,P.
+  TITLE     Appendix A: The SV40 nucleotide sequence
+  JOURNAL   (in) Tooze,J. (Ed.);
+            DNA TUMOR VIRUSES - SECOND EDITION REVISED: 799-841;
+            Cold Spring Harbor Laboratory, Cold Spring Harbor (1981)
+REFERENCE   69 (bases 2663 to 2921)
+  AUTHORS   Alwine,J.C. and Khoury,G.
+  TITLE     Simian virus 40-associated small RNA: mapping on the simian virus
+            40 genome and characterization of its synthesis
+  JOURNAL   J. Virol. 36 (3), 701-708 (1980)
+   PUBMED   6257921
+REFERENCE   70 (bases 5213 to 5236)
+  AUTHORS   Haegeman,G. and Fiers,W.
+  TITLE     Characterization of the 5'-terminal cap structures of early simian
+            virus 40 mRNA
+  JOURNAL   J. Virol. 35 (3), 955-961 (1980)
+   PUBMED   6252349
+REFERENCE   71 (bases 1 to 33; 212 to 236; 5161 to 5243)
+  AUTHORS   Gluzman,Y., Sambrook,J.F. and Frisque,R.J.
+  TITLE     Expression of early genes of origin-defective mutants of simian
+            virus 40
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 77 (7), 3898-3902 (1980)
+   PUBMED   6254000
+REFERENCE   72 (bases 13 to 65; 5155 to 5227)
+  AUTHORS   Benoist,C. and Chambon,P.
+  TITLE     Deletions covering the putative promoter region of early mRNAs of
+            simian virus 40 do not abolish T-antigen expression
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 77 (7), 3865-3869 (1980)
+   PUBMED   6253995
+REFERENCE   73 (bases 1 to 74; 5161 to 5243)
+  AUTHORS   DiMaio,D. and Nathans,D.
+  TITLE     Cold-sensitive regulatory mutants of simian virus 40
+  JOURNAL   J. Mol. Biol. 140 (1), 129-142 (1980)
+   PUBMED   6251230
+REFERENCE   74 (sites)
+  AUTHORS   Shalloway,D., Kleinberger,T. and Livingston,D.M.
+  TITLE     Mapping of SV40 DNA replication origin region binding sites for the
+            SV40 T antigen by protection against exonuclease III digestion
+  JOURNAL   Cell 20 (2), 411-422 (1980)
+   PUBMED   6248243
+REFERENCE   75 (bases 4572 to 4917)
+  AUTHORS   Seif,I., Khoury,G. and Dhar,R.
+  TITLE     A rapid enzymatic DNA sequencing technique: determination of
+            sequence alterations in early simian virus 40 temperature sensitive
+            and deletion mutants
+  JOURNAL   Nucleic Acids Res. 8 (10), 2225-2240 (1980)
+   PUBMED   6253881
+REFERENCE   76 (bases 2669 to 3251)
+  AUTHORS   Van Heuverswyn,H., Van de Voorde,A., Van Herreweghe,J.,
+            Volckaert,G., De Winne,P. and Fiers,W.
+  TITLE     Nucleotide sequence of simian virus 40 DNA: structure of the middle
+            segment of the HindII + III restriction fragment B (sixth part of
+            the T antigen gene) and codon usage
+  JOURNAL   Eur. J. Biochem. 106 (1), 199-209 (1980)
+   PUBMED   6280997
+REFERENCE   77 (bases 3146 to 3481)
+  AUTHORS   Van Herreweghe,J., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the Hind-I-proximal part of simian virus 40
+            HindII + III restriction fragment B (fifth part of the T antigen
+            gene)
+  JOURNAL   Eur. J. Biochem. 106 (1), 193-198 (1980)
+   PUBMED   6280996
+REFERENCE   78 (bases 3476 to 3735)
+  AUTHORS   Van Herreweghe,J., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 HindII + III restriction
+            fragment I (fourth part of the T antigen gene)
+  JOURNAL   Eur. J. Biochem. 106 (1), 179-192 (1980)
+   PUBMED   6280995
+REFERENCE   79 (bases 4007 to 4574)
+  AUTHORS   Volckaert,G., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 HindII + III restriction
+            fragment A (second part of the T antigen gene)
+  JOURNAL   Eur. J. Biochem. 106 (1), 169-177 (1980)
+   PUBMED   6280994
+REFERENCE   80 (sites)
+  AUTHORS   Mark,D.F. and Berg,P.
+  TITLE     A third splice site in SV40 early mRNA
+  JOURNAL   Cold Spring Harb. Symp. Quant. Biol. 44 (PT 1), 55-62 (1980)
+   PUBMED   6253155
+REFERENCE   81 (bases 4963 to 5179)
+  AUTHORS   Pipas,J.M., Adler,S.P., Peden,K.W. and Nathans,D.
+  TITLE     Deletion mutants of SV40 that affect the structure of viral tumor
+            antigens
+  JOURNAL   Cold Spring Harb. Symp. Quant. Biol. 44 (PT 1), 285-291 (1980)
+   PUBMED   6253142
+REFERENCE   82 (sites)
+  AUTHORS   Haegeman,G., Iserentant,D., Gheysen,D. and Fiers,W.
+  TITLE     Characterization of the major altered leader sequence of late mRNA
+            induced by SV40 deletion mutant d1-1811
+  JOURNAL   Nucleic Acids Res. 7 (7), 1799-1814 (1979)
+   PUBMED   231763
+REFERENCE   83 (bases 1 to 472; 5174 to 5243)
+  AUTHORS   Van Heuverswyn,H. and Fiers,W.
+  TITLE     Nucleotide sequence of the Hind-C fragment of simian virus 40 DNA.
+            Comparison of the 5'-untranslated region of wild-type virus and of
+            some deletion Mutants
+  JOURNAL   Eur. J. Biochem. 100 (1), 51-60 (1979)
+   PUBMED   226361
+REFERENCE   84 (sites)
+  AUTHORS   Khoury,G., Gruss,P., Dhar,R. and Lai,C.J.
+  TITLE     Processing and expression of early SV40 mRNA: a role for RNA
+            conformation in splicing
+  JOURNAL   Cell 18 (1), 85-92 (1979)
+   PUBMED   228860
+REFERENCE   85 (bases 250 to 304; 345 to 399)
+  AUTHORS   Haegeman,G., van Heuverswyn,H., Gheysen,D. and Fiers,W.
+  TITLE     Heterogeneity of the 5' terminus of late mRNA induced by a viable
+            simian virus 40 deletion mutant
+  JOURNAL   J. Virol. 31 (2), 484-493 (1979)
+   PUBMED   225567
+REFERENCE   86 (bases 4566 to 5225)
+  AUTHORS   Thompson,J.A., Radonovich,M.F. and Salzman,N.P.
+  TITLE     Characterization of the 5'-terminal structure of simian virus 40
+            early mRNA's
+  JOURNAL   J. Virol. 31 (2), 437-446 (1979)
+   PUBMED   90173
+REFERENCE   87 (bases 2667 to 2840)
+  AUTHORS   Van Heuverswyn,H., Cole,C., Berg,P. and Fiers,W.
+  TITLE     Nucleotide sequence analysis of two simian virus 40 mutants with
+            deletions in the region coding for the carboxyl terminus of the T
+            antigen
+  JOURNAL   J. Virol. 30 (3), 936-941 (1979)
+   PUBMED   225550
+REFERENCE   88 (bases 4548 to 4923)
+  AUTHORS   Volckaert,G., Feunteun,J., Crawford,L.V., Berg,P. and Fiers,W.
+  TITLE     Nucleotide sequence deletions within the coding region for small-t
+            antigen of simian virus 40
+  JOURNAL   J. Virol. 30 (3), 674-682 (1979)
+   PUBMED   225536
+REFERENCE   89 (sites)
+  AUTHORS   Thimmappaya,B. and Shenk,T.
+  TITLE     Nucleotide sequence analysis of viable deletion mutants lacking
+            segments of the simian virus 40 genome coding for small t antigen
+  JOURNAL   J. Virol. 30 (3), 668-673 (1979)
+   PUBMED   225535
+REFERENCE   90 (bases 263 to 532)
+  AUTHORS   Subramanian,K.N.
+  TITLE     Segments of simian virus 40 DNA spanning most of the leader
+            sequence of the major late viral messenger RNA are dispensable
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 76 (6), 2556-2560 (1979)
+   PUBMED   223148
+REFERENCE   91 (bases 2691 to 4571; 4638 to 5163)
+  AUTHORS   Reddy,V.B., Ghosh,P.K., Lebowitz,P., Piatak,M. and Weissman,S.M.
+  TITLE     Simian virus 40 early mRNA's. I. Genomic localization of 3' and 5'
+            termini and two major splices in mRNA from transformed and
+            lytically infected cells
+  JOURNAL   J. Virol. 30 (1), 279-296 (1979)
+   PUBMED   90157
+REFERENCE   92 (bases 1276 to 1539)
+  AUTHORS   Contreras,R., Cole,C., Berg,P. and Fiers,W.
+  TITLE     Nucleotide sequence analysis of two simian virus 40 mutants with
+            deletions in the late region of the genome
+  JOURNAL   J. Virol. 29 (2), 789-793 (1979)
+   PUBMED   219259
+REFERENCE   93 (bases 325 to 562; 1403 to 1582)
+  AUTHORS   Bina-Stein,M., Thoren,M., Salzman,N. and Thomspon,J.A.
+  TITLE     Rapid sequence determination of late simian virus 40 16S mRNA
+            leader by using inhibitors of reverse transcriptase
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 76 (2), 731-735 (1979)
+   PUBMED   85304
+REFERENCE   94 (bases 1 to 5243)
+  AUTHORS   Lebowitz,P. and Weissman,S.M.
+  TITLE     Organization and transcription of the simian virus 40 genome
+  JOURNAL   Curr. Top. Microbiol. Immunol. 87, 43-172 (1979)
+   PUBMED   232871
+REFERENCE   95 (sites)
+  AUTHORS   Ghosh,P.K., Reddy,V.B., Swinscoe,J., Lebowitz,P. and Weissman,S.M.
+  TITLE     Heterogeneity and 5'-terminal structures of the late RNAs of simian
+            virus 40
+  JOURNAL   J. Mol. Biol. 126 (4), 813-846 (1978)
+   PUBMED   218021
+REFERENCE   96 (bases 5109 to 5243; 1 to 63)
+  AUTHORS   Gutai,M.W. and Nathans,D.
+  TITLE     Evolutionary variants of simian virus 40: Nucleotide sequence of a
+            conserved SV40 DNA segment containing the origin of viral DNA
+            replication as an inverted repetition
+  JOURNAL   J. Mol. Biol. 126 (2), 259-274 (1978)
+   PUBMED   216810
+REFERENCE   97 (bases 662 to 1051)
+  AUTHORS   Ysebaert,M., van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 HindII + III restriction
+            fragment D and the total amino acid sequence of the late proteins
+            VP2 and VP3
+  JOURNAL   Eur. J. Biochem. 91 (2), 431-439 (1978)
+   PUBMED   215403
+REFERENCE   98 (bases 2060 to 2299)
+  AUTHORS   van Heuverswyn,H., van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 Hind II + III
+            restriction fragment J and the total amino acid sequence of the
+            major structural protein VP1
+  JOURNAL   Eur. J. Biochem. 91 (2), 415-430 (1978)
+   PUBMED   215402
+REFERENCE   99 (bases 264 to 526; 1463 to 1516; 2582 to 2602; 2663 to 2676)
+  AUTHORS   Reddy,V.B., Ghosh,P.K., Lebowitz,P. and Weissman,S.M.
+  TITLE     Gaps and duplicated sequences in the leaders of SV40 16S RNA
+  JOURNAL   Nucleic Acids Res. 5 (11), 4195-4213 (1978)
+   PUBMED   82936
+REFERENCE   100 (sites)
+  AUTHORS   Subramanian,K.N. and Shenk,T.
+  TITLE     Definition of the boundaries of the origin of DNA replication in
+            simian virus 40
+  JOURNAL   Nucleic Acids Res. 5 (10), 3635-3642 (1978)
+   PUBMED   214761
+REFERENCE   101 (sites)
+  AUTHORS   May,E., Kress,M. and May,P.
+  TITLE     Characterization of two SV40 early mRNAs and evidence for a nuclear
+            'prespliced' RNA species
+  JOURNAL   Nucleic Acids Res. 5 (9), 3083-3099 (1978)
+   PUBMED   212714
+REFERENCE   102 (sites)
+  AUTHORS   Lai,C.J., Dhar,R. and Khoury,G.
+  TITLE     Mapping the spliced and unspliced late lytic SV40 RNAs
+  JOURNAL   Cell 14 (4), 971-982 (1978)
+   PUBMED   210961
+REFERENCE   103 (sites)
+  AUTHORS   Haegeman,G. and Fiers,W.
+  TITLE     Localization of the 5' terminus of late SV40 mRNA
+  JOURNAL   Nucleic Acids Res. 5 (7), 2359-2371 (1978)
+   PUBMED   209408
+REFERENCE   104 (bases 325 to 526; 1463 to 1540)
+  AUTHORS   Ghosh,P.K., Reddy,V.B., Swinscoe,J., Choudary,P.V., Lebowitz,P. and
+            Weissman,S.M.
+  TITLE     The 5'-terminal leader sequence of late 16 S mRNA from cells
+            infected with simian virus 40
+  JOURNAL   J. Biol. Chem. 253 (10), 3643-3647 (1978)
+   PUBMED   206548
+REFERENCE   105 (bases 2669 to 2901)
+  AUTHORS   van Heuverswyn,H., van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian-virus-40 DNA region coding for
+            the carboxyl-terminal part of the T antigen
+  JOURNAL   Eur. J. Biochem. 86 (2), 335-344 (1978)
+   PUBMED   207522
+REFERENCE   106 (bases 1787 to 2059)
+  AUTHORS   Contreras,R., van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the restriction fragment Hind-F-EcoRI1 of
+            simian-virus-40 DNA (part of the VP1 gene)
+  JOURNAL   Eur. J. Biochem. 86 (2), 317-324 (1978)
+   PUBMED   207520
+REFERENCE   107 (bases 1 to 163; 181 to 5243)
+  AUTHORS   Fiers,W., Contreras,R., Haegemann,G., Rogiers,R., Van de Voorde,A.,
+            Van Heuverswyn,H., Van Herreweghe,J., Volckaert,G. and Ysebaert,M.
+  TITLE     Complete nucleotide sequence of SV40 DNA
+  JOURNAL   Nature 273 (5658), 113-120 (1978)
+   PUBMED   205802
+REFERENCE   108 (bases 181 to 5243; 1 to 163)
+  AUTHORS   Reddy,V.B., Thimmappaya,B., Dhar,R., Subramanian,K.N., Zain,B.S.,
+            Pan,J., Ghosh,P.K., Celma,M.L. and Weissman,S.M.
+  TITLE     The genome of simian virus 40
+  JOURNAL   Science 200 (4341), 494-502 (1978)
+   PUBMED   205947
+REFERENCE   109 (bases 322 to 536; 1450 to 1541)
+  AUTHORS   Haegeman,G. and Fiers,W.
+  TITLE     Evidence for 'splicing' of SV40 16S mRNA
+  JOURNAL   Nature 273 (5657), 70-73 (1978)
+   PUBMED   211423
+REFERENCE   110 (bases 4568 to 5175)
+  AUTHORS   Volckaert,G., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 small-t gene
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 75 (5), 2160-2164 (1978)
+   PUBMED   209455
+REFERENCE   111 (bases 1494 to 1708)
+  AUTHORS   Rogiers,R., van de Voorde,A., Soeda,E. and Fiers,W.
+  TITLE     Nucleotide sequence of the simian virus 40 Hind-K restriction
+            fragment
+  JOURNAL   Eur. J. Biochem. 85 (1), 205-224 (1978)
+   PUBMED   205417
+REFERENCE   112 (sites)
+  AUTHORS   Ysebaert,M., van Heuverswyn,H., van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of part of the simian virus 40 Hind-D
+            restriction fragment. The presumed initiation region of the VP2
+            gene
+  JOURNAL   Eur. J. Biochem. 85 (1), 195-204 (1978)
+   PUBMED   205416
+REFERENCE   113 (bases 2633 to 2933)
+  AUTHORS   Thimmappaya,B., Zain,B.S., Dhar,R. and Weissman,S.M.
+  TITLE     Nucleotide sequence of DNA template for the 3' ends of SV40 mRNA.
+            II. The sequence of the DNA fragment EcorII-F and a part of
+            EcorII-H
+  JOURNAL   J. Biol. Chem. 253 (5), 1613-1618 (1978)
+   PUBMED   203597
+REFERENCE   114 (bases 2300 to 2668)
+  AUTHORS   Zain,B.S., Thimmappaya,B., Dhar,R. and Weissman,S.M.
+  TITLE     Nucleotide sequences of DNA encoding the 3' ends of SV40 mRNA. I.
+            The sequence of the DNA fragment Hi-DII,III-G
+  JOURNAL   J. Biol. Chem. 253 (5), 1606-1612 (1978)
+   PUBMED   203596
+REFERENCE   115 (sites)
+  AUTHORS   Berk,A.J. and Sharp,P.A.
+  TITLE     Spliced early mRNAs of simian virus 40
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 75 (3), 1274-1278 (1978)
+   PUBMED   206891
+REFERENCE   116 (bases 562 to 1620)
+  AUTHORS   Reddy,V.B., Dhar,R. and Weissman,S.M.
+  TITLE     Nucleotides sequence of the genes for the simian virus 40 proteins
+            VP2 and VP3
+  JOURNAL   J. Biol. Chem. 253 (2), 621-630 (1978)
+   PUBMED   201641
+REFERENCE   117 (bases 358 to 914)
+  AUTHORS   Dhar,R., Reddy,V.B. and Weissman,S.M.
+  TITLE     Nucleotide sequence of the DNA encoding the 5'-terminal sequences
+            of simian virus 40 late mRNA
+  JOURNAL   J. Biol. Chem. 253 (2), 612-620 (1978)
+   PUBMED   201640
+REFERENCE   118 (bases 1 to 74; 5171 to 5243)
+  AUTHORS   Tjian,R.
+  TITLE     The binding site on SV40 DNA for a T antigen-related protein
+  JOURNAL   Cell 13 (1), 165-179 (1978)
+   PUBMED   202398
+REFERENCE   119 (bases 1046 to 1620)
+  AUTHORS   Contreras,R., Rogiers,R., Van de Voorde,A. and Fiers,W.
+  TITLE     Overlapping of the VP2-VP3 gene and the VP1 gene in the SV40 genome
+  JOURNAL   Cell 12 (2), 529-538 (1977)
+   PUBMED   199354
+REFERENCE   120 (bases 323 to 565)
+  AUTHORS   Celma,M.L., Dhar,R., Pan,J. and Weissman,S.M.
+  TITLE     Comparison of the nucleotide sequence of the messenger RNA for the
+            major structural protein of SV40 with the DNA sequence encoding the
+            amino acids of the protein
+  JOURNAL   Nucleic Acids Res. 4 (8), 2549-2550 (1977)
+   PUBMED   198746
+REFERENCE   121 (bases 1427 to 2593)
+  AUTHORS   Pan,J., Reddy,V.B., Thimmappaya,B. and Weissman,S.M.
+  TITLE     Nucleotide sequence of the gene for the major structural protein of
+            SV40 virus
+  JOURNAL   Nucleic Acids Res. 4 (8), 2539-2548 (1977)
+   PUBMED   198745
+REFERENCE   122 (bases 4592 to 4661)
+  AUTHORS   Thimmappaya,B. and Weissman,S.M.
+  TITLE     The early region of SV40 DNA may have more than one gene
+  JOURNAL   Cell 11 (4), 837-843 (1977)
+   PUBMED   196762
+REFERENCE   123 (bases 347 to 472)
+  AUTHORS   Van Heuverswyn,H., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the SV40 DNA restriction fragment Hind C-Hap
+            2
+  JOURNAL   Nucleic Acids Res. 4 (4), 1015-1024 (1977)
+   PUBMED   194226
+REFERENCE   124 (bases 1709 to 1786)
+  AUTHORS   Contreras,R., Volckaert,G., Thys,F., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the restriction fragment Hind F-Eco RI2 of
+            SV40 DNA
+  JOURNAL   Nucleic Acids Res. 4 (4), 1001-1014 (1977)
+   PUBMED   194225
+REFERENCE   125 (bases 3733 to 4007)
+  AUTHORS   Volckaert,G., Contreras,R., Soeda,E., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of simian virus 40 Hind H restriction fragment
+  JOURNAL   J. Mol. Biol. 110 (3), 467-510 (1977)
+   PUBMED   191620
+REFERENCE   126 (bases 1 to 585; 4857 to 5243)
+  AUTHORS   Dhar,R., Subramanian,K.N., Pan,J. and Weissman,S.M.
+  TITLE     Structure of a large segment of the genome of simian virus 40 that
+            does not encode known proteins
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 74 (3), 827-831 (1977)
+   PUBMED   191835
+REFERENCE   127 (bases 32 to 236)
+  AUTHORS   Subramanian,K.N., Reddy,V.B. and Weissman,S.M.
+  TITLE     Occurrence of reiterated sequences in an untranslated region of
+            Simian virus 40 DNA determined by nucleotide sequence analysis
+  JOURNAL   Cell 10 (3), 497-507 (1977)
+   PUBMED   191198
+REFERENCE   128 (bases 1 to 164; 5092 to 5243)
+  AUTHORS   Subramanian,K.N., Dhar,R. and Weissman,S.M.
+  TITLE     Nucleotide sequence of a fragment of SV40 DNA that contains the
+            origin of DNA replication and specifies the 5' ends of 'early' and
+            'late' viral RNA. III. Construction of the total sequence of
+            EcoRII-G fragment of SV40 DNA
+  JOURNAL   J. Biol. Chem. 252 (1), 355-367 (1977)
+   PUBMED   188810
+REFERENCE   129 (bases 470 to 524)
+  AUTHORS   Ysebaert,M., Thys,F., Van de Voorde,A. and Fiers,W.
+  TITLE     Nucleotide sequence of the restriction fragments hind L and hind M
+            of SV40 DNA
+  JOURNAL   Nucleic Acids Res. 3 (12), 3409-3421 (1976)
+   PUBMED   188021
+REFERENCE   130 (sites)
+  AUTHORS   Van de Voorde,A., Contreras,R., Rogiers,R. and Fiers,W.
+  TITLE     The initiation region of the SV40 VP1 gene
+  JOURNAL   Cell 9 (1), 117-120 (1976)
+   PUBMED   184959
+REFERENCE   131 (sites)
+  AUTHORS   Subramanian,K.N., Ghosh,P.K., Dhar,R., Thimmappaya,B., Zain,S.B.,
+            Pan,J. and Weissman,S.M.
+  TITLE     The primary structure of regions of SV 40 DNA encoding the ends of
+            mRNA
+  JOURNAL   Prog. Nucleic Acid Res. Mol. Biol. 19, 157-164 (1976)
+   PUBMED   190641
+REFERENCE   132 (bases 1 to 164; 5092 to 5243)
+  AUTHORS   Weissman,S.M., Subramanian,K.N., Dhar,R., Zain,B. and Pan,J.
+  TITLE     SV40 DNA sequences as an example of the structure of genes
+            functioning in animal cell nuclei
+  JOURNAL   Med. Pediatr. Oncol. 2 (3), 259-263 (1976)
+   PUBMED   185508
+REFERENCE   133 (bases 2623 to 2699)
+  AUTHORS   Dhar,R., Subramanian,K., Zain,B.S., Pan,J. and Weissman,S.M.
+  TITLE     Nucleotide sequence about the 3' terminus of SV40 DNA transcripts
+            and the region where DNA synthesis is initiated
+  JOURNAL   Cold Spring Harb. Symp. Quant. Biol. 39 (PT 1), 153-160 (1975)
+   PUBMED   169054
+REFERENCE   134 (bases 2623 to 2699)
+  AUTHORS   Dhar,R., Weissman,S.M., Zain,B.S., Pan,J. and Lewis,A.M. Jr.
+  TITLE     The nucleotide sequence preceding an RNA polymerase initiation site
+            on SV40 DNA. Part 2. The sequence of the early strand transcript
+  JOURNAL   Nucleic Acids Res. 1 (4), 595-611 (1974)
+   PUBMED   10793742
+REFERENCE   135 (bases 2463 to 2640)
+  AUTHORS   Dhar,R., Zain,S., Weissman,S.M., Pan,J. and Subramanian,K.
+  TITLE     Nucleotide sequences of RNA transcribed in infected cells and by
+            Escherichia coli RNA polymerase from a segment of simian virus 40
+            DNA
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 71 (2), 371-375 (1974)
+   PUBMED   4360942
+REFERENCE   136 (bases 1 to 5243)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to J02400.
+            [2]  mRNA.
+            [1]  mRNA.
+            [3]  mRNA.
+            [4]  sites; cds start for VP1.
+            [8]  direct tandem repeats.
+            [9]  mRNA and DNA.
+            [10]  overlap between VP1, VP2 and VP3 genes.
+            [11]  origin of replication.
+            [15]  VP1 gene.
+            [16]  mRNA.
+            [13]  RNA and DNA.
+            [29]  RNA and DNA.
+            [30]  sites-late 16S mRNA and RNA splicing.
+            [33]  sites-late 16S mRNA and RNA splicing.
+            [40]  small t antigen gene.
+            [31]  RNA.
+            [18]  T antigen binding sites.
+            [32]  sites; 5' and 3' termini of 19s late mRNAs.
+            [27]  VP2 and VP3 genes.
+            [26]  sites-5' termini of late mRNAs.
+            [28]  sites-mRNA 3' termini.
+            [38]  sites-cDNA, 16S leader segments.
+            [35]  sites; cap site for 16s and 19s late mRNAs.
+            [37]  sites; mutations in region of origin of replication. [19]
+            sites; splice sites in late mRNAs.
+            [36]  sites; early mRNAs.
+            [39]  sites; early mRNAs and RNA splicing.
+            [43]  review; bases 1 to 163; 181 to 5243.
+            [45]  deletion mutant analysis.
+            [53]  cDNA.
+            [46]  sites-5' termini of early mRNAs.
+            [56]  sites; splice sites for large T antigen mRNA. [57]  deletion
+            mutant analysis.
+            [49]  deletion mutant analysis.
+            [54]  deletion mutant analysis.
+            [48]  deletion mutant analysis.
+            [51]  deletion mutant analysis.
+            [50]  cDNA.
+            [47]  sites; deletion mutant analysis over bases 4553 to 5172. [52]
+            sites; deletion mutant analysis of major late cap site. [42]
+            sites; splice sites in early mRNAs.
+            [(in) Tooze,J. (Eds.);DNA Tumor Viruses - Second Edition Revised:
+            799-841;Cold Sp]  review; bases 1 to 163; 181 to 5243. [64]
+            deletion mutant analysis.
+            [59]  RNA and DNA.
+            [62]  deletion and point mutants over the replication origin. [66]
+            deletion mutants over the early promoter.
+            [55]  sites; T antigen binding sites.
+            [67]  origin-defective deletion mutants.
+            [63]  early mRNA initiation sites.
+            [71]  sites; early mRNA initiation sites and repression by T
+            antigen.
+            [68]  sites; poly-A at 2662; deletion mutants over 2533-2775. [85]
+            deletion mutant analysis.
+            [83]  early promoter analysis.
+            [74]  deletion mutant analysis.
+            [82]  cDNAs over this region.
+            [78]  early promoter analysis.
+            [79]  sites; promoter for early mRNAs.
+            [69]  autoregulation by T antigen.
+            [75]  upstream shift of early mRNA initiation site. [76]  deletion
+            mutant analysis.
+            [84]  sites; cds for agnoprotein.
+            [77]  T antigen binding to a deletion mutant.
+            [81]  sites; transcriptional enhancement by the 72 bp repeats. [73]
+            cDNAs;.
+            [80]  sites; agnoprotein coding sequence.
+            [98]  sites; mapping of the origin of replication. [97]  sites;
+            topoisomerase cleavage sites.
+            [95]  deletion mutant analysis.
+            [99]  only joints of deletion mutants.
+            [87]  RNA.
+            [94]  sites; late mRNA initiation sites.
+            [88]  late promoter analysis.
+            [89]  mutant analysis over origin of replication.
+            [92]  T antigen binding to a deletion mutant.
+            [91]  sites; T antigen binding sites.
+            [90]  sites; mapping of early region promoter.
+            [70]  sites; SV40 enhancement of beta-globin gene expression. [110]
+            mapping of the early promoter.
+            [105]  sites; agnogene mutants.
+            [106]  mutant analysis.
+            [108]  mutant analysis over these regions.
+            [103]  topoisomerase II.
+            [111]  only joints of deletion mutants.
+            [102]  transcription factor binding to early promoter. [112]
+            sites; 7S-K RNA of transformed cells.
+            [101]  T antigen binding analysis.
+            [107]  cDNA; late mRNA initiation.
+            [100]  autoregulation by T antigen.
+            [109]  early promoter analysis.
+            [113]  T antigen binding sites.
+            [119]  sites; sites-5' termini of late mRNAs.
+            [116]  T antigen binding analysis.
+            [117]  sites; T antigen binding sites.
+            [123]  primase initiation sites.
+            [114]  transcriptional enhancer analysis.
+            [118]  mutant analysis at the replication origin.
+            [120]  sites; mRNA polyadenylation signal sequences. [121]
+            chromatin structure at origin of replication; mutational analysis.
+            [122]  sites; bidirectional promoter element.
+            [124]  sites;.
+            [115]  sites; Okazaki fragment sequences.
+            [128]  sites; tsA3900 point mutant sequence.
+            [129]  sites; large t-antigen binding specificity. [130]
+            temperature-sensitive mutants.
+            [131]  sites; recombination in poly(GT.
+            [127]  sites; large T-antigen binding sites.
+            [133]  sites; SV40 early leader protein (SELP.
+            [93]  sites; early SV40 transcription.
+            [134]  sites; temperature sensitive mutants in the VP1 gene. [7]
+            sites; ends of 'early' and 'late' mRNA.
+            Kindly reviewed by K. N. Subramanian.  Draft entry and computer-
+            readable sequence for [134] kindly submitted by M.Bina,
+            16-FEB-1989.
+            The E or minus strand of SV40 strain 776 is shown as it is reported
+            by [41] and [34] using the numbering system by [(in) Tooze,J.
+            (Eds.);DNA Tumor Viruses - Second Edition Revised: 799-841;Cold
+            Sp], with exception
+            of of the addition of 17 bases (between nucleotides 164 and 165) to
+            their sequence [44]. Differences between the complete sequences as
+            published by [41] and [34] and this sequence are limited to the 17
+            bp change, the revision at 328 below, and the numbering. All
+            references tend to agree upon an independent coordinate system,
+            where map units run from 0.00 to 1.00 and the origin is defined by
+            the sole EcoRI site, which is found at base 1782 below. In keeping
+            with [(in) Tooze,J. (Eds.);DNA Tumor Viruses - Second Edition
+            Revised: 799-841;Cold Sp], map units for this entry have been
+            calculated by
+                                      SV + 3461
+                            mu  =    -----------
+                                        5243
+            If the result is > 1, subtract 1 for the value. The origin of this
+            sequence, then, is at 0.66. Identical units are used for Polyoma
+            virus.
+            DNA replication is bidirectional from an origin which has been
+            narrowed by mutational analysis to bases 5193 to 34 [37]. Given
+            that early mRNA transcription also arises from this region, the two
+            processes will be, to some extent, simultaneously regulated. In
+            addition to the 21-bp and 72-bp repeats concerned with early
+            transcription (see below), the origin includes a 17-bp A + T-rich
+            sequence; further demarcation of a 'core' region and an 'auxiliary'
+            region makes the former comprise a 17-bp palindrome (5193-5209), a
+            15-bp palindrome (5213-5227), a 27-bp palindrome (5230-13) and the
+            A + T-rich region (15-31), and the latter the three 21-bp repeats
+            [89]. Thus the 'core' overlaps the T-antigen binding sites I and II
+            and the 'auxiliary region' (which is said to enhance replication
+            efficiency) overlaps the T-antigen binding site III [89].
+            Transcription of early mRNAs (18s and 19s) is leftward off the E,
+            or minus, strand and transcription of late mRNAs (16s and 19s) is
+            rightward off the L, or plus, strand. In the former case, the
+            annotation will show the symbols '(c)' and 'comp strand' for the
+            transcripts and products, and for the regulatory elements which
+            govern them. In some references, the E strand has been labeled
+            'Late' to indicate that it has the polarity of late mRNA, and the L
+            strand 'Early' to indicate that it has the polarity of early mRNA.
+            (Early mRNAs can be produced throughout the lytic cycle.) The
+            characterization of the mRNAs as 18s and 19s early and 16s and 19s
+            late is a simplification: heterogeneity with regard to 5' and 3'
+            termini, splice sites, and abundance as a function of time in the
+            lytic cycle and regulatory events, have all been observed [32]
+            [43],[82],[75]. For the purposes of this entry, only the simplest
+            major mRNA species have been entered in the Sites. The promoter for
+            the early mRNAs is considered to include at least bases 5185 to 250
+            on the E strand: the T antigen binding sites (for which the minimal
+            spans are given [71]), the 'TATA' box at position 21, the 21-bp
+            repeats, and the 72-bp repeats are all known to play a role in
+            early transcription. One of the effects of regulation at these
+            sites is to shift the cap site to one of at least seven positions
+            between bases 95 and 32 [75]. Bases 55 to 97 are also of interest
+            because they permit base-pairing homology with the small nuclear
+            RNA 7S-K [112] and because they bind the cell factor SP-1 [102].
+            For late promoter induction to occur at high efficiency two domains
+            are required simultaneously: the minimal replication origin and the
+            72 bp repeat [124]. The origin-proximal 22 bp portion of the 72-bp
+            repeat is sufficient for induction, while the origin-distal portion
+            is dispensable [124]. If T antigen is present, the 21 bp repeat is
+            dispensable for induction of late promoter activity in vivo [124].
+            The regulatory elements for early transcription have been annotated
+            for the 'comp strand'. The late region induction signals are to be
+            found in the same region as the early regulatory elements [124].
+            The efficacy of the 72-bp repeat in promoting transcription has
+            been demonstrated for both orientations [81].
+            The SAS-RNA is a small viral associated RNA whose function is
+            unknown. It appears to arise through processing from some of the
+            longer early transcripts; mutants in the SAS-RNA coding region
+            remain viable [64].
+            Seven proteins -- the small t antigen, the large T antigen, the
+            three structural proteins, the early leader protein [133], and the
+            agnoprotein (which is thought to be involved with structural
+            development [106])-- are known to be translated from the
+            multiplicity of mRNAs. The existence of a middle T antigen, known
+            to exist in Polyoma, has been suggested [56]. For a summary of
+            other possible coding sequences, see [(in) Tooze,J. (Eds.);DNA
+            Tumor Viruses - Second Edition Revised: 799-841;Cold Sp]. Missing
+            data project [124-129], [7].
+               EMBL features not translated to GenBank features:
+               key        from     to       description
+               PRM          21     15 (C)   TATA-box [3]
+               MSG         120   2674       major 16S RNA.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5243
+                     /organism="Betapolyomavirus macacae"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:1891767"
+     gene            complement(join(5188..5243,1..16))
+                     /locus_tag="SV40gp1"
+                     /db_xref="GeneID:29031022"
+     CDS             complement(join(5188..5243,1..16))
+                     /locus_tag="SV40gp1"
+                     /note="early leader protein (SELP; [133])"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043122.1"
+                     /db_xref="GeneID:29031022"
+                     /translation="MQRPRPPRPLSYSRSSEEAFLEA"
+     rep_origin      join(5191..5243,1..31)
+                     /note="replication origin core region; 0.67 [89]"
+     protein_bind    complement(13..52)
+                     /citation=[54]
+                     /citation=[64]
+                     /citation=[118]
+                     /bound_moiety="large T-antigen"
+     regulatory      complement(21..27)
+                     /regulatory_class="other"
+                     /note="early mRNA promoter element; 0.66 [66],[78],[79]"
+     prim_transcript complement(31..2599)
+                     /note="early mRNA (alt.) [23],[71],[75]"
+     prim_transcript complement(31..2587)
+                     /note="early mRNA (alt.) [3],[39],[46],[71],[75]"
+     rep_origin      32..83
+                     /note="replication origin auxiliary region; 0.67 [89]"
+     protein_bind    complement(36..61)
+                     /citation=[54]
+                     /citation=[64]
+                     /citation=[118]
+                     /bound_moiety="large T-antigen"
+     repeat_region   complement(40..60)
+                     /note="21 bp non-tandem repeat I [110],[102],[112]"
+     repeat_region   complement(62..82)
+                     /note="21 bp tandem repeat II [110],[102],[112]"
+     repeat_region   complement(83..103)
+                     /note="21 bp tandem repeat III [110],[102],[112]"
+     repeat_region   complement(107..178)
+                     /note="72 bp tandem repeat enhancer sequence A [83],[78],
+                     [81],[110]"
+     variation       164..182
+                     /note="gggactttccacacctggt in strain 776 [44]; gt in
+                     strain 777; 0.69 [41],[34]"
+                     /replace="gt"
+     repeat_region   complement(179..250)
+                     /note="72 bp tandem repeat enhancer sequence B [83],[78],
+                     [81],[110]"
+     prim_transcript 264..2676
+                     /note="minor late 19s mRNA [38],[71],[75]"
+     intron          295..434
+                     /note="late 19s intron [32],[38]"
+     prim_transcript 325..2676
+                     /note="major late 19s mRNA [17],[30],[38],[35],[Proc.
+                     Natl. Acad. Sci. U.S.A. 76, 731-735 (1979"
+     old_sequence    328..331
+                     /citation=[83]
+     gene            335..523
+                     /locus_tag="SV40gp2"
+                     /db_xref="GeneID:29031015"
+     CDS             335..523
+                     /locus_tag="SV40gp2"
+                     /note="agnoprotein (lp-1, VCP)"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043123.1"
+                     /db_xref="GeneID:29031015"
+                     /translation="MVLRRLSRQASVKVRRSWTESKKTAQRLFVFVLELLLQFCEGED
+                     TVDGKRKKPERLTEKPES"
+     intron          527..1462
+                     /note="late 16s intron [30],[38],[19]"
+     gene            562..1620
+                     /locus_tag="SV40gp3"
+                     /db_xref="GeneID:29031016"
+     CDS             562..1620
+                     /locus_tag="SV40gp3"
+                     /note="VP2 minor structural protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043124.1"
+                     /db_xref="GeneID:29031016"
+                     /translation="MGAALTLLGDLIATVSEAAAATGFSVAEIAAGEAAAAIEVQLAS
+                     VATVEGLTTSEAIAAIGLTPQAYAVISGAPAAIAGFAALLQTVTGVSAVAQVGYRFFS
+                     DWDHKVSTVGLYQQPGMAVDLYRPDDYYDILFPGVQTFVHSVQYLDPRHWGPTLFNAI
+                     SQAFWRVIQNDIPRLTSQELERRTQRYLRDSLARFLEETTWTVINAPVNWYNSLQDYY
+                     STLSPIRPTMVRQVANREGLQISFGHTYDNIDEADSIQQVTERWEAQSQSPNVQSGEF
+                     IEKFEAPGGANQRTAPQWMLPLLLGLYGSVTSALKAYEDGPNKKKRKLSRGSSQKTKG
+                     TSASAKARHKRRNRSSRS"
+     gene            916..1620
+                     /locus_tag="SV40gp4"
+                     /db_xref="GeneID:29031017"
+     CDS             916..1620
+                     /locus_tag="SV40gp4"
+                     /note="VP3 minor structural protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043125.1"
+                     /db_xref="GeneID:29031017"
+                     /translation="MAVDLYRPDDYYDILFPGVQTFVHSVQYLDPRHWGPTLFNAISQ
+                     AFWRVIQNDIPRLTSQELERRTQRYLRDSLARFLEETTWTVINAPVNWYNSLQDYYST
+                     LSPIRPTMVRQVANREGLQISFGHTYDNIDEADSIQQVTERWEAQSQSPNVQSGEFIE
+                     KFEAPGGANQRTAPQWMLPLLLGLYGSVTSALKAYEDGPNKKKRKLSRGSSQKTKGTS
+                     ASAKARHKRRNRSSRS"
+     gene            1499..2593
+                     /locus_tag="SV40gp5"
+                     /db_xref="GeneID:29031018"
+     CDS             1499..2593
+                     /locus_tag="SV40gp5"
+                     /note="VP1 major structural protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043126.1"
+                     /db_xref="GeneID:29031018"
+                     /translation="MKMAPTKRKGSCPGAAPKKPKEPVQVPKLVIKGGIEVLGVKTGV
+                     DSFTEVECFLNPQMGNPDEHQKGLSKSLAAEKQFTDDSPDKEQLPCYSVARIPLPNLN
+                     EDLTCGNILMWEAVTVKTEVIGVTAMLNLHSGTQKTHENGAGKPIQGSNFHFFAVGGE
+                     PLELQGVLANYRTKYPAQTVTPKNATVDSQQMNTDHKAVLDKDNAYPVECWVPDPSKN
+                     ENTRYFGTYTGGENVPPVLHITNTATTVLLDEQGVGPLCKADSLYVSAVDICGLFTNT
+                     SGTQQWKGLPRYFKITLRKRSVKNPYPISFLLSDLINRRTQRVDGQPMIGMSSQVEEV
+                     RVYEDTEELPGDPDMIRYIDEFGQTTTRMQ"
+     variation       1626
+                     /locus_tag="SV40gp5"
+                     /note="g in wild-type; a in temperature-sensitive mutant
+                     tsC260"
+     variation       1667
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; a in temperature-sensitive mutant
+                     tsB228"
+     variation       1680
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; g in temperature-sensitive mutant
+                     tsB218"
+     variation       1718
+                     /locus_tag="SV40gp5"
+                     /note="g in wild-type; a in temperature-sensitive mutant
+                     tsB[204,211,265]"
+     variation       1719
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; t in temperature-sensitive mutant
+                     tsB8"
+     variation       1756
+                     /locus_tag="SV40gp5"
+                     /note="a in wild-type; c in temperature-sensitive mutant
+                     tsB8"
+     variation       1995
+                     /locus_tag="SV40gp5"
+                     /note="g in wild-type; c in temperature-sensitive mutant
+                     tsB221"
+     variation       2003
+                     /locus_tag="SV40gp5"
+                     /note="g in wild-type; a in temperature-sensitive mutant
+                     tsB201"
+     variation       2084
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; t in temperature-sensitive mutant
+                     tsBC223"
+     variation       2091
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; c in temperature-sensitive mutant
+                     tsB4"
+     variation       2141
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; t in temperature-sensitive mutant
+                     tsC219"
+     variation       2237
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; a in temperature-sensitive mutant
+                     tsC240"
+     variation       2262
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; t in temperature-sensitive mutant
+                     tsC260"
+     variation       2354
+                     /locus_tag="SV40gp5"
+                     /note="c in wild-type; t in temperature-sensitive mutant
+                     tsBC[208,214,216,217,248,274]"
+     variation       2367
+                     /locus_tag="SV40gp5"
+                     /note="a in wild-type; c in temperature-sensitive mutant
+                     tsBC11"
+     prim_transcript complement(2587..5236)
+                     /note="early mRNA (alt.) [3],[8],[39],[46],[63]"
+     prim_transcript complement(2587..5230)
+                     /note="early mRNA (alt.) [3],[39],[46],[78]"
+     prim_transcript complement(2587..5225)
+                     /note="early mRNA (alt.) [3],[39],[46],[50],[63]"
+     prim_transcript complement(2599..5236)
+                     /note="early mRNA (alt.) [8],[23],[46],[63]"
+     prim_transcript complement(2599..5230)
+                     /note="early mRNA (alt.) [23],[78]"
+     prim_transcript complement(2599..5225)
+                     /note="early mRNA (alt.) [23],[50],[63]"
+     regulatory      complement(2608..2613)
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="early mRNA polyadenyation signal on the comp
+                     strand; 0.16 [23],[120]"
+     regulatory      complement(2637..2642)
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="early mRNA polyadenyation signal on the comp
+                     strand; 0.16 [23],[120]"
+     regulatory      2657..2662
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="late mRNA polyadenyation signal; 0.17 [23],[68],
+                     [120]"
+     gene            complement(2691..5163)
+                     /locus_tag="SV40gp6"
+                     /db_xref="GeneID:29031019"
+     CDS             complement(join(2691..4571,4918..5163))
+                     /locus_tag="SV40gp6"
+                     /note="putative"
+                     /codon_start=1
+                     /product="large T antigen"
+                     /protein_id="NP_043127.1"
+                     /db_xref="GeneID:29031019"
+                     /translation="MDKVLNREESLQLMDLLGLERSAWGNIPLMRKAYLKKCKEFHPD
+                     KGGDEEKMKKMNTLYKKMEDGVKYAHQPDFGGFWDATEIPTYGTDEWEQWWNAFNEEN
+                     LFCSEEMPSSDDEATADSQHSTPPKKKRKVEDPKDFPSELLSFLSHAVFSNRTLACFA
+                     IYTTKEKAALLYKKIMEKYSVTFISRHNSYNHNILFFLTPHRHRVSAINNYAQKLCTF
+                     SFLICKGVNKEYLMYSALTRDPFSVIEESLPGGLKEHDFNPEEAEETKQVSWKLVTEY
+                     AMETKCDDVLLLLGMYLEFQYSFEMCLKCIKKEQPSHYKYHEKHYANAAIFADSKNQK
+                     TICQQAVDTVLAKKRVDSLQLTREQMLTNRFNDLLDRMDIMFGSTGSADIEEWMAGVA
+                     WLHCLLPKMDSVVYDFLKCMVYNIPKKRYWLFKGPIDSGKTTLAAALLELCGGKALNV
+                     NLPLDRLNFELGVAIDQFLVVFEDVKGTGGESRDLPSGQGINNLDNLRDYLDGSVKVN
+                     LEKKHLNKRTQIFPPGIVTMNEYSVPKTLQARFVKQIDFRPKDYLKHCLERSEFLLEK
+                     RIIQSGIALLLMLIWYRPVAEFAQSIQSRIVEWKERLDKEFSLSVYQKMKFNVAMGIG
+                     VLDWLRNSDDDDEDSQENADKNEDGGEKNMEDSGHETGIDSQSQGSFQAPQSSQSVHD
+                     HNQPYHICRGFTCFKKPPTPPPEPET"
+     gene            complement(2842..2907)
+                     /locus_tag="SV40gs1"
+                     /db_xref="GeneID:29031020"
+     misc_RNA        complement(2842..2907)
+                     /locus_tag="SV40gs1"
+                     /note="SV40-associated small (SAS) RNA; 0.21 [64]"
+                     /db_xref="GeneID:29031020"
+     intron          complement(4572..4917)
+                     /locus_tag="SV40gp6"
+                     /note="large T antigen (18s) intron [32],[38]; does not
+                     fit consensus"
+     intron          complement(4572..4636)
+                     /locus_tag="SV40gp6"
+                     /note="early 19s mRNA (small t antigen) intron [32],[38];
+                     does not fit consensus"
+     gene            complement(4639..5163)
+                     /locus_tag="SV40gp7"
+                     /db_xref="GeneID:29031021"
+     CDS             complement(4639..5163)
+                     /locus_tag="SV40gp7"
+                     /note="small t antigen"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043128.1"
+                     /db_xref="GeneID:29031021"
+                     /translation="MDKVLNREESLQLMDLLGLERSAWGNIPLMRKAYLKKCKEFHPD
+                     KGGDEEKMKKMNTLYKKMEDGVKYAHQPDFGGFWDATEVFASSLNPGVDAMYCKQWPE
+                     CAKKMSANCICLLCLLRMKHENRKLYRKDPLVWVDCYCFDCFRMWFGLDLCEGTLLLW
+                     CDIIGQTTYRDLKL"
+     protein_bind    complement(5184..5209)
+                     /citation=[54]
+                     /citation=[64]
+                     /citation=[118]
+                     /bound_moiety="large T-antigen"
+ORIGIN      
+        1 gcctcggcct ctgcataaat aaaaaaaatt agtcagccat ggggcggaga atgggcggaa
+       61 ctgggcggag ttaggggcgg gatgggcgga gttaggggcg ggactatggt tgctgactaa
+      121 ttgagatgca tgctttgcat acttctgcct gctggggagc ctggggactt tccacacctg
+      181 gttgctgact aattgagatg catgctttgc atacttctgc ctgctgggga gcctggggac
+      241 tttccacacc ctaactgaca cacattccac agctggttct ttccgcctca gaaggtacct
+      301 aaccaagttc ctctttcaga ggttatttca ggccatggtg ctgcgccggc tgtcacgcca
+      361 ggcctccgtt aaggttcgta ggtcatggac tgaaagtaaa aaaacagctc aacgcctttt
+      421 tgtgtttgtt ttagagcttt tgctgcaatt ttgtgaaggg gaagatactg ttgacgggaa
+      481 acgcaaaaaa ccagaaaggt taactgaaaa accagaaagt taactggtaa gtttagtctt
+      541 tttgtctttt atttcaggtc catgggtgct gctttaacac tgttggggga cctaattgct
+      601 actgtgtctg aagctgctgc tgctactgga ttttcagtag ctgaaattgc tgctggagag
+      661 gccgctgctg caattgaagt gcaacttgca tctgttgcta ctgttgaagg cctaacaacc
+      721 tctgaggcaa ttgctgctat aggcctcact ccacaggcct atgctgtgat atctggggct
+      781 cctgctgcta tagctggatt tgcagcttta ctgcaaactg tgactggtgt gagcgctgtt
+      841 gctcaagtgg ggtatagatt ttttagtgac tgggatcaca aagtttctac tgttggttta
+      901 tatcaacaac caggaatggc tgtagatttg tataggccag atgattacta tgatatttta
+      961 tttcctggag tacaaacctt tgttcacagt gttcagtatc ttgaccccag acattggggt
+     1021 ccaacacttt ttaatgccat ttctcaagct ttttggcgtg taatacaaaa tgacattcct
+     1081 aggctcacct cacaggagct tgaaagaaga acccaaagat atttaaggga cagtttggca
+     1141 aggtttttag aggaaactac ttggacagta attaatgctc ctgttaattg gtataactct
+     1201 ttacaagatt actactctac tttgtctccc attaggccta caatggtgag acaagtagcc
+     1261 aacagggaag ggttgcaaat atcatttggg cacacctatg ataatattga tgaagcagac
+     1321 agtattcagc aagtaactga gaggtgggaa gctcaaagcc aaagtcctaa tgtgcagtca
+     1381 ggtgaattta ttgaaaaatt tgaggctcct ggtggtgcaa atcaaagaac tgctcctcag
+     1441 tggatgttgc ctttacttct aggcctgtac ggaagtgtta cttctgctct aaaagcttat
+     1501 gaagatggcc ccaacaaaaa gaaaaggaag ttgtccaggg gcagctccca aaaaaccaaa
+     1561 ggaaccagtg caagtgccaa agctcgtcat aaaaggagga atagaagttc taggagttaa
+     1621 aactggagta gacagcttca ctgaggtgga gtgcttttta aatcctcaaa tgggcaatcc
+     1681 tgatgaacat caaaaaggct taagtaaaag cttagcagct gaaaaacagt ttacagatga
+     1741 ctctccagac aaagaacaac tgccttgcta cagtgtggct agaattcctt tgcctaattt
+     1801 aaatgaggac ttaacctgtg gaaatatttt gatgtgggaa gctgttactg ttaaaactga
+     1861 ggttattggg gtaactgcta tgttaaactt gcattcaggg acacaaaaaa ctcatgaaaa
+     1921 tggtgctgga aaacccattc aagggtcaaa ttttcatttt tttgctgttg gtggggaacc
+     1981 tttggagctg cagggtgtgt tagcaaacta caggaccaaa tatcctgctc aaactgtaac
+     2041 cccaaaaaat gctacagttg acagtcagca gatgaacact gaccacaagg ctgttttgga
+     2101 taaggataat gcttatccag tggagtgctg ggttcctgat ccaagtaaaa atgaaaacac
+     2161 tagatatttt ggaacctaca caggtgggga aaatgtgcct cctgttttgc acattactaa
+     2221 cacagcaacc acagtgcttc ttgatgagca gggtgttggg cccttgtgca aagctgacag
+     2281 cttgtatgtt tctgctgttg acatttgtgg gctgtttacc aacacttctg gaacacagca
+     2341 gtggaaggga cttcccagat attttaaaat tacccttaga aagcggtctg tgaaaaaccc
+     2401 ctacccaatt tcctttttgt taagtgacct aattaacagg aggacacaga gggtggatgg
+     2461 gcagcctatg attggaatgt cctctcaagt agaggaggtt agggtttatg aggacacaga
+     2521 ggagcttcct ggggatccag acatgataag atacattgat gagtttggac aaaccacaac
+     2581 tagaatgcag tgaaaaaaat gctttatttg tgaaatttgt gatgctattg ctttatttgt
+     2641 aaccattata agctgcaata aacaagttaa caacaacaat tgcattcatt ttatgtttca
+     2701 ggttcagggg gaggtgtggg aggtttttta aagcaagtaa aacctctaca aatgtggtat
+     2761 ggctgattat gatcatgaac agactgtgag gactgagggg cctgaaatga gccttgggac
+     2821 tgtgaatcaa tgcctgtttc atgccctgag tcttccatgt tcttctcccc accatcttca
+     2881 tttttatcag cattttcctg gctgtcttca tcatcatcat cactgtttct tagccaatct
+     2941 aaaactccaa ttcccatagc cacattaaac ttcatttttt gatacactga caaactaaac
+     3001 tctttgtcca atctctcttt ccactccaca attctgctct gaatactttg agcaaactca
+     3061 gccacaggtc tgtaccaaat taacataaga agcaaagcaa tgccactttg aattattctc
+     3121 ttttctaaca aaaactcact gcgttccagg caatgcttta aataatcttt gggcctaaaa
+     3181 tctatttgtt ttacaaatct ggcctgcagt gttttaggca cactgtactc attcatggtg
+     3241 actattccag ggggaaatat ttgagttctt ttatttaggt gtttcttttc taagtttacc
+     3301 ttaacactgc catccaaata atcccttaaa ttgtccaggt tattaattcc ctgacctgaa
+     3361 ggcaaatctc tggactcccc tccagtgccc tttacatcct caaaaactac taaaaactgg
+     3421 tcaatagcta ctcctagctc aaagttcagc ctgtccaagg gcaaattaac atttaaagct
+     3481 ttccccccac ataattcaag caaagcagct gctaatgtag ttttaccact atcaattggt
+     3541 cctttaaaca gccagtatct ttttttagga atgttgtaca ccatgcattt taaaaagtca
+     3601 tacaccactg aatccatttt gggcaacaaa cagtgtagcc aagcaactcc agccatccat
+     3661 tcttctatgt cagcagagcc tgtagaacca aacattatat ccatcctatc caaaagatca
+     3721 ttaaatctgt ttgttaacat ttgttctcta gttaattgta ggctatcaac ccgcttttta
+     3781 gctaaaacag tatcaacagc ctgttggcat atggtttttt ggtttttgct gtcagcaaat
+     3841 atagcagcat ttgcataatg cttttcatgg tacttatagt ggctgggctg ttctttttta
+     3901 atacatttta aacacatttc aaaactgtac tgaaattcca agtacatccc aagcaataac
+     3961 aacacatcat cacattttgt ttccattgca tactctgtta caagcttcca ggacacttgt
+     4021 ttagtttcct ctgcttcttc tggattaaaa tcatgctcct ttaacccacc tggcaaactt
+     4081 tcctcaataa cagaaaatgg atctctagtc aaggcactat acatcaaata ttccttatta
+     4141 acccctttac aaattaaaaa gctaaaggta cacaattttt gagcatagtt attaatagca
+     4201 gacactctat gcctgtgtgg agtaagaaaa aacagtatgt tatgattata actgttatgc
+     4261 ctacttataa aggttacaga atatttttcc ataattttct tgtatagcag tgcagctttt
+     4321 tcctttgtgg tgtaaatagc aaagcaagca agagttctat tactaaacac agcatgactc
+     4381 aaaaaactta gcaattctga aggaaagtcc ttggggtctt ctacctttct cttctttttt
+     4441 ggaggagtag aatgttgaga gtcagcagta gcctcatcat cactagatgg catttcttct
+     4501 gagcaaaaca ggttttcctc attaaaggca ttccaccact gctcccattc atcagttcca
+     4561 taggttggaa tctaaaatac acaaacaatt agaatcagta gtttaacaca ttatacactt
+     4621 aaaaatttta tatttacctt agagctttaa atctctgtag gtagtttgtc caattatgtc
+     4681 acaccacaga agtaaggttc cttcacaaag atcaagtcca aaccacattc taaagcaatc
+     4741 gaagcagtag caatcaaccc acacaagtgg atctttcctg tataattttc tattttcatg
+     4801 cttcatcctc agtaagcaca gcaagcatat gcagttagca gacattttct ttgcacactc
+     4861 aggccattgt ttgcagtaca ttgcatcaac accaggattt aaggaagaag caaatacctc
+     4921 agttgcatcc cagaagcctc caaagtcagg ttgatgagca tattttactc catcttccat
+     4981 tttcttgtac agagtattca ttttcttcat tttttcttca tctcctcctt tatcaggatg
+     5041 aaactccttg cattttttta aatatgcctt tctcatcaga ggaatattcc cccaggcact
+     5101 cctttcaaga cctagaaggt ccattagctg caaagattcc tctctgttta aaactttatc
+     5161 catctttgca aagctttttg caaaagccta ggcctccaaa aaagcctcct cactacttct
+     5221 ggaatagctc agaggccgag gcg
+//
+

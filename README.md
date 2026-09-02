@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1349560488.svg)](https://doi.org/10.5281/zenodo.22147682)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Tests: 110 Passed](https://img.shields.io/badge/tests-110%20passed-brightgreen.svg)](#reproducibility--testing)
+[![Tests: 115 Passed](https://img.shields.io/badge/tests-115%20passed-brightgreen.svg)](#reproducibility--testing)
 [![Evidence: 4-Tier Categorized](https://img.shields.io/badge/Evidence-4--Tier%20Standard-blue.svg)](docs/scientific_limitations.md)
 
 An open-source computational biology platform providing descriptive information-theoretic sequence analysis, structural regulatory element scanning, and combinatorial optimization for compact synthetic DNA constructs.
