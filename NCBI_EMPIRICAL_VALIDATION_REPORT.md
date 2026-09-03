@@ -1,7 +1,7 @@
 # 🔬 Empirical Ground-Truth Validation Report: Dual-Coding Recompiler
 ## Rigorous Benchmarking against NCBI Hepatitis B Virus (RefSeq: NC_003977.2)
 
-**Date:** 2026-09-02  
+**Date:** 2026-09-03  
 **Biological Target:** Hepatitis B virus (Accession: `NC_003977.2`)  
 **Overlapping Features:** HBV Polymerase (overlapping domain) (Frame 0) & HBV Small Surface Antigen (HBsAg) (Frame +1)  
 **Sequence Length:** 226 Amino Acids (679 bp)  

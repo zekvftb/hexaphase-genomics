@@ -1,7 +1,7 @@
 # 🔬 Pre-Registered Empirical Evaluation of Genomic Computational Hypotheses
 ## Rigorous Falsification against Order-1 Dinucleotide Markov Null Models
 
-**Date:** 2026-09-02  
+**Date:** 2026-09-03  
 **Controls:** $N=10$ Altschul-Erickson Eulerian Walk Dinucleotide Shuffles  
 **Pre-Registered Significance Threshold:** $\alpha = 0.01$ (Two-Tailed)  
 **Epistemological Standard:** Negative findings strictly reported without post-hoc rationalization.  

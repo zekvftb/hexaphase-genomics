@@ -1,7 +1,7 @@
 # 🚀 Scaled Multi-Core Viral Mining & High-Throughput Validation Funnel
 ## Multi-Stage Filtering: SQLite Indexing $\rightarrow$ Parallel Null Models $\rightarrow$ ESMFold $\rightarrow$ Ribo-seq Phasing
 
-**Execution Date:** 2026-09-02  
+**Execution Date:** 2026-09-03  
 **Repository:** `hexaphase-genomics` (`D:\DNA`)  
 **CPU Workers:** 4 Multi-Core Workers  
 **Null Shuffles per Candidate:** $N=20$ Altschul-Erickson Dinucleotide Shuffles  
@@ -17,8 +17,8 @@
 | **Stage 1 Alternative smORFs Discovered** | **191 Candidates** (CAI $\ge 0.70$) |
 | **Stage 2 Hard-Barrier Surviving smORFs** | **12 Candidates** ($z > 3.0, p < 0.001$) |
 | **Hard-Barrier Compute Conservation** | **93.72% of Candidates Suppressed Early** |
-| **Execution Wall Time** | **2.688 seconds** |
-| **Mining Throughput** | **3.35 genomes/sec** (71.06 smORFs/sec) |
+| **Execution Wall Time** | **2.854 seconds** |
+| **Mining Throughput** | **3.15 genomes/sec** (66.93 smORFs/sec) |
 
 ---
 
